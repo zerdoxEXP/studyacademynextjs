@@ -12,10 +12,6 @@ const config: Config = {
         inter: ['var(--font-inter)', 'sans-serif'],
         caveat: ['var(--font-caveat)', 'cursive'],
       },
-      backgroundImage: {
-        'page-gradient':
-        'radial-gradient(ellipse 80% 50% at 50% -20%,rgba(120,119,198,0.3), transparent)',
-      },
     },
   },
   plugins: [],

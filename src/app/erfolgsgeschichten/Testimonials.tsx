@@ -7,7 +7,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     {
@@ -16,7 +16,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     {
@@ -25,7 +25,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     {
@@ -34,7 +34,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     {
@@ -43,7 +43,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     {
@@ -52,7 +52,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     {
@@ -61,7 +61,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     {
@@ -70,7 +70,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/example-author.jpg',
       },
     },
     // More testimonials...
@@ -78,11 +78,11 @@ const testimonials = [
   
   export default function Testimonials() {
     return (
-      <div className="bg-white py-24 sm:py-32">
+      <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-xl text-center">
-            <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-caveat leading-8 tracking-tight text-blue-600">Testimonials</h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
               We have worked with thousands of amazing people
             </p>
           </div>
@@ -95,7 +95,12 @@ const testimonials = [
                       <p>{`“${testimonial.body}”`}</p>
                     </blockquote>
                     <figcaption className="mt-6 flex items-center gap-x-4">
-                      <Image className="h-10 w-10 rounded-full bg-gray-50" src={testimonial.author.imageUrl} alt="" />
+                      <Image
+                      width={40}
+                      height={40}
+                      className="h-10 w-10 rounded-full bg-gray-50"
+                      src={testimonial.author.imageUrl}
+                      alt="" />
                       <div>
                         <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
                         <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
@@ -107,7 +112,7 @@ const testimonials = [
             </div>
           </div>
         </div>
-      </div>
+      </section>
     )
   }
   

@@ -40,7 +40,14 @@ export default function Hero() {
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24"
+              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 block dark:hidden"
+            />
+              <Image
+              src="/images/female-student-night.jpg"
+              alt="App screenshot"
+              width={2432}
+              height={1442}
+              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 hidden dark:block"
             />
           </div>
         </div>

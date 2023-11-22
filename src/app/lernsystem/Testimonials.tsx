@@ -7,7 +7,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     {
@@ -16,7 +16,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     {
@@ -25,7 +25,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     {
@@ -34,7 +34,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     {
@@ -43,7 +43,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     {
@@ -52,7 +52,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     {
@@ -61,7 +61,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     {
@@ -70,7 +70,7 @@ const testimonials = [
         name: 'Leslie Alexander',
         handle: 'lesliealexander',
         imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          '/images/leslie.jpg',
       },
     },
     // More testimonials...
@@ -95,7 +95,12 @@ const testimonials = [
                       <p>{`“${testimonial.body}”`}</p>
                     </blockquote>
                     <figcaption className="mt-6 flex items-center gap-x-4">
-                      <Image className="h-10 w-10 rounded-full bg-gray-50" src={testimonial.author.imageUrl} alt="" />
+                      <Image
+                      width={40}
+                      height={40}
+                      className="h-10 w-10 rounded-full bg-gray-50"
+                      src={testimonial.author.imageUrl}
+                      alt="" />
                       <div>
                         <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
                         <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>

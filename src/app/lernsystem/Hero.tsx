@@ -12,7 +12,7 @@ const navigation = [
 export default function Hero() {
 
   return (
-    <div className="bg-white">
+    <section>
       <div className="relative isolate pt-14">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Mit unserem Study Blueprint entfaltest du dein volles Potential
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -36,7 +36,7 @@ export default function Hero() {
                 >
                   Jetzt sichern
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                <a href="#" className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                   Mehr erfahren <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -60,7 +60,7 @@ export default function Hero() {
         >
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -29,7 +29,7 @@ const features = [
 
 export default function Mission() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl lg:text-center">
           <h2 className="font-caveat text-4xl font-semibold leading-7 text-blue-600">Unsere Mission</h2>
@@ -56,6 +56,6 @@ export default function Mission() {
           </dl>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

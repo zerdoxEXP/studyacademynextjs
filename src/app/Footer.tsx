@@ -56,7 +56,7 @@ const navigation = {
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">Übersicht</h3>
+                  <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">Übersicht</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.solutions.map((item) => (
                       <li key={item.name}>
@@ -68,7 +68,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">Community</h3>
+                  <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">Community</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.support.map((item) => (
                       <li key={item.name}>
@@ -82,7 +82,7 @@ const navigation = {
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">Lernsystem</h3>
+                  <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">Lernsystem</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
@@ -94,7 +94,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">Rechtliches</h3>
+                  <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">Rechtliches</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
