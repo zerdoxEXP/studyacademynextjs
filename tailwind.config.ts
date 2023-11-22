@@ -12,6 +12,9 @@ const config: Config = {
         inter: ['var(--font-inter)', 'sans-serif'],
         caveat: ['var(--font-caveat)', 'cursive'],
       },
+      boxShadow: {
+        'glow': '10 0px 40px 20px rgba(0, 255, 255, 0.3)',
+      }
     },
   },
   plugins: [],

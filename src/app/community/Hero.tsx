@@ -21,7 +21,7 @@ export default function Hero() {
             Stelle deine Frage an Lernexperten in unserer Community
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p className="text-lg leading-8 text-gray-600">
+              <p className="text-lg leading-8 text-gray-600 dark:text-gray-300">
               Nutze die Chance, Deine Lernfragen direkt an unsere Community und Experten zu stellen. Du erhältst persönliche Hilfe und kannst Deine Fortschritte mit unserer Community teilen!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
