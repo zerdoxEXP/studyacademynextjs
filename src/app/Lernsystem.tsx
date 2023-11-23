@@ -28,14 +28,14 @@ export default function Lernsystem() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <h2 className="font-caveat text-3xl font-semibold leading-7 text-blue-600">Unser Lernsystem</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Study Blueprint: Lerne zu lernen mit unserem System 💯</p>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Study Blueprint: Lerne zu lernen mit unserem System 💯</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
               Meistere die Kunst des Lernens 🧙 und erfahre durch unsere Videos, wie Du effektiv lernst und dieses Wissen auf Deine Studien anwendest.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
+                    <dt className="inline font-semibold text-gray-900 dark:text-white">
                       <feature.icon className="absolute left-1 top-1 h-5 w-5 text-blue-600" aria-hidden="true" />
                       {feature.name}
                     </dt>{' '}
@@ -46,9 +46,16 @@ export default function Lernsystem() {
             </div>
           </div>
           <Image
-            src="/images/project-app-screenshot-3.png"
+            src="/images/female-student.jpg"
             alt="Product screenshot"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 block dark:hidden"
+            width={2432}
+            height={1442}
+          />
+                    <Image
+            src="/images/female-student-night.jpg"
+            alt="Product screenshot"
+            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 hidden dark:block"
             width={2432}
             height={1442}
           />

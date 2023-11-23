@@ -26,11 +26,11 @@ const features = [
 
 export default function Anwendungsbereiche() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-blue-600">Deploy faster</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             Everything you need to deploy your app
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -42,7 +42,7 @@ export default function Anwendungsbereiche() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
-                <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-white">
                   <feature.icon className="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                   {feature.name}
                 </dt>
@@ -59,6 +59,6 @@ export default function Anwendungsbereiche() {
           </dl>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

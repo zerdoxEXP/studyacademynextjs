@@ -41,7 +41,7 @@ const faqs = [
   export default function FAQ() {
     return (
       <section>
-        <div className="mx-auto max-w-7xl divide-y divide-gray-900/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+        <div className="mx-auto max-w-7xl divide-y divide-gray-900/10 dark:divide-white/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
           <dl className="mt-10 space-y-8 divide-y divide-gray-900/10 dark:divide-white/10">
             {faqs.map((faq) => (

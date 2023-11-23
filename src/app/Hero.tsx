@@ -36,18 +36,18 @@ export default function Hero() {
               </div>
             </div>
             <Image
-              src="/images/female-student.jpg"
+              src="/images/project-app-screenshot-3.png"
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 block dark:hidden"
+              className="mt-16 rounded-md bg-white/5 shadow-xl ring-1 ring-gray-400/10 sm:mt-24 block dark:hidden"
             />
               <Image
-              src="/images/female-student-night.jpg"
+              src="/images/dark-project-app-screenshot-3.png"
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 hidden dark:block dark:shadow-[10px_0px_40px_0px_rgba(59,99,172,0.59)]"
+              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 hidden dark:block"
             />
           </div>
         </div>

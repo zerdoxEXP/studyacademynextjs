@@ -48,7 +48,14 @@ export default function Hero() {
                   alt="App screenshot"
                   width={2432}
                   height={1442}
-                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10 block dark:hidden"
+                />
+                <Image
+                  src="/images/dark-project-app-screenshot-3.png"
+                  alt="App screenshot"
+                  width={2432}
+                  height={1442}
+                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10 hidden dark:block"
                 />
               </div>
             </div>

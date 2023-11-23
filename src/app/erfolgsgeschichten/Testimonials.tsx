@@ -73,6 +73,15 @@ const testimonials = [
           '/images/example-author.jpg',
       },
     },
+    {
+      body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+      author: {
+        name: 'Leslie Alexander',
+        handle: 'lesliealexander',
+        imageUrl:
+          '/images/example-author.jpg',
+      },
+    },
     // More testimonials...
   ]
   
@@ -90,8 +99,8 @@ const testimonials = [
             <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
               {testimonials.map((testimonial) => (
                 <div key={testimonial.author.handle} className="pt-8 sm:inline-block sm:w-full sm:px-4">
-                  <figure className="rounded-2xl bg-gray-50 p-8 text-sm leading-6">
-                    <blockquote className="text-gray-900">
+                  <figure className="rounded-2xl bg-gray-50 dark:bg-white/5 p-8 text-sm leading-6">
+                    <blockquote className="text-gray-900 dark:text-gray-300">
                       <p>{`“${testimonial.body}”`}</p>
                     </blockquote>
                     <figcaption className="mt-6 flex items-center gap-x-4">
@@ -102,8 +111,8 @@ const testimonials = [
                       src={testimonial.author.imageUrl}
                       alt="" />
                       <div>
-                        <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
-                        <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                        <div className="font-semibold text-gray-900 dark:text-white">{testimonial.author.name}</div>
+                        <div className="text-gray-600 dark:text-gray-300">{`@${testimonial.author.handle}`}</div>
                       </div>
                     </figcaption>
                   </figure>

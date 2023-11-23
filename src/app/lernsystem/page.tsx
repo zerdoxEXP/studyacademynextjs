@@ -18,8 +18,8 @@ export default function Lernsystem() {
       <CTA />
       <Anwendungsbereiche />
       <Testimonials />
-      <FAQ />
       <CTA />
+      <FAQ />
     </main>
   )
 }

@@ -20,7 +20,7 @@ const incentives = [
   
   export default function FuerWen() {
     return (
-      <div className="bg-white">
+      <section>
         <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 px-4 lg:max-w-none lg:grid-cols-3">
             {incentives.map((incentive) => (
@@ -43,7 +43,7 @@ const incentives = [
             ))}
           </div>
         </div>
-      </div>
+      </section>
     )
   }
   
