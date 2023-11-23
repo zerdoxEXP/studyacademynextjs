@@ -21,11 +21,12 @@ export default function Hero() {
         </div>
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
+            <div className="mx-auto max-w-5xl text-center">
+              <p className="text-4xl font-caveat leading-8 tracking-tight text-blue-600">Study Academy Lernsystem</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              Mit unserem Study Blueprint entfaltest du dein volles Potential
+              Mit unserem Lernsystem entfaltest du dein volles Potential
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mx-auto max-w-4xl text-center mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
               </p>
@@ -42,7 +43,7 @@ export default function Hero() {
               </div>
             </div>
             <div className="mt-16 flow-root sm:mt-24">
-              <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+              <div className="-m-2 rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl">
                 <Image
                   src="/images/project-app-screenshot-3.png"
                   alt="App screenshot"

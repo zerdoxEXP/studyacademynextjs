@@ -32,11 +32,11 @@ export default function Mission() {
     <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl lg:text-center">
-          <h2 className="font-caveat text-4xl font-semibold leading-7 text-blue-600">Unsere Mission</h2>
+          <h2 className="font-caveat text-4xl leading-7 text-blue-600">Unsere Mission</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           Wofür steht die Study Academy?🤷
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
           Die Study Academy setzt sich mit Leidenschaft dafür ein, das Lernen zu revolutionieren und jedem Einzelnen zu ermöglichen, sein volles Potential zu entfalten.
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function Mission() {
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
+                <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-300">{feature.description}</dd>
               </div>
             ))}
           </dl>

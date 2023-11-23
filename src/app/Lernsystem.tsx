@@ -27,12 +27,12 @@ export default function Lernsystem() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="font-caveat text-3xl font-semibold leading-7 text-blue-600">Unser Lernsystem</h2>
+              <h2 className="font-caveat text-4xl leading-7 text-blue-600">Unser Lernsystem</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Study Blueprint: Lerne zu lernen mit unserem System 💯</p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
               Meistere die Kunst des Lernens 🧙 und erfahre durch unsere Videos, wie Du effektiv lernst und dieses Wissen auf Deine Studien anwendest.
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-300 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900 dark:text-white">
