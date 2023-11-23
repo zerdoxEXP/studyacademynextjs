@@ -13,12 +13,6 @@ export default function Hero() {
 
   return (
     <section>
-      <div className="relative isolate pt-14">
-        <div
-          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-          aria-hidden="true"
-        >
-        </div>
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
@@ -31,12 +25,12 @@ export default function Hero() {
                 fugiat veniam occaecat fugiat aliqua.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                >
-                  Jetzt sichern
-                </a>
+              <a
+              href="#"
+              className="rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+            >
+              Get started
+            </a>
                 <a href="#" className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                   Mehr erfahren <span aria-hidden="true">→</span>
                 </a>
@@ -67,7 +61,6 @@ export default function Hero() {
           aria-hidden="true"
         >
         </div>
-      </div>
     </section>
   )
 }

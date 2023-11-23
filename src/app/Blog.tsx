@@ -8,7 +8,7 @@ const posts = [
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       imageUrl:
-        '/images/example-blog-photo.jpg',
+        '/images/b-post-1.jpg',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
@@ -27,7 +27,7 @@ const posts = [
     description:
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
     imageUrl:
-      '/images/example-blog-photo.jpg',
+      '/images/b-post-2.jpg',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'Marketing', href: '#' },
@@ -46,7 +46,7 @@ const posts = [
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
-          '/images/example-blog-photo.jpg',
+          '/images/b-post-3.jpg',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         category: { title: 'Marketing', href: '#' },

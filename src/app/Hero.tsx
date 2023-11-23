@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section>
       <div className="relative isolate pt-14">
-        <div className="py-24 sm:py-32">
+        <div className="pt-24 sm:pt-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
               <h1 className="text-4xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-6xl">
@@ -25,7 +25,7 @@ export default function Hero() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href="/lernsystem"
                   className="rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
                   Jetzt starten

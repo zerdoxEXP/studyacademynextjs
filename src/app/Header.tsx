@@ -34,7 +34,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`inset-x-0 top-0 z-50 fixed ${scrollPosition > 0 ? 'backdrop-blur-lg bg-white bg-opacity-80 dark:bg-gray-900 dark:bg-opacity-90 dark:border-transparent-white border-b border-slate-500 border-opacity-40' : ''}`}>
+    <header className={`inset-x-0 top-0 z-50 fixed ${scrollPosition > 0 ? 'backdrop-blur-lg bg-white bg-opacity-80 dark:bg-gray-900 dark:bg-opacity-90 dark:border-transparent-white border-b border-gray-900/10 dark:border-white/10 border-opacity-40' : ''}`}>
       <nav className="mx-auto flex max-w-screen-2xl items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">

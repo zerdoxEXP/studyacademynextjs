@@ -41,10 +41,10 @@ const features = [
 
 export default function Mission() {
   return (
-    <section className="py-24 sm:py-32" id="mission">
+    <section id="mission">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="font-caveat text-3xl font-semibold leading-7 text-blue-600">Unsere Mission</h2>
+          <h2 className="font-caveat text-3xl leading-7 text-blue-600">Unsere Mission</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           Wobei können wir dir helfen?
           </p>
