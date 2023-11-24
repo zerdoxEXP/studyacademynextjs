@@ -1,18 +1,19 @@
 import Image from 'next/image'
 import Hero from './Hero';
+import Probleme from './Probleme';
 import Lernsystem from './Lernsystem';
 import CTA from './CTA';
 import Mission from './Mission';
-import Blog from './Blog';
 
 export default function Home() {
   return (
     <main>
       <Hero />
+      <Probleme />
+      <CTA />
       <Lernsystem />
       <CTA />
       <Mission />
-      <Blog />
     </main>
   )
 }

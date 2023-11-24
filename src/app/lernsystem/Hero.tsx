@@ -20,18 +20,18 @@ export default function Hero() {
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Mit unserem Lernsystem entfaltest du dein volles Potential
               </h1>
-              <p className="mx-auto max-w-4xl text-center mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+              <p className="mx-auto max-w-4xl text-center mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-              href="#"
+              href="#preise"
               className="rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Get started
             </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
+                <a href="#p" className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
                   Mehr erfahren <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -44,6 +44,7 @@ export default function Hero() {
                   width={2432}
                   height={1442}
                   className="rounded-md shadow-2xl ring-1 ring-gray-900/10 block dark:hidden"
+                  priority
                 />
                 <Image
                   src="/images/dark-project-app-screenshot-3.png"
@@ -51,6 +52,7 @@ export default function Hero() {
                   width={2432}
                   height={1442}
                   className="rounded-md shadow-2xl ring-1 ring-gray-900/10 hidden dark:block"
+                  priority
                 />
               </div>
             </div>

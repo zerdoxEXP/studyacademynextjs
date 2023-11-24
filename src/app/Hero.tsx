@@ -20,7 +20,7 @@ export default function Hero() {
               <h1 className="text-4xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-6xl">
               Wir helfen dir <span className="text-blue-600">effektiver zu lernen</span> mit unserem Lernsystem.😎🤙
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+              <p className="mt-6 text-xl leading-8 text-gray-600 dark:text-gray-400">
               Beginne jetzt Deine Reise zum effektiven und selbstsicheren Lernen – mit unserem innovativen Lernsystem wirst du in kurzer Zeit große Fortschritte machen.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -41,6 +41,7 @@ export default function Hero() {
               width={2432}
               height={1442}
               className="mt-16 rounded-md bg-white/5 shadow-xl ring-1 ring-gray-400/10 sm:mt-24 block dark:hidden"
+              priority
             />
               <Image
               src="/images/dark-project-app-screenshot-3.png"
@@ -48,6 +49,7 @@ export default function Hero() {
               width={2432}
               height={1442}
               className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 hidden dark:block"
+              priority
             />
           </div>
         </div>

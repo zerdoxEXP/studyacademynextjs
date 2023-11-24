@@ -5,7 +5,8 @@ import FuerWen from './FuerWen'
 import Vorteile from './Vorteile'
 import CTA from './CTA'
 import Anwendungsbereiche from './Anwendungsbereiche'
-import Testimonials from './Testimonials'
+import Preise from './Preise'
+import Reviews from './Reviews'
 import FAQ from './FAQ'
 
 export default function Lernsystem() {
@@ -17,8 +18,8 @@ export default function Lernsystem() {
       <Vorteile />
       <CTA />
       <Anwendungsbereiche />
-      <Testimonials />
-      <CTA />
+      <Preise />
+      <Reviews />
       <FAQ />
     </main>
   )

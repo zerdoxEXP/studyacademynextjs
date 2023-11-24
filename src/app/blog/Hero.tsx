@@ -68,7 +68,7 @@ export default function Example() {
         <div className="mx-auto max-w-2xl text-center">
           <p className="font-caveat text-blue-600 text-4xl">Study Academy Blog</p>
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Neueste Artikel</h2>
-          <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
+          <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-400">
             Learn how to grow your business with our expert advice.
           </p>
         </div>

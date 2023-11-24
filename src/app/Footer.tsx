@@ -25,7 +25,7 @@ const navigation = {
     ],
   }
   
-  export default function Example() {
+  export default function Footer() {
     return (
       <footer aria-labelledby="footer-heading">
         <div className="border-t border-gray-900/10 dark:border-white/10"></div>
@@ -49,7 +49,7 @@ const navigation = {
               alt="Study Academy Logo"
               className="inline-block dark:hidden"
               />
-              <p className="text-sm leading-6 mt-6 text-gray-600 dark:text-gray-300">
+              <p className="text-sm leading-6 mt-6 text-gray-600 dark:text-gray-400">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
               </p>
             </div>
@@ -60,7 +60,7 @@ const navigation = {
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.solutions.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
                           {item.name}
                         </a>
                       </li>
@@ -72,7 +72,7 @@ const navigation = {
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.support.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
                           {item.name}
                         </a>
                       </li>
@@ -86,7 +86,7 @@ const navigation = {
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
                           {item.name}
                         </a>
                       </li>
@@ -98,7 +98,7 @@ const navigation = {
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+                        <a href={item.href} className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
                           {item.name}
                         </a>
                       </li>

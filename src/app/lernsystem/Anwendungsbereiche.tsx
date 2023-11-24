@@ -2,24 +2,57 @@ import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/reac
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Naturwissenschaften',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
-    href: '#',
-    icon: CloudArrowUpIcon,
+      'Dieser Bereich umfasst Studienfelder wie Biologie, Chemie, Physik, Astronomie und Erdwissenschaften.',
+    icon: ArrowPathIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Ingenieurwissenschaften',
     description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
-    href: '#',
+      'Dazu gehören Disziplinen wie Maschinenbau, Elektrotechnik, Bauingenieurwesen, Informatik und Umwelttechnik.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Medizin & Gesundheitswissenschaften',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
-    href: '#',
+      'Dies umfasst Bereiche wie Humanmedizin, Veterinärmedizin, Pflegewissenschaft, Pharmazie und öffentliche Gesundheit.',
+    icon: ArrowPathIcon,
+  },
+  {
+    name: 'Sozialwissenschaften',
+    description:
+      'Hierzu zählen Fächer wie Psychologie, Soziologie, Anthropologie, Politikwissenschaften und Wirtschaftswissenschaften.',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: 'Geisteswissenschaften',
+    description:
+      'Dazu gehören Fächer wie Geschichte, Philosophie, Sprach- und Literaturwissenschaften, Kunstgeschichte und Theologie.',
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Wirtschaftswissenschaften',
+    description:
+      'Dieser Bereich umfasst Studienrichtungen wie Betriebswirtschaftslehre, Volkswirtschaftslehre, Finanzwesen und Marketing.',
+    icon: ArrowPathIcon,
+  },
+  {
+    name: 'Rechtswissenschaften',
+    description:
+      'Hierunter fallen Studiengänge wie Jura, internationales Recht und öffentliches Recht.',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: 'Bildungswissenschaften',
+    description:
+      'Dies umfasst Studienfelder wie Pädagogik, Lehrerbildung, Bildungsmanagement und Erwachsenenbildung.',
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Und vieles mehr...',
+    description:
+      'Du wirst dein Leben lang Neues lernen müssen um ein erfülltes und erfolgreiches Leben zu führen.',
     icon: ArrowPathIcon,
   },
 ]
@@ -29,11 +62,11 @@ export default function Anwendungsbereiche() {
     <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-blue-600">Deploy faster</h2>
+          <h2 className="font-caveat text-3xl leading-7 text-blue-600">Die Anwendungsbereiche sind vielfältig...</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-            Everything you need to deploy your app
+          Du kannst dir in folgenden Bereichen...
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
             Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
             pulvinar et feugiat blandit at. In mi viverra elit nunc.
           </p>
@@ -46,13 +79,8 @@ export default function Anwendungsbereiche() {
                   <feature.icon className="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                   {feature.name}
                 </dt>
-                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-300">
                   <p className="flex-auto">{feature.description}</p>
-                  <p className="mt-6">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-blue-600">
-                      Learn more <span aria-hidden="true">→</span>
-                    </a>
-                  </p>
                 </dd>
               </div>
             ))}

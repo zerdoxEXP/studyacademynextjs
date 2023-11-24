@@ -2,39 +2,51 @@ import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Überwältigung beim Lernstart',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Viele Lernende fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Mangelnde Konzentration',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'Ein häufiges Hindernis beim Lernen ist die Schwierigkeit, sich über längere Zeit zu konzentrieren, was zu ineffektivem Lernen führt.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Schwierigkeiten beim Behalten von Informationen',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Viele Lernende haben Probleme damit, Informationen langfristig zu speichern, was besonders bei komplexen Themen zu Herausforderungen führt.',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Schwierigkeiten bei der Anwendung von Theorie in der Praxis',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Es ist eine Sache, theoretisches Wissen zu erlangen, aber eine andere, dieses Wissen effektiv in praktischen Situationen anzuwenden.',
+    icon: FingerPrintIcon,
+  },
+  {
+    name: 'Fehlende Motivation und Zielsetzung',
+    description:
+      'Viele Lernende kämpfen mit fehlender Motivation und Schwierigkeiten bei der Festlegung klarer Lernziele, was zu mangelnder Richtung und Fortschritt führt.',
+    icon: FingerPrintIcon,
+  },
+  {
+    name: 'Selbstweifel durch schlechte Erfahrungen',
+    description:
+      'Viele Lernende kämpfen mit fehlender Motivation und Schwierigkeiten bei der Festlegung klarer Lernziele, was zu mangelnder Richtung und Fortschritt führt.',
     icon: FingerPrintIcon,
   },
 ]
 
-export default function Mission() {
+export default function Probleme() {
   return (
     <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl lg:text-center">
-          <h2 className="font-caveat text-4xl leading-7 text-blue-600">Unsere Mission</h2>
+          <h2 className="font-caveat text-4xl leading-7 text-blue-600">Hast du auch Lernblockaden?</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-          Wofür steht die Study Academy?🤷
+          Die häufigsten Probleme beim Lernen 🤷
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
           Die Study Academy setzt sich mit Leidenschaft dafür ein, das Lernen zu revolutionieren und jedem Einzelnen zu ermöglichen, sein volles Potential zu entfalten.
@@ -44,7 +56,7 @@ export default function Mission() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
+                <dt className="text-xl font-semibold leading-7 text-gray-900 dark:text-white">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>

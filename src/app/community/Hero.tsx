@@ -21,7 +21,7 @@ export default function Hero() {
             <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:col-span-2 xl:col-auto">
             Stelle deine Frage an Lernexperten in unserer Community
             </h1>
-              <p className="text-lg leading-8 text-gray-600 dark:text-gray-300">
+              <p className="text-lg leading-8 text-gray-600 dark:text-gray-400">
               Nutze die Chance, Deine Lernfragen direkt an unsere Community und Experten zu stellen. Du erhältst persönliche Hilfe und kannst Deine Fortschritte mit unserer Community teilen!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
@@ -42,6 +42,7 @@ export default function Hero() {
               width={3000}
               height={2000}
               className="mt-10 w-full max-w-lg rounded-2xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2"
+              priority
             />
           </div>
         </div>
