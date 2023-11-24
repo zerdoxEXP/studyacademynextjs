@@ -37,7 +37,7 @@ const reviews = [
   // More reviews...
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
