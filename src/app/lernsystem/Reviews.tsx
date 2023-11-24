@@ -13,7 +13,7 @@ const reviews = [
     datetime: '2023-11-24',
   },
   {
-    id: 1,
+    id: 2,
     title: "Turpis tortor quis scelerisque diam id",
     rating: 5,
     content: `
@@ -24,7 +24,7 @@ const reviews = [
     datetime: '2023-11-23',
   },
   {
-    id: 1,
+    id: 3,
     title: "Commodo nec sagittis tortor mauris sed",
     rating: 5,
     content: `
