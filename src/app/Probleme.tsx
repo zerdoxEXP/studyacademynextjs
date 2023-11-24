@@ -1,41 +1,41 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { ChevronRightIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Überwältigung beim Lernstart',
     description:
       'Viele Lernende fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen.',
-    icon: CloudArrowUpIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Mangelnde Konzentration',
     description:
       'Ein häufiges Hindernis beim Lernen ist die Schwierigkeit, sich über längere Zeit zu konzentrieren, was zu ineffektivem Lernen führt.',
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Schwierigkeiten beim Behalten von Informationen',
     description:
       'Viele Lernende haben Probleme damit, Informationen langfristig zu speichern, was besonders bei komplexen Themen zu Herausforderungen führt.',
-    icon: ArrowPathIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Schwierigkeiten bei der Anwendung von Theorie in der Praxis',
     description:
       'Es ist eine Sache, theoretisches Wissen zu erlangen, aber eine andere, dieses Wissen effektiv in praktischen Situationen anzuwenden.',
-    icon: FingerPrintIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Fehlende Motivation und Zielsetzung',
     description:
       'Viele Lernende kämpfen mit fehlender Motivation und Schwierigkeiten bei der Festlegung klarer Lernziele, was zu mangelnder Richtung und Fortschritt führt.',
-    icon: FingerPrintIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Selbstweifel durch schlechte Erfahrungen',
     description:
       'Viele Lernende kämpfen mit fehlender Motivation und Schwierigkeiten bei der Festlegung klarer Lernziele, was zu mangelnder Richtung und Fortschritt führt.',
-    icon: FingerPrintIcon,
+    icon: ChevronRightIcon,
   },
 ]
 
@@ -57,7 +57,7 @@ export default function Probleme() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-xl font-semibold leading-7 text-gray-900 dark:text-white">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
                   {feature.name}

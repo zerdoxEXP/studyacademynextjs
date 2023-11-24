@@ -31,9 +31,6 @@ export default function Hero() {
                 >
                   Frage kostenlos stellen
                 </a>
-                <a href="#mission" className="text-sm font-semibold leading-6 text-gray-900">
-                  Mehr erfahren <span aria-hidden="true">→</span>
-                </a>
               </div>
             </div>
             <Image

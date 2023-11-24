@@ -1,41 +1,41 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { ChevronRightIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Erste Schritte im Lernen',
     description:
       'Unsicher, wo Du anfangen sollst? Wir helfen Dir, den ersten Schritt zu machen und bieten Orientierung für Deinen Lernweg.',
-    icon: CloudArrowUpIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Umgang mit Herausforderungen',
     description:
       'Stehst Du vor einer Lernblockade? Lass uns gemeinsam Lösungen finden, die Dir den Weg ebnen.',
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Einfache Tipps für den Alltag',
     description:
       'Brauchst Du praktische Tipps für Deinen Lernalltag? Wir geben Dir einfache, aber effektive Ratschläge, um sofort loszulegen.',
-    icon: ArrowPathIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Motivation steigern',
     description:
       'Fehlt Dir die Antriebskraft? Entdecke mit uns, wie Du Deine Motivation wecken und aufrechterhalten kannst.',
-    icon: FingerPrintIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Lernziele festlegen',
     description:
       'Unsicher über Deine Ziele? Wir unterstützen Dich dabei, klare und erreichbare Ziele zu setzen, um Deinen Fokus zu schärfen.',
-    icon: FingerPrintIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Entdecke Dein Potenzial',
     description:
       'Möchtest Du wissen, wie weit Du gehen kannst? Lass uns gemeinsam Dein Lernpotenzial erkunden und entfalten.',
-    icon: FingerPrintIcon,
+    icon: ChevronRightIcon,
   },
 ]
 
@@ -57,7 +57,7 @@ export default function Mission() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-xl font-semibold leading-7 text-gray-900 dark:text-white">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
                   {feature.name}

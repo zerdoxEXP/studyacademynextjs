@@ -3,18 +3,18 @@ import Image from 'next/image';
 const incentives = [
     {
       name: 'Studenten die sich verbessern und Prüfungen bestehen wollen',
-      description: "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
-      imageSrc: '/icons/icon-delivery-light.svg',
+      description: "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar.",
+      imageSrc: '/icons/Platzhalter.png',
     },
     {
       name: 'Schüler denen es schwer fällt Lerninhalte zu behalten',
-      description: 'Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.',
-      imageSrc: '/icons/icon-chat-light.svg',
+      description: 'Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar.',
+      imageSrc: '/icons/Platzhalter.png',
     },
     {
       name: 'Alle die ihr volles Potential ausschöpfen wollen',
-      description: "Look how fast that cart is going. What does this mean for the actual experience? I don't know.",
-      imageSrc: '/icons/icon-fast-checkout-light.svg',
+      description: "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar.",
+      imageSrc: '/icons/Platzhalter.png',
     },
   ]
   
@@ -39,7 +39,7 @@ const incentives = [
                     <Image
                     width={96}
                     height={112}
-                    className="mx-auto h-24 w-28"
+                    className="mx-auto h-24 w-24"
                     src={incentive.imageSrc}
                     alt="" />
                   </div>

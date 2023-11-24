@@ -4,8 +4,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -13,8 +13,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -22,8 +22,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -31,8 +31,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -40,8 +40,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -49,8 +49,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -58,8 +58,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -67,8 +67,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },
@@ -76,8 +76,8 @@ const testimonials = [
     {
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
-        name: 'Leslie Alexander',
-        handle: 'lesliealexander',
+        name: 'Laborum Quis',
+        handle: 'xxxx',
         imageUrl:
           '/images/example-author.jpg',
       },

@@ -4,7 +4,6 @@ const navigation = {
     solutions: [
       { name: 'Community', href: '/community' },
       { name: 'Lernsystem', href: '/lernsystem' },
-      { name: 'Blog', href: '/blog' },
     ],
     support: [
       { name: 'Section 1', href: '#' },

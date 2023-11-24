@@ -9,7 +9,6 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Community', href: '/community' },
   { name: 'Unser Lernsystem', href: '/lernsystem' },
-  { name: 'Blog', href: '/blog' },
   { name: 'Erfolgsgeschichten', href: '/erfolgsgeschichten' },
 ];
 
@@ -73,7 +72,7 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/" className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:bg-slate-800 dark:ring-0 dark:text-slate-300 dark:highlight-white/5 dark:hover:bg-slate-700">
+          <a href="http://studyacademy.circle.so/" target="_blank" className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:bg-slate-800 dark:ring-0 dark:text-slate-300 dark:highlight-white/5 dark:hover:bg-slate-700">
             Anmelden<span aria-hidden="true"></span>
           </a>
         </div>
@@ -123,7 +122,7 @@ export default function Header() {
               </div>
               <div className="py-6">
                 <a
-                  href="/"
+                  href="http://studyacademy.circle.so/" target="_blank"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-medium leading-7 shadow-sm ring-1 ring-inset ring-gray-300 text-gray-900 hover:bg-gray-50 dark:ring-0 dark:text-white dark:hover:bg-gray-800 dark:bg-slate-800"
                 >
                   Anmelden

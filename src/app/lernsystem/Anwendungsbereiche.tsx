@@ -1,59 +1,59 @@
-import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
+import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
     name: 'Naturwissenschaften',
     description:
       'Dieser Bereich umfasst Studienfelder wie Biologie, Chemie, Physik, Astronomie und Erdwissenschaften.',
-    icon: ArrowPathIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Ingenieurwissenschaften',
     description:
       'Dazu gehören Disziplinen wie Maschinenbau, Elektrotechnik, Bauingenieurwesen, Informatik und Umwelttechnik.',
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Medizin & Gesundheitswissenschaften',
     description:
       'Dies umfasst Bereiche wie Humanmedizin, Veterinärmedizin, Pflegewissenschaft, Pharmazie und öffentliche Gesundheit.',
-    icon: ArrowPathIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Sozialwissenschaften',
     description:
       'Hierzu zählen Fächer wie Psychologie, Soziologie, Anthropologie, Politikwissenschaften und Wirtschaftswissenschaften.',
-    icon: CloudArrowUpIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Geisteswissenschaften',
     description:
       'Dazu gehören Fächer wie Geschichte, Philosophie, Sprach- und Literaturwissenschaften, Kunstgeschichte und Theologie.',
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Wirtschaftswissenschaften',
     description:
       'Dieser Bereich umfasst Studienrichtungen wie Betriebswirtschaftslehre, Volkswirtschaftslehre, Finanzwesen und Marketing.',
-    icon: ArrowPathIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Rechtswissenschaften',
     description:
       'Hierunter fallen Studiengänge wie Jura, internationales Recht und öffentliches Recht.',
-    icon: CloudArrowUpIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Bildungswissenschaften',
     description:
       'Dies umfasst Studienfelder wie Pädagogik, Lehrerbildung, Bildungsmanagement und Erwachsenenbildung.',
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: 'Und vieles mehr...',
     description:
       'Du wirst dein Leben lang Neues lernen müssen um ein erfülltes und erfolgreiches Leben zu führen.',
-    icon: ArrowPathIcon,
+    icon: ChevronRightIcon,
   },
 ]
 
