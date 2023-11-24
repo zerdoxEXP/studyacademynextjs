@@ -2,39 +2,39 @@ import { ChevronRightIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Individuell angepasste Lernwege',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Wir bieten maßgeschneiderte Lernlösungen, die sich an die einzigartigen Bedürfnisse und Ziele jedes Lernenden anpassen.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Förderung von Selbstvertrauens',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'Unser Ansatz stärkt das Selbstvertrauen und die Unabhängigkeit der Lernenden, indem wir effektive Strategien für das Selbststudium vermitteln.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Innovative Lehrmethoden',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Wir nutzen modernste Methoden und Technologien, um ein ansprechendes und effektives Lernerlebnis zu schaffen.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Lebenslanges Lernen',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Unser Ziel ist es, eine Liebe zum lebenslangen Lernen zu fördern und Lernende auf kontinuierliche persönliche und berufliche Entwicklung vorzubereiten.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Spaß und Motivation beim Lernen',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Wir glauben, dass Lernen am effektivsten ist, wenn es Freude bereitet, weshalb wir Methoden einsetzen, die Spaß und Motivation fördern, um eine positive und anregende Lernerfahrung zu schaffen.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Erfolg durch Wissen',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Wir glauben fest daran, dass durch den Erwerb von Wissen jeder Einzelne sein volles Potenzial erreichen und in seiner beruflichen und persönlichen Entwicklung erfolgreich sein kann.',
     icon: ChevronRightIcon,
   },
 ]
