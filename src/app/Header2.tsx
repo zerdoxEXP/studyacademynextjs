@@ -8,8 +8,14 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Community', href: '/community' },
-  { name: 'Lernsystem Basic', href: '/lernsystem-basic' },
-  { name: 'Lernsystem Pro', href: '/lernsystem-pro' },
+  {
+    name: ['Lernsystem ', { part: 'Basic', special: true, color: 'text-blue-600' }],
+    href: '/lernsystem-basic'
+  },
+  {
+    name: ['Lernsystem ', { part: 'Pro', special: true, color: 'text-teal-600 dark:text-teal-500' }],
+    href: '/lernsystem-pro'
+  },
   { name: 'Erfolge', href: '/erfolgsgeschichten' },
 ];
 
@@ -67,9 +73,16 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-base font-medium leading-6 text-gray-900 dark:text-white">
-              {item.name}
-            </a>
+            <a key={item.name.toString()} href={item.href} className="text-sm font-medium leading-6 text-gray-900 dark:text-white">
+            {Array.isArray(item.name)
+              ? item.name.map((part, index) => 
+                  typeof part === 'string'
+                    ? <span key={index}>{part}</span>
+                    : <span key={index} className={`font-caveat text-xl leading-none ${part.color}`}>{part.part}</span>
+                )
+              : item.name
+            }
+          </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -110,17 +123,24 @@ export default function Header() {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/25">
-              <div className="space-y-2 py-6">
-                {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-800"
-                  >
-                    {item.name}
-                  </a>
-                ))}
-              </div>
+            <div className="space-y-2 py-6">
+  {navigation.map((item) => (
+    <a
+      key={item.name.toString()}
+      href={item.href}
+      className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-800"
+    >
+      {Array.isArray(item.name)
+        ? item.name.map((part, index) => 
+            typeof part === 'string'
+              ? <span key={index}>{part}</span>
+              : <span key={index} className={`font-caveat text-xl leading-none ${part.color}`}>{part.part}</span>
+          )
+        : item.name
+      }
+    </a>
+  ))}
+</div>
               <div className="py-6">
                 <a
                   href="http://studyacademy.circle.so/" target="_blank"

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Caveat } from 'next/font/google'
 import './globals.css'
-import Header from './Header';
+import Header2 from './Header2';
 import Footer from './Footer';
 import Image from 'next/image';
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="de" className="scroll-smooth">
       <body className={`${inter.variable} ${caveat.variable} font-inter bg-white dark:bg-gray-900`}>
-      <Header />
+      <Header2 />
       {children}
       <Footer />
       </body>
