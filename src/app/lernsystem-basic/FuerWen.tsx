@@ -2,18 +2,18 @@ import Image from 'next/image';
 
 const incentives = [
     {
-      name: 'Studenten die sich verbessern und Prüfungen bestehen wollen',
-      description: "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar.",
+      name: 'Studium - jedes Studienfach',
+      description: "Ideal für Studierende, die ihre Lernfähigkeiten verbessern und Prüfungen mit Zuversicht bestehen möchten.",
       imageSrc: '/icons/Platzhalter.png',
     },
     {
-      name: 'Schüler denen es schwer fällt Lerninhalte zu behalten',
-      description: 'Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar.',
+      name: 'Schule - höhere Klassenschufen',
+      description: 'Perfekt für Schüler, die nach effektiven Wegen suchen, Lerninhalte leichter und nachhaltiger zu verstehen und zu behalten.',
       imageSrc: '/icons/Platzhalter.png',
     },
     {
-      name: 'Alle die ihr volles Potential ausschöpfen wollen',
-      description: "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar.",
+      name: 'Berufliche Weiterbildung',
+      description: "Ein unverzichtbares Tool für jeden, der persönliche Bildungsziele erreichen möchte – unabhängig vom Bildungsstand.",
       imageSrc: '/icons/Platzhalter.png',
     },
   ]
@@ -22,9 +22,9 @@ const incentives = [
     return (
       <section>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl mb-8 md:mb-12 lg:text-center">
+        <div className="mx-auto max-w-xl mb-8 md:mb-12 lg:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-          Für wen ist unser Lernsystem geeignet?
+          Wo kannst du die Methoden am besten einsetzen?
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
             Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
@@ -46,7 +46,7 @@ const incentives = [
                 </div>
                 <div className="mt-3 sm:ml-3 sm:mt-0 lg:ml-0 lg:mt-3">
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">{incentive.name}</h3>
-                  <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">{incentive.description}</p>
+                  <p className="mt-2 text-base text-gray-500 dark:text-gray-400">{incentive.description}</p>
                 </div>
               </div>
             ))}

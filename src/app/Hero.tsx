@@ -36,7 +36,7 @@ export default function Hero() {
               </div>
             </div>
             <Image
-              src="/images/circle-light.png"
+              src="/images/circle-study-light.jpg"
               alt="App screenshot"
               width={2432}
               height={1442}
@@ -44,7 +44,7 @@ export default function Hero() {
               priority
             />
               <Image
-              src="/images/circle-dark.png"
+              src="/images/circle-study-dark.jpg"
               alt="App screenshot"
               width={2432}
               height={1442}

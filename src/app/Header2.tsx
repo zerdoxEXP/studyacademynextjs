@@ -73,7 +73,7 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name.toString()} href={item.href} className="text-sm font-medium leading-6 text-gray-900 dark:text-white">
+            <a key={item.name.toString()} href={item.href} className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
             {Array.isArray(item.name)
               ? item.name.map((part, index) => 
                   typeof part === 'string'
@@ -128,7 +128,7 @@ export default function Header() {
     <a
       key={item.name.toString()}
       href={item.href}
-      className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-800"
+      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-800"
     >
       {Array.isArray(item.name)
         ? item.name.map((part, index) => 

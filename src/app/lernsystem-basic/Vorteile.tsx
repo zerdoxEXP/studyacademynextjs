@@ -2,39 +2,39 @@ import { ChevronRightIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Vorteil 1',
+    name: 'Schnelle Lernerfolge',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Erziele in kürzester Zeit bemerkenswerte Fortschritte.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Vorteil 2',
+    name: 'Wissenschaftlich fundierte Methoden',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'Wir nutzen neueste Erkenntnisse aus der Lernforschung & Neurowissenschaft.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Vorteil 3',
+    name: 'Strukturiertes Lernen',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Klare Struktur und effiziente Lernvorlagen die du individuell auf deine Inhalte anpassen kannst.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Vorteil 4',
+    name: 'Flexibilität',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Lerne jederzeit und überall mit digitalen Tools die du vorher eingerichtet hast.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Vorteil 5',
+    name: 'Mehr Selbstvertrauen',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Du wirst selbstsicherer in Prüfungen gehen und Lernblockaden vermeiden beim Lernen neuer Inhalte.',
     icon: ChevronRightIcon,
   },
   {
-    name: 'Vorteil 6',
+    name: 'Spaß beim Lernen',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Unsere Methoden machen das Lernen zu einem angenehmen und bereichernden Erlebnis mithilfe von Gamification-Elementen.',
     icon: ChevronRightIcon,
   },
 ]
@@ -44,9 +44,9 @@ export default function Vorteile() {
     <section className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="font-caveat text-3xl leading-7 text-blue-600">Du wirst effektiver lernen...</h2>
+          <h2 className="font-caveat text-3xl leading-7 text-blue-600">Was zeichnet das Lernsystem aus?</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-          Die größten Vorteile unseres Lernsystems
+          Die größten Vorteile des Lernsystems
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
             Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
@@ -57,7 +57,7 @@ export default function Vorteile() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
+                <dt className="text-xl font-semibold leading-7 text-gray-900 dark:text-white">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>

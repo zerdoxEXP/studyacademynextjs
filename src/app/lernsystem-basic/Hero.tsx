@@ -15,14 +15,13 @@ export default function Hero() {
     <section>
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-5xl text-center">
-              <p className="text-4xl font-caveat leading-8 tracking-tight text-blue-600">Study Academy präsentiert...</p>
+            <div className="mx-auto max-w-6xl text-center">
+              <p className="text-4xl font-caveat leading-8 tracking-tight text-blue-600">Schneller, effektiver und leichter Lernen.</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              Mit unserem Lernsystem <span className="text-4xl font-caveat font-medium leading-8 tracking-tight text-blue-600 sm:text-7xl">Basic</span> entfaltest du dein volles Potential
+              In 20 Lektionen des Lernsystem <span className="text-4xl font-caveat font-medium leading-8 tracking-tight text-blue-600 sm:text-7xl">Basic</span> lernst du alles was du brauchst, um Prüfungen sicher zu bestehen.
               </h1>
               <p className="mx-auto max-w-4xl text-center mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+              Mit bewährten Methoden und modernster Technologie zum Lernerfolg: Unser Basis-Programm ist dein Schlüssel zum Lernen von neuen Inhalten in kürzester Zeit - effektiv, schnell & leicht.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

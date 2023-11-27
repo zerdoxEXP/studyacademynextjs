@@ -6,7 +6,7 @@ const reviews = [
     title: "Pulvinar etiam lacus volutpat eu",
     rating: 5,
     content: `
-      <p>Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.</p>
+      <p>Ich war immer der Typ, der vor jeder Prüfung panisch wurde. Aber seit ich das Lernsystem Basic nutze, habe ich eine echte Lernrevolution erlebt. Mein Selbstvertrauen ist gestiegen, und ich fühle mich bei Prüfungen jetzt viel sicherer. Ein echter Lebensretter!</p>
     `,
     author: 'Stefan M',
     date: 'Nov 24, 2023',
@@ -17,7 +17,7 @@ const reviews = [
     title: "Turpis tortor quis scelerisque diam id",
     rating: 5,
     content: `
-      <p>Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.</p>
+      <p>Mein Studium fühlte sich wie ein endloser Kampf an. Aber dank Lernsystem Basic hat sich das komplett geändert. Die Methoden sind so effektiv und einfach anzuwenden. Ich bin so dankbar für diese Veränderung in meinem Lernprozess!</p>
     `,
     author: 'Svenja S.',
     date: 'Nov 23, 2023',
@@ -28,7 +28,29 @@ const reviews = [
     title: "Commodo nec sagittis tortor mauris sed",
     rating: 5,
     content: `
-      <p>Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.</p>
+      <p>Nie hätte ich gedacht, dass Lernen so effizient sein kann. Dank Lernsystem Basic spare ich Zeit und erziele bessere Ergebnisse. Es hat mein Studium und mein Leben verändert!</p>
+    `,
+    author: 'Marcel W.',
+    date: 'Nov 22, 2023',
+    datetime: '2023-11-22',
+  },
+  {
+    id: 4,
+    title: "Commodo nec sagittis tortor mauris sed",
+    rating: 5,
+    content: `
+      <p>Das Lernsystem Basic hat nicht nur meine Noten verbessert, sondern auch mein Selbstvertrauen gestärkt. Ich fühle mich jetzt in der Lage, jede Herausforderung anzunehmen. Vielen Dank für dieses wunderbare Tool!</p>
+    `,
+    author: 'Marcel W.',
+    date: 'Nov 22, 2023',
+    datetime: '2023-11-22',
+  },
+  {
+    id: 5,
+    title: "Commodo nec sagittis tortor mauris sed",
+    rating: 5,
+    content: `
+      <p>Ich hätte nie gedacht, dass ich jemals Spaß am Lernen haben würde. Lernsystem Basic hat das für mich möglich gemacht. Die Inhalte sind so gut aufbereitet und die Methoden so effektiv, dass ich jetzt wirklich Freude am Lernprozess habe!</p>
     `,
     author: 'Marcel W.',
     date: 'Nov 22, 2023',
@@ -44,11 +66,10 @@ function classNames(...classes: string[]) {
 export default function Reviews() {
   return (
     <section>
-      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-      <div className="text-center">
-            <h2 className="text-4xl font-caveat leading-8 tracking-tight text-blue-600">Reviews</h2>
+      <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
+      <div className="text-left">
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              Was andere zu unserem Lernsystem sagen
+            Reviews
             </p>
           </div>
         <div className="mt-6 space-y-10 divide-y divide-gray-200 dark:divide-white/10 border-b border-t border-gray-200 dark:border-white/10 pb-10">
