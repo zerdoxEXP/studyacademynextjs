@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Hero from './Hero'
+import Features from './Features'
 import Stats from './Stats'
 import FuerWen from './FuerWen'
 import Vorteile from './Vorteile'
@@ -13,6 +14,7 @@ export default function Lernsystem() {
   return (
     <main>
       <Hero />
+      <Features />
       <Stats />
       <FuerWen />
       <Vorteile />

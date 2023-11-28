@@ -25,16 +25,19 @@ export default function Hero() {
               Nutze die Chance, Deine Lernfragen direkt an unsere Community und Experten zu stellen. Du erhältst persönliche Hilfe und kannst Deine Fortschritte mit unserer Community teilen!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
+                <div className="text-center">
                 <a
                   href="#"
-                  className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                  className="rounded-md bg-blue-600 px-6 py-3 text-2xl font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
-                  Frage kostenlos stellen
+                  Stelle jetzt deine Frage ->
                 </a>
+                <p className="mt-6 text-sm font-light dark:text-white">Kostenloser Zugang • Hilfe von der Community</p>
+              </div>
               </div>
             </div>
             <Image
-              src="/images/mockup-kurs-dark.png"
+              src="/images/collage-people.png"
               alt=""
               width={3000}
               height={2000}

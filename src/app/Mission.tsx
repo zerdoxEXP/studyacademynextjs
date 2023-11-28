@@ -46,7 +46,7 @@ export default function Mission() {
         <div className="mx-auto max-w-3xl lg:text-center">
           <h2 className="font-caveat text-4xl leading-7 text-blue-600">Unsere Mission</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-          Wofür steht die Study Academy?🤷
+          Was bieten wir mit der Study Academy an?🤷
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
           Die Study Academy setzt sich mit Leidenschaft dafür ein, das Lernen zu revolutionieren und jedem Einzelnen zu ermöglichen, sein volles Potential zu entfalten.

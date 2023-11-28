@@ -13,12 +13,12 @@ export default function Hero() {
 
   return (
     <section>
-      <div className="relative isolate pt-14">
-        <div className="pt-24 sm:pt-32">
+      <div className="relative isolate pb-14">
+        <div className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
-              <h1 className="text-4xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-6xl">
-              Wir helfen dir <span className="text-blue-600">effektiver zu lernen</span> mit unserem Lernsystem.😎🤙
+              <h1 className="text-5xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-6xl">
+              Wir helfen dir <span className="text-blue-600">effektiver zu lernen</span> mit unseren Lernsystemen.😎🤙
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-600 dark:text-gray-400">
               Beginne jetzt Deine Reise zum effektiven und selbstsicheren Lernen – mit unserem innovativen Lernsystem wirst du in kurzer Zeit große Fortschritte machen.
@@ -36,19 +36,19 @@ export default function Hero() {
               </div>
             </div>
             <Image
-              src="/images/circle-study-light.jpg"
+              src="/images/happy-students.jpg"
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="mt-16 rounded-md bg-white/5 shadow-xl ring-1 ring-gray-400/10 sm:mt-24 block dark:hidden"
+              className="mt-16 rounded-2xl bg-white/5 shadow-xl ring-1 ring-gray-400/10 sm:mt-24 block dark:hidden"
               priority
             />
               <Image
-              src="/images/circle-study-dark.jpg"
+              src="/images/happy-students.jpg"
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 hidden dark:block"
+              className="mt-16 rounded-2xl bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 hidden dark:block"
               priority
             />
           </div>
