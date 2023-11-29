@@ -1,6 +1,6 @@
 export default function FeaturesHero() {
     return (
-      <div className="px-6 py-24 sm:py-32 lg:px-8">
+      <div className="px-6 pt-24 pb-12 sm:pt-32 sm:pb-16 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="font-caveat text-3xl font-medium leading-7 text-blue-600">Du hast viel mehr Potential als du denkst!</p>
           <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">Welche Vorteile hat es mit einem <span className="text-blue-600">richtigen Lernsystem</span> zu lernen?</h2>

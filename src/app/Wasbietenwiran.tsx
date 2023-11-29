@@ -37,12 +37,11 @@ const posts = [
   export default function Wasbietenwiran() {
     return (
         <section>
-      <div className="pb-12 sm:pb-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">Was bieten wir mit der <span className="text-blue-600"> Study Academy</span> an?🤷</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Was bieten wir mit der <span className="text-blue-600"> Study Academy</span> an?🤷</h2>
             <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Learn how to grow your business with our expert advice.
+              Learn how to grow your business with our expert advice. Learn how to grow your business with our expert advice.
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -73,7 +72,6 @@ const posts = [
             ))}
           </div>
         </div>
-      </div>
       </section>
     )
   }

@@ -14,14 +14,14 @@ export default function Hero() {
 
   return (
     <section>
-        <div className="mx-auto max-w-7xl px-6 py-20 sm:py-28 lg:px-8">
+        <div className="mx-auto max-w-7xl px-6 py-28 sm:py-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p className="font-caveat text-blue-600 text-4xl">Community Fragen</p>
-            <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:col-span-2 xl:col-auto">
-            Stelle deine Frage an Lernexperten in unserer Community
+            <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:col-span-2 xl:col-auto">
+            Stelle deine Frage an Lernexperten aus der Community
             </h1>
-              <p className="text-lg leading-8 text-gray-600 dark:text-gray-400">
+              <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-400">
               Nutze die Chance, Deine Lernfragen direkt an unsere Community und Experten zu stellen. Du erhältst persönliche Hilfe und kannst Deine Fortschritte mit unserer Community teilen!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
@@ -41,7 +41,7 @@ export default function Hero() {
               alt=""
               width={3000}
               height={2000}
-              className="mt-10 w-full max-w-lg rounded-2xl sm:mt-16 lg:mt-12 lg:max-w-none xl:row-span-2 xl:row-end-2"
+              className="mt-20 w-full max-w-lg rounded-2xl sm:mt-16 lg:mt-12 lg:max-w-none xl:row-span-2 xl:row-end-2"
               priority
             />
           </div>
