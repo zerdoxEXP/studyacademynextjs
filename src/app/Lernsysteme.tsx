@@ -34,7 +34,7 @@ export default function Lernsysteme() {
         <div className="mx-auto max-w-3xl">
           <h2 className="font-caveat text-3xl font-medium leading-7 text-blue-600">Willst du endlich richtig durchstarten?</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
-            Dann wähle jetzt ein Lernsystem aus und beginne sofort!
+            Wähle jetzt ein Lernsystem aus und beginne sofort!
           </p>
         </div>
         <div className="relative mt-6">
@@ -71,18 +71,18 @@ export default function Lernsysteme() {
                   </div>
                   <div className="flex flex-col gap-3">
                   <a
-                    href={tier.more}
-                    aria-describedby={tier.id}
-                    className="mt-8 block rounded-md bg-gray-400 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                  >
-                    Mehr erfahren
-                  </a>
-                  <a
                     href={tier.href}
                     aria-describedby={tier.id}
-                    className="block rounded-md bg-blue-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    className="mt-8 block rounded-md bg-blue-600 px-3.5 py-3 text-center text-base font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                   >
                     Kurs kaufen
+                  </a>
+                  <a
+                    href={tier.more}
+                    aria-describedby={tier.id}
+                    className="block rounded-md px-3.5 py-3 text-center text-base font-semibold leading-6 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:dark:bg-slate-800 dark:ring-white/20"
+                  >
+                    Mehr erfahren
                   </a>
                   </div>
                 </div>

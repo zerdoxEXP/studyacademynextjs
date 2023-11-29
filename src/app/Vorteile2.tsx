@@ -31,7 +31,7 @@ export default function Vorteile2() {
             Wenn du Hilfe brauchst, dann stelle deine Frage in der Community an unsere Lernexperten:
             </p>
             <div className="mt-5">
-            <a href="/community" className="mt-4 rounded-md bg-blue-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+            <a href="/community" className="mt-4 rounded-md bg-blue-600 px-5 py-3.5 text-base font-semibold text-white hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
                   Zur Community
             </a>
             </div>
