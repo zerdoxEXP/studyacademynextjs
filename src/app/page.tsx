@@ -16,10 +16,10 @@ export default function Home() {
       <Hero />
       <Wasbietenwiran />
       <Features />
-      <CTA />
+      <Lernsysteme />
       <Vorteile2 />
       <Probleme2 />
-      <Lernsysteme />
+      <CTA />
     </main>
   )
 }

@@ -3,7 +3,7 @@ import Image from 'next/image';
 const posts = [
     {
       id: 1,
-      product: 'Stelle deine Frage',
+      product: 'Kostenlose Hilfe',
       title: 'Du kannst in unserer Community deine Lernfrage an Experten stellen.',
       href: '/community',
       description:
@@ -45,26 +45,25 @@ const posts = [
               Learn how to grow your business with our expert advice.
             </p>
           </div>
-          <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 pointer-events-none">
+          <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
               <div
                 key={post.id}
-                className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+                className="relative isolate flex flex-col justify-end overflow-hidden bg-white dark:bg-gray-900 dark:border-gray-900 border-white px-8 pb-12 pt-80 sm:pt-48 lg:pt-80"
               >
                 <Image
                 src={post.imageUrl}
                 alt=""
-                className="absolute inset-0 -z-10 h-full w-full object-cover"
+                className="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-gray-900 overflow-hidden object-cover rounded-2xl"
                 width={768}
-                height={880}
+                height={800}
                 />
-                <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
-                <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                <div className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-t from-gray-900 via-gray-900/40" />
   
                 <div className="flex flex-row gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
-                  <p className="text-xl text-red-500 mr-8">{post.product}</p>
+                  <p className="text-3xl font-semibold text-white mr-8">{post.product}</p>
                 </div>
-                <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
+                <h3 className="mt-3 text-lg leading-6 text-white">
                   <a href={post.href}>
                     <span className="absolute inset-0" />
                     {post.title}

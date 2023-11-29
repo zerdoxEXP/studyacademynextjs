@@ -19,7 +19,7 @@ const features = [
 export default function Vorteile2() {
   return (
     <section>
-    <div className="py-12 sm:py-16">
+    <div className="pb-12 sm:pb-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
@@ -27,6 +27,14 @@ export default function Vorteile2() {
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
             Die Study Academy setzt sich mit Leidenschaft dafür ein, das Lernen zu revolutionieren und jedem Einzelnen zu ermöglichen, sein volles Potential zu entfalten.
             </p>
+            <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
+            Wenn du Hilfe brauchst, dann stelle deine Frage in der Community an unsere Lernexperten:
+            </p>
+            <div className="mt-5">
+            <a href="/community" className="mt-4 rounded-md bg-blue-600 px-5 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+                  Zur Community
+            </a>
+            </div>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 dark:text-gray-400 sm:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (

@@ -37,11 +37,11 @@ export default function Hero() {
               </div>
             </div>
             <Image
-              src="/images/collage-people.png"
+              src="/images/study-academy-community.png"
               alt=""
               width={3000}
               height={2000}
-              className="mt-10 w-full max-w-lg rounded-2xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2"
+              className="mt-10 w-full max-w-lg rounded-2xl sm:mt-16 lg:mt-12 lg:max-w-none xl:row-span-2 xl:row-end-2"
               priority
             />
           </div>
