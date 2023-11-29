@@ -37,8 +37,8 @@ export default function Feature1() {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <Image
-              src="/images/614285045_ergebnisse.jpg"
-              alt="Product screenshot"
+              src="/images/bessere_ergebnisse.jpg"
+              alt="Studentin freut sich über Prüfungsergebnisse"
               className="rounded-xl shadow-xl ring-1 ring-gray-400/10"
               width={2432}
               height={1442}

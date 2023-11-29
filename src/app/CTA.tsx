@@ -3,9 +3,9 @@ export default function CTA() {
     <section>
       <div className="px-6 pb-24 sm:px-6 sm:pb-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-3xl font-caveat leading-8 tracking-tight text-blue-600">Nutze deine Chance dich zu verbessern!</p>
+          <p className="text-3xl font-caveat leading-8 tracking-tight text-blue-600">Ich kann dir nur raten...</p>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-          Höre auf dich selbst zu sabotieren und lerne wie du effektiv lernst!
+          Höre auf dich selbst zu sabotieren und werde zum Lern-Profi!
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
             Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur

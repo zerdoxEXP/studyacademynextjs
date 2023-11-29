@@ -34,7 +34,7 @@ export default function Lernsysteme() {
         <div className="mx-auto max-w-3xl">
           <h2 className="font-caveat text-3xl font-medium leading-7 text-blue-600">Willst du endlich richtig durchstarten?</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
-            Dann sichere dir jetzt eins von unseren Lernsystemen!
+            Dann wähle jetzt ein Lernsystem aus und beginne sofort!
           </p>
         </div>
         <div className="relative mt-6">

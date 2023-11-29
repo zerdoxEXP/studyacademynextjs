@@ -15,7 +15,7 @@ export default function Hero() {
     <section>
       <div className="relative isolate pb-14">
         <div className="py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl pt-20 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
               <h1 className="text-5xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-6xl">
               Wir helfen dir <span className="text-blue-600">effektiver zu lernen</span> mit unseren Lernsystemen.😎🤙
@@ -35,25 +35,17 @@ export default function Hero() {
                 </a>
               </div>
             </div>
+            </div>
             <Image
-              src="/images/happy-students.jpg"
-              alt="App screenshot"
-              width={2432}
+              src="/images/study-academy-studenten.jpg"
+              alt="Unterschiedliche Studenten und Studentinnen lernen konzentriert mit den Study Academy Lernsystemen"
+              width={5000}
               height={1442}
-              className="mt-16 rounded-2xl bg-white/5 shadow-xl ring-1 ring-gray-400/10 sm:mt-24 block dark:hidden"
-              priority
-            />
-              <Image
-              src="/images/happy-students.jpg"
-              alt="App screenshot"
-              width={2432}
-              height={1442}
-              className="mt-16 rounded-2xl bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 hidden dark:block"
+              className="mt-16 bg-white/5 sm:mt-24 items-center block"
               priority
             />
           </div>
         </div>
-      </div>
     </section>
   )
 }

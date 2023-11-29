@@ -36,8 +36,8 @@ export default function Features2() {
             </div>
           </div>
           <Image
-            src="/images/627502407_stress.jpg"
-            alt="Product screenshot"
+            src="/images/weniger_gestresst.jpg"
+            alt="Student sitzt vor seinem Laptop und entspannt sich"
             className="rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width={2432}
             height={1442}
