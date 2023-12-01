@@ -8,7 +8,7 @@ import Stats from './Stats'
 import CTA from './CTA'
 import Preise from './Preise'
 import Pricing from './Pricing'
-import FAQ from './FAQ'
+import FAQ2 from './FAQ2'
 
 export default function Lernsystem() {
   return (
@@ -19,7 +19,7 @@ export default function Lernsystem() {
       <Vorteile2 />
       <FuerWen2 />
       <Pricing />
-      <FAQ />
+      <FAQ2 />
     </main>
   )
 }

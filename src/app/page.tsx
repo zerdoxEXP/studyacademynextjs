@@ -9,6 +9,7 @@ import Probleme from './Probleme';
 import Lernsystem from './Lernsystem';
 import Mission from './Mission';
 import Lernsysteme from './Lernsysteme';
+import Anwendungsbereiche from './Anwendungsbereiche';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Vorteile2 />
       <Probleme2 />
       <CTA />
+      <Anwendungsbereiche />
     </main>
   )
 }

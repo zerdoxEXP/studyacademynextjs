@@ -13,7 +13,7 @@ export default function Hero() {
 
   return (
     <section>
-        <div className="py-24 sm:py-32 lg:pb-40">
+        <div className="pt-24 sm:pt-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
             <p className="text-4xl font-caveat leading-8 tracking-tight text-teal-600 dark:text-teal-500">Dein Weg zu den Top 5%!</p>

@@ -1,4 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, TrophyIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image';
 
 const features = [
@@ -6,7 +6,7 @@ const features = [
     name: 'Lorem ipsum.',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CloudArrowUpIcon,
+    icon: TrophyIcon,
   },
 ]
 

@@ -49,7 +49,7 @@ export default function Lernsysteme() {
               {tiers.map((tier) => (
                 <div
                   key={tier.id}
-                  className="flex flex-col justify-between rounded-3xl bg-white dark:bg-white/5 p-8 shadow ring-1 ring-gray-900/10 sm:p-10"
+                  className="flex flex-col justify-between rounded-3xl bg-white dark:bg-slate-800 p-8 shadow ring-1 ring-gray-900/10 sm:p-10"
                 >
                   <div>
                     <h3 id={tier.id} className="text-base text-left font-semibold leading-7 text-blue-600">
@@ -80,7 +80,7 @@ export default function Lernsysteme() {
                   <a
                     href={tier.more}
                     aria-describedby={tier.id}
-                    className="block rounded-md px-3.5 py-3 text-center text-base font-semibold leading-6 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:dark:bg-slate-800 dark:ring-white/20"
+                    className="block rounded-md px-3.5 py-3 text-center text-base font-semibold leading-6 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:dark:bg-white/20 dark:ring-white/20"
                   >
                     Mehr erfahren
                   </a>

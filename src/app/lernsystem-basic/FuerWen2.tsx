@@ -38,7 +38,7 @@ export default function FuerWen2() {
         <div className="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
-              <div key={feature.name} className="flex flex-col ring-1 ring-gray-200 bg-gray-50 dark:bg-slate-800 p-8 rounded-3xl shadow dark:ring-white/10 dark:ring-opacity-40">
+              <div key={feature.name} className="flex flex-col ring-1 ring-gray-200 bg-gray-50 dark:bg-slate-800 p-8 rounded-3xl shadow dark:ring-0">
                 <dt className="text-xl font-semibold leading-7 text-gray-900 dark:text-white">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 dark:bg-blue-950 border shadow shadow-blue-100/50 dark:shadow-blue-950/50 border-blue-100 dark:border-blue-500/30">
                     <feature.icon className="h-6 w-6 text-blue-600" aria-hidden="true" />

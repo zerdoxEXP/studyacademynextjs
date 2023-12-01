@@ -1,4 +1,4 @@
-import { CheckIcon } from '@heroicons/react/20/solid'
+import { CheckIcon, CheckBadgeIcon } from '@heroicons/react/24/solid'
 
 const features = [
   {
@@ -19,7 +19,7 @@ const features = [
 export default function Vorteile2() {
   return (
     <section>
-    <div className="bg-gray-50 dark:bg-slate-800 py-12 sm:py-16">
+    <div className="bg-gray-50 dark:bg-slate-800 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
@@ -40,7 +40,7 @@ export default function Vorteile2() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-9">
                 <dt className="text-lg font-semibold text-gray-900 dark:text-white">
-                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-blue-500" aria-hidden="true" />
+                  <CheckBadgeIcon className="absolute left-0 top-1 h-5 w-5 text-blue-500" aria-hidden="true" />
                   {feature.name}
                 </dt>
                 <dd className="mt-2">{feature.description}</dd>
