@@ -128,7 +128,7 @@ export default function Header() {
     <a
       key={item.name.toString()}
       href={item.href}
-      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-800"
+      className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-800"
     >
       {Array.isArray(item.name)
         ? item.name.map((part, index) => 
@@ -144,7 +144,7 @@ export default function Header() {
               <div className="py-6">
                 <a
                   href="http://studyacademy.circle.so/" target="_blank"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-medium leading-7 shadow-sm ring-1 ring-inset ring-gray-300 text-gray-900 hover:bg-gray-50 dark:ring-0 dark:text-white dark:hover:bg-gray-800 dark:bg-slate-800"
+                  className="block rounded-lg px-3 py-2.5 text-base font-medium leading-7 shadow-sm ring-1 ring-inset ring-gray-300 text-gray-900 hover:bg-gray-50 dark:ring-0 dark:text-white dark:hover:bg-gray-800 dark:bg-slate-800"
                 >
                   Anmelden
                 </a>
