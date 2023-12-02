@@ -8,7 +8,7 @@ const tiers = [
     more: '/lernsystem-basic',
     priceMonthly: '99€',
     description: 'Modi dolorem expedita deleniti. Corporis iste qui inventore pariatur adipisci vitae.',
-    features: ['5 products', 'Up to 1,000 subscribers', 'Basic analytics', '48-hour support response time'],
+    features: ['Modi dolorem', 'Modi dolorem', 'Modi dolorem', 'Modi dolorem'],
   },
   {
     name: 'Lernsystem Pro',
@@ -18,11 +18,11 @@ const tiers = [
     priceMonthly: '199€',
     description: 'Explicabo quo fugit vel facere ullam corrupti non dolores. Expedita eius sit sequi.',
     features: [
-      'Unlimited products',
-      'Unlimited subscribers',
-      'Advanced analytics',
-      '1-hour, dedicated support response time',
-      'Marketing automations',
+      'Explicabo quo fugit',
+      'Explicabo quo fugit',
+      'Explicabo quo fugit',
+      'Explicabo quo fugit',
+      'Explicabo quo fugit',
     ],
   },
 ]

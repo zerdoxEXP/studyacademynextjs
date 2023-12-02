@@ -56,7 +56,7 @@ export default function Pricing() {
                   Zugang kaufen
                 </a>
                 <p className="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-200">
-                  Invoices and receipts available for easy company reimbursement
+                Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet
                 </p>
               </div>
             </div>

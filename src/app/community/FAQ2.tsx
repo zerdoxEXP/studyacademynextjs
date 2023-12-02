@@ -45,11 +45,7 @@ const faqs = [
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
-              Have a different question and can’t find the answer you’re looking for? Reach out to our support team by{' '}
-              <a href="#" className="font-semibold text-blue-600 hover:text-blue-500">
-                sending us an email
-              </a>{' '}
-              and we’ll get back to you as soon as we can.
+            Du konntest die gesuchte Antwort nicht finden? Dann wende dich an unser Customer Support Team.
             </p>
           </div>
           <div className="mt-20">
