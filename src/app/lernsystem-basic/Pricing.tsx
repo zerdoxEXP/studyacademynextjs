@@ -62,6 +62,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
+        <p className="mt-16 dark:text-white text-center text-xl">P.S.: Für extrem ambitionierte Menschen haben wir auch unser <strong>Lernsystem</strong> Pro entwickelt - hier Link</p>
       </div>
     </div>
     </section>

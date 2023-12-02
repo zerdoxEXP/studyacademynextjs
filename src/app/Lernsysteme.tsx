@@ -32,7 +32,7 @@ export default function Lernsysteme() {
     <section>
       <div className="mx-auto max-w-7xl px-6 pb-32 text-center lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="font-caveat text-3xl font-medium leading-7 text-blue-600">Willst du endlich richtig durchstarten?</h2>
+          <h2 className="font-caveat text-2xl font-medium leading-7 text-blue-600 sm:text-4xl">Willst du richtig durchstarten?</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
             Wähle jetzt ein Lernsystem aus und beginne sofort!
           </p>
@@ -44,7 +44,7 @@ export default function Lernsysteme() {
           </p>
         </div>
       <div className="flow-root py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
               {tiers.map((tier) => (
                 <div

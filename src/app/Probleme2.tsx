@@ -51,7 +51,7 @@ export default function Probleme2() {
     <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="font-caveat text-4xl font-base leading-7 text-blue-600">Woran scheitern die meisten?</h2>
+          <h2 className="font-caveat text-2xl font-base leading-7 text-blue-600 sm:text-4xl">Woran scheitern die meisten?</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           Die 6 häufigsten Probleme beim Lernen
           </p>
