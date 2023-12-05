@@ -1,23 +1,23 @@
-import { InboxIcon, TrashIcon, UsersIcon } from '@heroicons/react/24/outline'
+import { BuildingLibraryIcon, HomeIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Studium - jedes Studienfach',
     description:
       'Ideal für Studierende, die ihre Lernfähigkeiten verbessern und Prüfungen mit Zuversicht bestehen möchten.',
-    icon: InboxIcon,
+    icon: BuildingLibraryIcon,
   },
   {
     name: 'Schule - höhere Klassenstufen',
     description:
       'Perfekt für Schüler, die nach effektiven Wegen suchen, Lerninhalte leichter und nachhaltiger zu verstehen und zu behalten.',
-    icon: UsersIcon,
+    icon: HomeIcon,
   },
   {
     name: 'Berufliche Weiterbildung',
     description:
       'Ein unverzichtbares Tool für jeden, der persönliche Bildungsziele erreichen möchte – unabhängig vom Bildungsstand.',
-    icon: TrashIcon,
+    icon: ComputerDesktopIcon,
   },
 ]
 

@@ -3,7 +3,7 @@ import Image from 'next/image';
 const products = [
   {
     id: 1,
-    name: 'Feature 1',
+    name: 'Mindmaps',
     href: '#',
     description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
     options: '8 colors',
@@ -12,7 +12,7 @@ const products = [
   },
   {
     id: 2,
-    name: 'Feature 2',
+    name: 'KI und ChatGPT effektiv nutzen',
     href: '#',
     description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
     options: 'Black',
@@ -21,7 +21,7 @@ const products = [
   },
   {
     id: 3,
-    name: 'Feature 3',
+    name: 'Optimale Lernumgebung',
     href: '#',
     description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
     options: 'Black',
@@ -30,7 +30,7 @@ const products = [
   },
   {
     id: 4,
-    name: 'Feature 4',
+    name: 'Zeitmanagement und Zielsetzung',
     href: '#',
     description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
     options: 'Black',
@@ -39,7 +39,7 @@ const products = [
   },
   {
     id: 5,
-    name: 'Feature 5',
+    name: 'Überwindung von Prokrastination und Lernblockaden',
     href: '#',
     description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
     options: 'Black',
@@ -48,7 +48,34 @@ const products = [
   },
   {
     id: 6,
-    name: 'Feature 6',
+    name: 'Gedächtnis verbessern',
+    href: '#',
+    description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
+    options: 'Black',
+    imageSrc: '/images/dark-project-app-screenshot-3.png',
+    imageAlt: 'Front of plain black t-shirt.',
+  },
+  {
+    id: 7,
+    name: 'Gamification beim Lernen',
+    href: '#',
+    description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
+    options: 'Black',
+    imageSrc: '/images/dark-project-app-screenshot-3.png',
+    imageAlt: 'Front of plain black t-shirt.',
+  },
+  {
+    id: 8,
+    name: 'Stressmanagement',
+    href: '#',
+    description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
+    options: 'Black',
+    imageSrc: '/images/dark-project-app-screenshot-3.png',
+    imageAlt: 'Front of plain black t-shirt.',
+  },
+  {
+    id: 9,
+    name: 'Lernpartnerschaften und Mentoring',
     href: '#',
     description: 'Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet.',
     options: 'Black',

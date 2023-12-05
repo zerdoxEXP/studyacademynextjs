@@ -38,7 +38,7 @@ const faqs = [
   
   export default function FAQ2() {
     return (
-      <div className="dark:bg-gray-900">
+      <div className="bg-gray-50 dark:bg-slate-800">
         <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
           <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
           <p className="mt-6 max-w-2xl text-xl leading-7 text-gray-600 dark:text-gray-400">
