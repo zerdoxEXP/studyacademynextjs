@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Lorem ipsum.',
+    name: 'Learn-Life-Balance ist wichtig.',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Höre auf Termine mit Freunden abzusagen und dich zu isolieren, nur weil eine Prüfung ansteht. Du kannst in Lernphasen trotzdem Spaß haben!',
     icon: ScaleIcon,
   },
 ]

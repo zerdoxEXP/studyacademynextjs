@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Lorem ipsum.',
+    name: 'Positive Motivation.',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Wir möchten dir zeigen, wie du unnötigen Stress vermeidest und stattdessen deine Energie nutzt um fokussiert zu lernen.',
     icon: FaceSmileIcon,
   },
 ]
@@ -19,8 +19,7 @@ export default function Feature3() {
             <div className="lg:max-w-lg">
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du bist weniger gestresst.</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+              Lernstress und Nervosität vor Prüfungen sind kein Muss! Sobald du die richtige Strategie an der Hand hast, wird die nächste Prüfungsphase ein Kinderspiel für dich!
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (

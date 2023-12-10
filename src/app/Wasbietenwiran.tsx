@@ -14,7 +14,7 @@ const posts = [
     {
         id: 2,
         product: 'Lernsystem Basic',
-        title: 'Das ist eine Beschreibung des Lernsystem Basic',
+        title: 'Du bekommst alle Lerntechniken gezeigt um Prüfungen zu bestehen.',
         href: '/lernsystem-basic',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
@@ -24,7 +24,7 @@ const posts = [
       {
         id: 3,
         product: 'Lernsystem Pro',
-        title: 'Das ist eine Beschreibung des Lernsystem Pro',
+        title: 'Dieses Lernsystem ist für alle, die zum Überflieger werden wollen.',
         href: '/lernsystem-pro',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',

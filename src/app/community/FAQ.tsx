@@ -9,7 +9,7 @@ const faqs = [
         id: 2,
         question: "Was kann ich tun, wenn ich nicht weiß, wo ich mit dem Lernen anfangen soll?",
         answer:
-          "Kein Problem! Erzähle uns einfach, worüber Du mehr erfahren möchtest oder in welchem Bereich Du Dich verbessern willst. Unsere Experten bieten Dir Orientierung und helfen Dir, den ersten Schritt auf Deinem Lernweg zu machen.",
+          "Kein Problem! Erzähle uns einfach, worüber Du mehr erfahren möchtest oder in welchem Bereich Du Dich verbessern willst. Unsere Experten bieten Dir Orientierung und helfen Dir, den ersten Schritt auf Deinem Lernweg zu machen."
       },
       {
         id: 3,
@@ -40,21 +40,28 @@ const faqs = [
   
   export default function FAQ() {
     return (
-      <section>
-        <div className="mx-auto max-w-7xl divide-y divide-gray-900/10 dark:divide-white/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-          <h2 className="text-3xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
-          <dl className="mt-10 space-y-8 divide-y divide-gray-900/10 dark:divide-white/10">
-            {faqs.map((faq) => (
-              <div key={faq.id} className="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-                <dt className="text-xl font-semibold leading-7 text-gray-900 dark:text-white lg:col-span-5">{faq.question}</dt>
-                <dd className="mt-4 lg:col-span-7 lg:mt-0">
-                  <p className="text-base leading-7 text-gray-600 dark:text-gray-400">{faq.answer}</p>
-                </dd>
-              </div>
-            ))}
-          </dl>
+    <section id="HaeufigeFragen">
+      <div className="bg-gray-50 dark:bg-slate-800">
+        <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
+            <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
+            Du konntest die gesuchte Antwort nicht finden? Dann wende dich an unser Customer Support Team.
+            </p>
+          </div>
+          <div className="mt-20">
+            <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10">
+              {faqs.map((faq) => (
+                <div key={faq.id}>
+                  <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-white">{faq.question}</dt>
+                  <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-400">{faq.answer}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
     )
   }
   

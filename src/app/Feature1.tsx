@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Lorem ipsum.',
+    name: 'Erfolge sind unausweichlich',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      '- Wenn du systematisch lernst und aufhörst planlos zu lernen, ist es leicht gute Ergebnisse zu erreichen und dich auf Prüfungsergebnisse zu freuen.',
     icon: TrophyIcon,
   },
 ]
@@ -17,7 +17,7 @@ export default function Feature1() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du hast bessere Ergebnisse.</p>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Deine Ergebnisse sind besser.</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               Durch die richtigen Lernmethoden, eine gute Struktur und einen perfekten Lernplan wird keine Prüfung zu schwer für dich! Wenn du weißt wie gutes Lernen funktioniert, folgen die sehr guten Ergebnisse von alleine.
               </p>
