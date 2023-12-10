@@ -8,7 +8,7 @@ const tiers = [
     more: '/lernsystem-basic',
     priceMonthly: '99€',
     description: 'Modi dolorem expedita deleniti. Corporis iste qui inventore pariatur adipisci vitae.',
-    features: ['Modi dolorem', 'Modi dolorem', 'Modi dolorem', 'Modi dolorem'],
+    features: ['4h Videomaterial', 'Die häufigsten Fehler beim lernen', 'Die effektivsten Lernmethoden', 'Die beste Lernsoftware', 'Dein eigenes Lerntemplate', 'minimaler Aufwand und maximale Ergebnisse' ],
   },
   {
     name: 'Lernsystem Pro',
@@ -18,11 +18,11 @@ const tiers = [
     priceMonthly: '199€',
     description: 'Explicabo quo fugit vel facere ullam corrupti non dolores. Expedita eius sit sequi.',
     features: [
-      'Explicabo quo fugit',
-      'Explicabo quo fugit',
-      'Explicabo quo fugit',
-      'Explicabo quo fugit',
-      'Explicabo quo fugit',
+      '15h Videomaterial',
+      'der gesamte Basic Teil',
+      'Community mit Fachbereichen und Experten',
+      'dein eigenes Lerndashboard',
+      'intensive und innovative Lernstrategien',
     ],
   },
 ]
@@ -39,8 +39,7 @@ export default function Lernsysteme() {
         </div>
         <div className="relative mt-6">
           <p className="mx-auto max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam eligendi quos odit doloribus
-            molestiae voluptatum.
+          Lasse deine Leistungen und deine Freizeit nicht länger auf der Strecke! Starte jetzt und hol dir deine Traumleistungen zurück.
           </p>
         </div>
       <div className="flow-root py-12 sm:py-16">

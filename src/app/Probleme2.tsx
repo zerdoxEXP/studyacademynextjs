@@ -2,9 +2,23 @@ import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon, ExclamationTriangleIco
 
 const features = [
   {
+    name: 'Falsche Selbsteinschätzung',
+    description:
+      'Der Mere Exposure Effekt beschreibt das Phänomen, dass wir denken wir haben Lernstoff aufgenommen und abgespeichert, weil wir ihn oft wiederholt haben. Dann sitzt man aber in der Prüfung und merkt, man kann nicht mehr auf das Wissen zurückgreifen!',
+    href: '#',
+    icon: ExclamationTriangleIcon,
+  },
+  {
     name: 'Überwältigung beim Lernstart',
     description:
-      'Viele Lernende fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen.',
+      'Viele Lernende fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen. Diese Unsicherheit sorgt dafür, dass unser Lernplan von Beginn an zum Scheitern verurteilt ist.',
+    href: '#',
+    icon: ExclamationTriangleIcon,
+  },
+  {
+    name: 'Falsche Lernmethoden falscher Kontext',
+    description:
+      'Es gibt hunderte Lernmethoden, aber nur die wenigsten schaffen es die richtige Methode für das richtige Thema anzuwenden! Dadurch verzweifeln die meisten schon beim Aufnehmen der Informationen.',
     href: '#',
     icon: ExclamationTriangleIcon,
   },
@@ -25,7 +39,7 @@ const features = [
   {
     name: 'Anwendung von Theorie in der Praxis',
     description:
-      'Es ist eine Sache, theoretisches Wissen zu erlangen, aber eine andere, dieses Wissen effektiv in praktischen Situationen anzuwenden.',
+      'Es ist eine Sache, theoretisches Wissen zu erlangen, aber eine andere, dieses Wissen auch effektiv anzuwenden.',
     href: '#',
     icon: ExclamationTriangleIcon,
   },

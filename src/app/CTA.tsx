@@ -8,8 +8,7 @@ export default function CTA() {
           Höre auf dich selbst zu sabotieren und werde zum Lern-Profi!
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-            commodo do ea.
+          &quot;Wenn ich 10 Stunden Zeit hätte einen Baum zu fällen, würde ich 9 Stunden davon die Axt schärfen.&quot; Du brauchst eine scharfe Lern-Axt! Einmal erworben, bleibt sie ein Leben lang.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

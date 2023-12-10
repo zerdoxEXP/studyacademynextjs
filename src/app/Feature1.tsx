@@ -19,8 +19,7 @@ export default function Feature1() {
             <div className="lg:max-w-lg">
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du hast bessere Ergebnisse.</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+              Durch die richtigen Lernmethoden, eine gute Struktur und einen perfekten Lernplan wird keine Prüfung zu schwer für dich! Wenn du weißt wie gutes Lernen funktioniert, folgen die sehr guten Ergebnisse von alleine.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (

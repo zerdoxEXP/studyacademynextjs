@@ -17,10 +17,9 @@ export default function Features2() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du bist weniger gestresst.</p>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du hast mehr Freizeit.</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+              Mit minimalem Aufwand schaffst du es maximale Ergebnisse zu erzielen. Das ermöglicht es dir das zu machen worauf du lust hast! Beginne wieder dein Leben zu genießen.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (
@@ -36,7 +35,7 @@ export default function Features2() {
             </div>
           </div>
           <Image
-            src="/images/weniger_gestresst.jpg"
+            src="/images/mehr-freizeit.jpg"
             alt="Student sitzt vor seinem Laptop und entspannt sich"
             className="rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width={2432}

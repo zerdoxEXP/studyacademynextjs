@@ -12,7 +12,7 @@ const features = [
     description: 'Wir glauben, dass Lernen am effektivsten ist, wenn es Freude bereitet, weshalb wir Methoden einsetzen, die Spaß und Motivation fördern, um eine positive und anregende Lernerfahrung zu schaffen.',
   },
   { name: 'Erfolg durch Wissen',
-    description: 'Wir glauben fest daran, dass durch den Erwerb von Wissen jeder Einzelne sein volles Potenzial erreichen und in seiner beruflichen und persönlichen Entwicklung erfolgreich sein kann.'
+    description: 'Wir glauben fest daran, dass die Fähigkeit des Lernens zu den wichtigsten Skills dieses Jahrhunderts gehört! Indem du schnell Wissen erwerben kannst, steht deinem Erfolg kaum etwas im Wege.'
   },
 ]
 

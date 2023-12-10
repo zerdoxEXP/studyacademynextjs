@@ -21,7 +21,7 @@ export default function Hero() {
               Wir helfen dir <span className="text-blue-600">effektiver zu lernen</span> mit unseren Lernsystemen.😎🤙
               </h1>
               <p className="mt-6 mx-auto max-w-4xl text-cente text-xl leading-8 text-gray-600 dark:text-gray-400">
-              Beginne jetzt Deine Reise zum effektiven und selbstsicheren Lernen – mit unserem innovativen Lernsystem wirst du in kurzer Zeit große Fortschritte machen.
+              Beginne jetzt Dein Leben zu verändern und werde zu einem selbstsicheren Lerner – mit unserem innovativen Lernsystem wirst du in kurzer Zeit große Fortschritte machen.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
