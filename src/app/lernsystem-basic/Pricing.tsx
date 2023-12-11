@@ -20,7 +20,7 @@ export default function Pricing() {
         </div>
         <div className="mx-auto mt-16 max-w-2xl rounded-3xl shadow-md ring-1 ring-gray-200 dark:bg-gray-400/5 dark:ring-white/10 dark:ring-opacity-40 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto">
-            <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lernsystem <span className="font-caveat text-3xl font-medium text-blue-600 dark:text-blue-500">Basic</span> - 20 Lektionen</h3>
+            <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lernsystem <span className="font-caveat text-3xl font-medium text-blue-600 dark:text-blue-500">Basic </span> - 57 Lektionen</h3>
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
               Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis
               repellendus etur quidem assumenda.
