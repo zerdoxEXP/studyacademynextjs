@@ -17,10 +17,9 @@ export default function Features2() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Lerninhalte strukturieren</p>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Lernblockaden vermeiden</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+                Du kannst den besten Lernplan und den höchsten IQ haben, wenn du dich ständig selbst sabotierst, wirst du scheitern. Wir geben dir nützliche Tipps um motiviert und strukturiert zu lernen, ohne Prokrastination.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (

@@ -24,7 +24,7 @@ const posts = [
       {
         id: 3,
         product: 'Lernsystem Pro',
-        title: 'Dieses Lernsystem ist für jeden, der zum Überflieger werden will.',
+        title: 'Dieses Lernsystem ist für jeden der zum Überflieger werden will.',
         href: '/lernsystem-pro',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',

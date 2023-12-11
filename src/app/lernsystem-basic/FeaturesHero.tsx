@@ -5,8 +5,7 @@ export default function InhaltIntro() {
           <p className="font-caveat text-4xl font-medium leading-7 text-blue-600 dark:text-blue-500">Lorem ipsum dolor sit</p>
           <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Was bekommst du alles?</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+            Du bekommst eine Vielzahl von Lerntechniken mit denen du deine Fähigkeiten optimal einsetzen kannst und die dazu dienen Wissen abzuspeichern für anstehende Prüfungen.
           </p>
         </div>
       </div>
