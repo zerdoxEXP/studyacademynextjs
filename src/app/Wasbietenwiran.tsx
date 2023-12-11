@@ -9,27 +9,27 @@ const posts = [
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       imageUrl:
-        '/images/female-student.jpg',
+        '/images/community-kostenlose-frage-stellen.jpg',
     },
     {
         id: 2,
         product: 'Lernsystem Basic',
-        title: 'Du bekommst alle Lerntechniken gezeigt um Prüfungen zu bestehen.',
+        title: 'Mit diesen Lerntechniken wirst du Prüfungen sicher bestehen.',
         href: '/lernsystem-basic',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
-          '/images/happy-students.jpg',
+          '/images/muster-mockup-kurs4.jpg',
       },
       {
         id: 3,
         product: 'Lernsystem Pro',
-        title: 'Dieses Lernsystem ist für alle, die zum Überflieger werden wollen.',
+        title: 'Dieses Lernsystem ist für jeden, der zum Überflieger werden will.',
         href: '/lernsystem-pro',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
-          '/images/laptop-mockup.jpg',
+          '/images/muster-mockup-kurs-pro.jpg',
       },
     // More posts...
   ]
