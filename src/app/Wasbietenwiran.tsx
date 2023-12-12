@@ -56,9 +56,7 @@ const posts = [
                 className="absolute inset-0 -z-10 h-full w-full bg-white dark:bg-gray-900 overflow-hidden object-cover rounded-2xl"
                 width={768}
                 height={800}
-                />
-                <div className="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-t from-gray-900 via-gray-900/40" />
-  
+                />  
                 <div className="flex flex-row gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
                   <p className="text-3xl font-semibold text-white mr-8">{post.product}</p>
                 </div>

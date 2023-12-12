@@ -35,16 +35,8 @@ export default function Features4() {
             </div>
           </div>
           <Image
-            src="/images/project-app-screenshot-3.png"
-            alt="Product screenshot"
-            className="rounded-xl shadow-xl ring-1 ring-gray-400/10 block dark:hidden"
-            width={2432}
-            height={1442}
-          />
-          <Image
-            src="/images/dark-project-app-screenshot-3.png"
-            alt="Product screenshot"
-            className="rounded-xl shadow-xl ring-1 ring-gray-400/10 hidden dark:block"
+            src="/images/lerninhalte-strukturieren.png"
+            alt="Lerninhalte Strukturieren"
             width={2432}
             height={1442}
           />

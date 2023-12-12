@@ -17,7 +17,7 @@ export default function Features2() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Lernblockaden vermeiden</p>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Lernblockaden entfernen</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
                 Du kannst den besten Lernplan und den höchsten IQ haben, wenn du dich ständig selbst sabotierst, wirst du scheitern. Wir geben dir nützliche Tipps um motiviert und strukturiert zu lernen, ohne Prokrastination.
               </p>
@@ -35,16 +35,16 @@ export default function Features2() {
             </div>
           </div>
           <Image
-            src="/images/project-app-screenshot-3.png"
-            alt="Product screenshot"
-            className="rounded-xl shadow-xl ring-1 ring-gray-400/10 block dark:hidden"
+            src="/images/lernblockaden-entfernen.png"
+            alt="Lernblockaden vermeiden"
+            className="block dark:hidden"
             width={2432}
             height={1442}
           />
           <Image
-            src="/images/dark-project-app-screenshot-3.png"
-            alt="Product screenshot"
-            className="rounded-xl shadow-xl ring-1 ring-gray-400/10 hidden dark:block"
+            src="/images/lernblockaden-entfernen-dark.png"
+            alt="Lernblockaden vermeiden"
+            className="hidden dark:block"
             width={2432}
             height={1442}
           />
