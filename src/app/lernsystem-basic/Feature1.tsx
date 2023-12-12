@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Active Retrieval.',
+    name: 'Dein individueller Lernstil.',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Alle Lernmethoden sind darauf ausgelegt schnell Resultate zu erzielen. Am besten kombinierst du die für dich passenden Techniken einfach.',
     icon: CloudArrowUpIcon,
   },
 ]
@@ -19,7 +19,7 @@ export default function Feature1() {
             <div className="lg:max-w-lg">
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Effektive Lernmethoden</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Du bekommst mehr als nur einen stumpfen Ablaufplan. Wir zeigen dir wissenschaftlich erforschte Lernmethoden.
+                Du bekommst mehr als nur einen stumpfen Ablaufplan. Wir zeigen dir wissenschaftlich erforschte Lernmethoden die in der praktischen Anwendung funktionieren.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (
@@ -36,16 +36,16 @@ export default function Feature1() {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <Image
-              src="/images/project-app-screenshot-3.png"
-              alt="Product screenshot"
-              className="rounded-xl shadow-xl ring-1 ring-gray-400/10 block dark:hidden"
+              src="/images/rocket-book-light.png"
+              alt="Effektive Lernmethoden"
+              className="block dark:hidden"
               width={2432}
               height={1442}
             />
             <Image
-              src="/images/dark-project-app-screenshot-3.png"
-              alt="Product screenshot"
-              className="rounded-xl shadow-xl ring-1 ring-gray-400/10 hidden dark:block"
+              src="/images/rocket-book-dark.png"
+              alt="Effektive Lernmethoden"
+              className="hidden dark:block"
               width={2432}
               height={1442}
             />
