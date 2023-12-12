@@ -8,7 +8,7 @@ const tiers = [
     more: '/lernsystem-basic',
     priceMonthly: '99€',
     description: 'Modi dolorem expedita deleniti. Corporis iste qui inventore pariatur adipisci vitae.',
-    features: ['4h Videomaterial', 'Die häufigsten Fehler beim lernen', 'Die effektivsten Lernmethoden', 'Die beste Lernsoftware', 'Dein eigenes Lerntemplate', 'minimaler Aufwand und maximale Ergebnisse' ],
+    features: ['4h Videomaterial', 'Die häufigsten Fehler beim Lernen', 'Die effektivsten Lernmethoden', 'Die beste Lernsoftware', 'Dein eigenes Lerntemplate', 'Minimaler Aufwand - maximale Ergebnisse' ],
   },
   {
     name: 'Lernsystem Pro',
@@ -19,10 +19,10 @@ const tiers = [
     description: 'Explicabo quo fugit vel facere ullam corrupti non dolores. Expedita eius sit sequi.',
     features: [
       '15h Videomaterial',
-      'der gesamte Basic Teil',
+      'Der gesamte Basic Teil',
       'Community mit Fachbereichen und Experten',
-      'dein eigenes Lerndashboard',
-      'intensive und innovative Lernstrategien',
+      'Dein eigenes Lerndashboard',
+      'Intensive & innovative Lernstrategien',
     ],
   },
 ]
