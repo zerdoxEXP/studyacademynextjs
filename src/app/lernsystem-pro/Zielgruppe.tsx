@@ -1,4 +1,4 @@
-import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon, ExclamationTriangleIcon, CheckBadgeIcon } from '@heroicons/react/24/solid'
 
 const features = [
   {
@@ -6,21 +6,21 @@ const features = [
     description:
       'Viele Lernende fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen.',
     href: '#',
-    icon: ExclamationTriangleIcon,
+    icon: CheckBadgeIcon,
   },
   {
-    name: 'Du hast extrem großen Ehrgeiz.',
+    name: 'Du hast sehr großen Ehrgeiz.',
     description:
       'Ein häufiges Hindernis beim Lernen ist die Schwierigkeit, sich über längere Zeit zu konzentrieren, was zu ineffektivem Lernen führt.',
     href: '#',
-    icon: ExclamationTriangleIcon,
+    icon: CheckBadgeIcon,
   },
   {
     name: 'Du bist ein Perfektionist.',
     description:
       'Viele Lernende haben Probleme damit, Informationen langfristig zu speichern, was besonders bei komplexen Themen zu Herausforderungen führt.',
     href: '#',
-    icon: ExclamationTriangleIcon,
+    icon: CheckBadgeIcon,
   },
 ]
 
@@ -40,7 +40,7 @@ export default function Probleme2() {
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col bg-gray-50 dark:bg-slate-800 p-6 rounded-xl ring-1 ring-gray-200 dark:ring-0">
                 <dt className="flex items-center gap-x-3 text-xl font-semibold leading-7 text-gray-900 dark:text-white">
-                  <feature.icon className="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
+                  <feature.icon className="h-5 w-5 flex-none text-teal-600" aria-hidden="true" />
                   {feature.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400">

@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-6xl text-center">
-              <p className="text-2xl mb-2 font-caveat leading-8 tracking-tight text-blue-600 sm:text-4xl">Schneller, effektiver und leichter Lernen.</p>
+              <p className="text-2xl mb-2 font-caveat leading-8 tracking-tight text-blue-600 sm:text-4xl">Prüfungen bestehen ist einfach, wirklich.</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Du willst Prüfungen sicher bestehen? Im Lernsystem <span className="text-5xl font-caveat font-medium leading-8 tracking-tight text-blue-600 sm:text-7xl">Basic</span> lernst du alles was du dazu brauchst.
               </h1>
