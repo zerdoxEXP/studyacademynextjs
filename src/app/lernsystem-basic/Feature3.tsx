@@ -36,14 +36,14 @@ export default function Feature3() {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <Image
-              src="/images/behalten-von-informationen.png"
+              src="/images/behalten-von-informationen-light.png"
               alt="Behalten von Informationen"
               className="block dark:hidden"
               width={2432}
               height={1442}
             />
             <Image
-              src="/images/behalten-von-informationen.png"
+              src="/images/behalten-von-informationen-dark.png"
               alt="Behalten von Informationen"
               className="hidden dark:block"
               width={2432}
