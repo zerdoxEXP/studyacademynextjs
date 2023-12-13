@@ -1,12 +1,12 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, RocketLaunchIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image';
 
 const features = [
   {
-    name: 'Dein individueller Lernstil.',
+    name: 'Dein individueller Lernstil:',
     description:
       'Alle Lernmethoden sind darauf ausgelegt schnell Resultate zu erzielen. Am besten kombinierst du die für dich passenden Techniken einfach.',
-    icon: CloudArrowUpIcon,
+    icon: RocketLaunchIcon,
   },
 ]
 

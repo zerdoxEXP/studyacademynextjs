@@ -1,12 +1,12 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, QueueListIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image';
 
 const features = [
   {
-    name: 'Lorem ipsum.',
+    name: 'Überblick verschaffen:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CloudArrowUpIcon,
+      'Anstatt einen rießen Knäuel von Informationen vor dir zu haben, teilst du die Inhalte in kleinere Teile ein. Du wirst dadurch viel unnötiges Chaos vermeiden.',
+    icon: QueueListIcon,
   },
 ]
 
@@ -17,9 +17,9 @@ export default function Features2() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Lernblockaden entfernen</p>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Inhalte strukturieren</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Du kannst den besten Lernplan und den höchsten IQ haben, wenn du dich ständig selbst sabotierst, wirst du scheitern. Wir geben dir nützliche Tipps um motiviert und strukturiert zu lernen, ohne Prokrastination.
+                Um effektiv lernen zu können, muss du deine Inhalte strukturieren bevor du anfängst. Dann wirst du in der Lage sein dir jedes noch so schwere Thema selbst beizubringen.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (
@@ -35,16 +35,8 @@ export default function Features2() {
             </div>
           </div>
           <Image
-            src="/images/lernblockaden-entfernen.png"
-            alt="Lernblockaden vermeiden"
-            className="block dark:hidden"
-            width={2432}
-            height={1442}
-          />
-          <Image
-            src="/images/lernblockaden-entfernen-dark.png"
-            alt="Lernblockaden vermeiden"
-            className="hidden dark:block"
+            src="/images/lerninhalte-strukturieren.png"
+            alt="Lerninhalte Strukturieren"
             width={2432}
             height={1442}
           />

@@ -1,12 +1,12 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, InboxArrowDownIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image';
 
 const features = [
   {
-    name: 'Lorem ipsum.',
+    name: 'Hirnfähigkeit effektiv nutzen:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CloudArrowUpIcon,
+      'Es ist wichtig Informationen optimal abzuspeichern um sie in der Prüfung direkt abrufbar zu haben. Du bekommst Techniken, die genau das fördern.',
+    icon: InboxArrowDownIcon,
   },
 ]
 
@@ -36,16 +36,16 @@ export default function Feature3() {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <Image
-              src="/images/project-app-screenshot-3.png"
-              alt="Product screenshot"
-              className="rounded-xl shadow-xl ring-1 ring-gray-400/10 block dark:hidden"
+              src="/images/behalten-von-informationen.png"
+              alt="Behalten von Informationen"
+              className="block dark:hidden"
               width={2432}
               height={1442}
             />
             <Image
-              src="/images/dark-project-app-screenshot-3.png"
-              alt="Product screenshot"
-              className="rounded-xl shadow-xl ring-1 ring-gray-400/10 hidden dark:block"
+              src="/images/behalten-von-informationen.png"
+              alt="Behalten von Informationen"
+              className="hidden dark:block"
               width={2432}
               height={1442}
             />
