@@ -59,7 +59,8 @@ const features = [
 
 export default function Anwendungsbereiche() {
   return (
-    <section className="bg-gray-50 dark:bg-slate-800 py-24 sm:py-32">
+  <section id="Anwendungsbereiche">
+    <div className="bg-gray-50 dark:bg-slate-800 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="font-caveat text-3xl leading-7 text-blue-600">Vielfältig einsetzbar...</h2>
@@ -87,6 +88,7 @@ export default function Anwendungsbereiche() {
           </dl>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   )
 }

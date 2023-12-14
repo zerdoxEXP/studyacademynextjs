@@ -12,7 +12,7 @@ const navigation = [
 export default function Hero() {
 
   return (
-    <section>
+    <section id="Hero">
       <div className="relative isolate">
         <div className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl pt-20 px-6 lg:px-8">

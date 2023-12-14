@@ -9,14 +9,14 @@ const navigation = {
     lernsystembasic: [
       { name: 'Community Fragen', href: '/community#CommunityFragen' },
       { name: 'Wobei helfen wir?', href: '/community#WobeiHelfenWir' },
-      { name: 'Frage stellen', href: '#' },
+      { name: 'Frage stellen', href: '/community#FrageStellen' },
     ],
     company: [
-      { name: 'Übersicht', href: '#' },
-      { name: 'Inhalte', href: '#' },
-      { name: 'Vorteile', href: '#' },
-      { name: 'Für wen geeignet?', href: '#' },
-      { name: 'Preis', href: '#' },
+      { name: 'Übersicht', href: '/lernsystem-basic#Übersicht' },
+      { name: 'Inhalte', href: '/lernsystem-basic#Inhalte' },
+      { name: 'Vorteile', href: '/lernsystem-basic#Vorteile' },
+      { name: 'Für wen geeignet?', href: '/lernsystem-basic#FuerWenGeeignet' },
+      { name: 'Preis', href: '/lernsystem-basic#Preis' },
     ],
     legal: [
       { name: 'Übersicht', href: '#' },

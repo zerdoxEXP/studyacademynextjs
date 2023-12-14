@@ -1,14 +1,11 @@
 import Image from 'next/image'
 import Hero from './Hero';
-import Features from './Features';
-import CTA from './CTA';
-import Vorteile2 from './Vorteile2';
 import Wasbietenwiran from './Wasbietenwiran';
-import Probleme2 from './Probleme2';
-import Probleme from './Probleme';
-import Lernsystem from './Lernsystem';
-import Mission from './Mission';
+import Features from './Features';
 import Lernsysteme from './Lernsysteme';
+import Vorteile from './Vorteile';
+import Probleme from './Probleme';
+import CTA from './CTA';
 import Anwendungsbereiche from './Anwendungsbereiche';
 
 export default function Home() {
@@ -18,8 +15,8 @@ export default function Home() {
       <Wasbietenwiran />
       <Features />
       <Lernsysteme />
-      <Vorteile2 />
-      <Probleme2 />
+      <Vorteile />
+      <Probleme />
       <CTA />
       <Anwendungsbereiche />
     </main>
