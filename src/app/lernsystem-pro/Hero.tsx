@@ -39,19 +39,19 @@ export default function Hero() {
             <div className="mt-16 flow-root sm:mt-24">
               <div className="-m-2 rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl">
                 <Image
-                  src="/images/lernsystem-basic-screenshot-light.jpg"
+                  src="/images/lernsystem-pro-screenshot-light.jpg"
                   alt="Lernsystem Pro"
                   width={2432}
                   height={1442}
-                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10 block dark:hidden"
+                  className="rounded-md block dark:hidden"
                   priority
                 />
                 <Image
-                  src="/images/lernsystem-basic-screenshot-dark.jpg"
+                  src="/images/lernsystem-pro-screenshot-dark.jpg"
                   alt="Lernsystem Pro"
                   width={2432}
                   height={1442}
-                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10 hidden dark:block"
+                  className="rounded-md hidden dark:block"
                   priority
                 />
               </div>

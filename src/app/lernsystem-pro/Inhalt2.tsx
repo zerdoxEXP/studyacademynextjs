@@ -97,7 +97,7 @@ export default function Example() {
               key={product.id}
               className="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-gray-50 dark:border-none dark:bg-slate-800"
             >
-              <div className="aspect-h-9 aspect-w-16 bg-gray-200 sm:aspect-none group-hover:opacity-75 sm:h-60">
+              <div className="aspect-h-9 aspect-w-16 sm:aspect-none sm:h-60">
                 <Image
                   src={product.imageSrc}
                   alt={product.imageAlt}
