@@ -7,7 +7,7 @@ const products = [
     href: '#',
     description: 'Visuelle Darstellungen erleichtern dir das Erfassen komplexer Informationen und fördern das assoziative Denken.',
     options: '8 colors',
-    imageSrc: '/images/mindmap.jpg',
+    imageSrc: '/images/pro/1.jpg',
     imageAlt: 'Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.',
   },
   {
@@ -16,7 +16,7 @@ const products = [
     href: '#',
     description: 'Mit der Integration von KI-Tools in deinen Lernprozess, kannst du die Effizienz des Lernvorgangs enorm verbessern.',
     options: 'Black',
-    imageSrc: '/images/kuenstliche-intelligenz.jpg',
+    imageSrc: '/images/pro/2.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   {
@@ -25,7 +25,7 @@ const products = [
     href: '#',
     description: 'Du kannst alleine durch deine Lernumgebung deine Konzentration und Motivation steigern.',
     options: 'Black',
-    imageSrc: '/images/optimale-lernumgebung.jpg',
+    imageSrc: '/images/pro/3.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   {
@@ -34,7 +34,7 @@ const products = [
     href: '#',
     description: 'Strukturierte Zeitpläne und klare Ziele erhöhen deine Produktivität und den Lernerfolg.',
     options: 'Black',
-    imageSrc: '/images/smart-goals.jpg',
+    imageSrc: '/images/pro/4.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   {
@@ -43,7 +43,7 @@ const products = [
     href: '#',
     description: 'Techniken zur Selbstmotivation reduzieren dein Aufschiebeverhalten und erhöhen den Lernfluss.',
     options: 'Black',
-    imageSrc: '/images/prokrastination.jpg',
+    imageSrc: '/images/pro/5.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   {
@@ -52,7 +52,7 @@ const products = [
     href: '#',
     description: 'Gezieltes Gedächtnistraining stärkt die Informationsaufnahme und sorgt für langfristiges Wissen.',
     options: 'Black',
-    imageSrc: '/images/gedaechtnis-verbessern.jpg',
+    imageSrc: '/images/pro/6.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   {
@@ -61,7 +61,7 @@ const products = [
     href: '#',
     description: 'Spielerische Elemente in Lernprozessen steigern Motivation und den Spaß am Lernen.',
     options: 'Black',
-    imageSrc: '/images/gamification.jpg',
+    imageSrc: '/images/pro/7.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   {
@@ -70,7 +70,7 @@ const products = [
     href: '#',
     description: 'Effektive Stressbewältigung fördet deinen Fokus und verhindert Erschöpfung beim Lernen.',
     options: 'Black',
-    imageSrc: '/images/stressmanagement.jpg',
+    imageSrc: '/images/pro/8.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   {
@@ -79,7 +79,7 @@ const products = [
     href: '#',
     description: 'Gemeinsames Lernen und das Anleiten durch Mentoren vertiefen dein Verständnis und deine Fähigkeiten.',
     options: 'Black',
-    imageSrc: '/images/lernpartnerschaften.jpg',
+    imageSrc: '/images/pro/9.jpg',
     imageAlt: 'Front of plain black t-shirt.',
   },
   // More products...
