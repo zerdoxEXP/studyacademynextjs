@@ -1,14 +1,11 @@
 import Image from 'next/image'
 import Hero from './Hero'
 import Features from './Features'
-import Vorteile2 from './Vorteile2'
-import FuerWen2 from './FuerWen2'
 import Vorteile from './Vorteile'
-import Stats from './Stats'
+import FuerWen from './FuerWen'
 import CTA from './CTA'
-import Preise from './Preise'
 import Pricing from './Pricing'
-import FAQ2 from './FAQ2'
+import FAQ from './FAQ'
 
 export default function Lernsystem() {
   return (
@@ -16,10 +13,10 @@ export default function Lernsystem() {
       <Hero />
       <Features />
       <CTA />
-      <Vorteile2 />
-      <FuerWen2 />
+      <Vorteile />
+      <FuerWen />
       <Pricing />
-      <FAQ2 />
+      <FAQ />
     </main>
   )
 }

@@ -7,7 +7,7 @@ import Feature4 from './Feature4'
 
 export default function Features() {
   return (
-    <section>
+    <section id="Inhalte">
       <FeaturesHero />
       <Feature1 />
       <Feature2 />

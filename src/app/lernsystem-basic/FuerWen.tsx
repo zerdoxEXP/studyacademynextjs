@@ -1,58 +1,59 @@
-import Image from 'next/image';
+import { BuildingLibraryIcon, HomeIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline'
 
-const incentives = [
-    {
-      name: 'Studium - jedes Studienfach',
-      description: "Ideal für Studierende, die ihre Lernfähigkeiten verbessern und Prüfungen mit Zuversicht bestehen möchten.",
-      imageSrc: '/icons/Platzhalter.png',
-    },
-    {
-      name: 'Schule - höhere Klassenschufen',
-      description: 'Perfekt für Schüler, die nach effektiven Wegen suchen, Lerninhalte leichter und nachhaltiger zu verstehen und zu behalten.',
-      imageSrc: '/icons/Platzhalter.png',
-    },
-    {
-      name: 'Berufliche Weiterbildung',
-      description: "Ein unverzichtbares Tool für jeden, der persönliche Bildungsziele erreichen möchte – unabhängig vom Bildungsstand.",
-      imageSrc: '/icons/Platzhalter.png',
-    },
-  ]
-  
-  export default function FuerWen() {
-    return (
-      <section>
+const features = [
+  {
+    name: 'Studium - jedes Studienfach',
+    description:
+      'Ideal für Studierende, die ihre Lernfähigkeiten verbessern und Prüfungen mit Zuversicht bestehen möchten.',
+    icon: BuildingLibraryIcon,
+  },
+  {
+    name: 'Schule - höhere Klassenstufen',
+    description:
+      'Perfekt für Schüler, die nach effektiven Wegen suchen, Lerninhalte leichter und nachhaltiger zu verstehen und zu behalten.',
+    icon: HomeIcon,
+  },
+  {
+    name: 'Berufliche Weiterbildung',
+    description:
+      'Ein unverzichtbares Tool für jeden, der persönliche Bildungsziele erreichen möchte – unabhängig vom Bildungsstand.',
+    icon: ComputerDesktopIcon,
+  },
+]
+
+export default function FuerWen() {
+  return (
+    <section id="FuerWenGeeignet">
+    <div className="pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-xl mb-8 md:mb-12 lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-          Wo kannst du die Methoden am besten einsetzen?
-          </p>
+        <div className="mx-auto max-w-2xl lg:mx-0">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+          Wo kannst du die Methoden einsetzen?
+          </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
+            accusamus quisquam.
           </p>
         </div>
-          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 px-4 lg:max-w-none lg:grid-cols-3">
-            {incentives.map((incentive) => (
-              <div key={incentive.name} className="text-center sm:flex sm:text-left lg:block lg:text-center">
-                <div className="sm:flex-shrink-0">
-                  <div className="flow-root">
-                    <Image
-                    width={96}
-                    height={112}
-                    className="mx-auto h-24 w-24"
-                    src={incentive.imageSrc}
-                    alt="" />
+        <div className="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-none">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            {features.map((feature) => (
+              <div key={feature.name} className="flex flex-col ring-1 ring-gray-200 bg-gray-50 dark:bg-slate-800 p-8 rounded-3xl shadow dark:ring-0">
+                <dt className="text-xl font-semibold leading-7 text-gray-900 dark:text-white">
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 dark:bg-blue-950 border shadow shadow-blue-100/50 dark:shadow-blue-950/50 border-blue-100 dark:border-blue-500/30">
+                    <feature.icon className="h-6 w-6 text-blue-600" aria-hidden="true" />
                   </div>
-                </div>
-                <div className="mt-3 sm:ml-3 sm:mt-0 lg:ml-0 lg:mt-3">
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">{incentive.name}</h3>
-                  <p className="mt-2 text-base text-gray-500 dark:text-gray-400">{incentive.description}</p>
-                </div>
+                  {feature.name}
+                </dt>
+                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400">
+                  <p className="flex-auto">{feature.description}</p>
+                </dd>
               </div>
             ))}
-          </div>
+          </dl>
         </div>
-      </section>
-    )
-  }
-  
+      </div>
+    </div>
+    </section>
+  )
+}

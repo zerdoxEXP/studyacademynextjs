@@ -12,7 +12,7 @@ const navigation = [
 export default function Hero() {
 
   return (
-    <section>
+    <section id="Übersicht">
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-6xl text-center">
