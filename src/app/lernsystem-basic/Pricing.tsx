@@ -1,8 +1,8 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 
 const includedFeatures = [
-  '3 Module',
-  '20 Lektionen',
+  '7 Module',
+  '57 Lektionen',
   '43 Lernvorlagen',
   '100% Mehrwert',
 ]
@@ -12,10 +12,10 @@ export default function Pricing() {
     <section id="Preis">
     <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Erlebe, wie einfach Lernen sein kann...</h2>
+        <div className="mx-auto max-w-3xl sm:text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du wirst nie wieder Probleme haben Neues zu lernen mit diesem System.</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-          Nutze die Gelegenheit, um dein Lernenverhalten für immer zu transformieren und sichere dir jetzt das Lernsystem Basic!
+          Du hast jetzt die Möglichkeit dein Leben für immer zu verändern und über dich hinaus zu wachsen. Nutzt du deine Chance oder nicht?
           </p>
         </div>
         <div className="mx-auto mt-8 max-w-2xl rounded-3xl shadow-md ring-1 ring-gray-200 dark:bg-gray-400/5 dark:ring-white/10 dark:ring-opacity-40 sm:mt-12 lg:mx-0 lg:flex lg:max-w-none">
@@ -46,23 +46,23 @@ export default function Pricing() {
               <div className="mx-auto max-w-xs px-8">
                 <p className="text-base font-semibold text-gray-600 dark:text-gray-200">Einmalig oder per Ratenzahlung</p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight text-gray-900 dark:text-white">99€</span>
-                  <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-200">(3 Raten à 35€)</span>
+                  <span className="text-5xl font-bold tracking-tight text-gray-900 dark:text-white">3x33€</span>
+                  <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-200">inkl. Mwst.</span>
                 </p>
                 <a
                   href="#"
-                  className="mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                  className="mt-10 block w-full rounded-md bg-blue-600 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
                   Zugang kaufen
                 </a>
                 <p className="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-200">
-                Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet
+                Sofort verfügbar & starten
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <p className="mt-16 dark:text-white text-center text-xl">P.S.: Für extrem ambitionierte Menschen haben wir auch unser <strong>Lernsystem</strong> Pro entwickelt - hier Link</p>
+        <p className="mt-16 text-gray-600 dark:text-gray-400 text-center text-xl">P.S.: Für extrem ambitionierte Menschen haben wir auch unser <a href="/lernsystem-pro" class="font-bold underline hover:no-underline decoration-dashed underline-offset-8 text-white">Lernsystem <span className="font-caveat text-2xl text-teal-600 dark:text-teal-500">Pro </span></a> entwickelt.</p>
       </div>
     </div>
     </section>

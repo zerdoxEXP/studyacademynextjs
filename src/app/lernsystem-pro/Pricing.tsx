@@ -10,7 +10,7 @@ const includedFeatures = [
 export default function Pricing() {
   return (
   <section id="Preis">
-    <div className="pb-24 sm:pb-32">
+    <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Erlebe, wie einfach Lernen sein kann...</h2>
@@ -51,7 +51,7 @@ export default function Pricing() {
                 </p>
                 <a
                   href="#"
-                  className="mt-10 block w-full rounded-md bg-teal-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
+                  className="mt-10 block w-full rounded-md bg-teal-600 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
                 >
                   Zugang kaufen
                 </a>

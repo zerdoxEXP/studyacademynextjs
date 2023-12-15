@@ -8,7 +8,6 @@ const stats = [
   export default function Stats() {
     return (
     <section id="Umfang">
-      <div className="pb-24 sm:pb-32">
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="text-center">
@@ -28,7 +27,6 @@ const stats = [
               ))}
             </dl>
           </div>
-        </div>
         </div>
       </section>
     )

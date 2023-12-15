@@ -1,6 +1,6 @@
 export default function Inhalt1() {
     return (
-    <div className="mx-auto max-w-md text-center py-14">
+    <div className="mx-auto max-w-md text-center py-14 px-4">
       <div
         className="relative block w-full rounded-lg border-2 border-dashed border-gray-300 p-12 text-center hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
       >

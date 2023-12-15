@@ -26,12 +26,12 @@ export default function Hero() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-              href="#preise"
+              href="#Preis"
               className="rounded-md bg-teal-600 dark:bg-teal-500 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
             >
               Jetzt sichern
             </a>
-                <a href="#stats" className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">
+                <a href="#Zielgruppe" className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">
                   Mehr erfahren <span aria-hidden="true">→</span>
                 </a>
               </div>

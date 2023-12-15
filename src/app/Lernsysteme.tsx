@@ -7,7 +7,7 @@ const tiers = [
     href: '/kaufen',
     more: '/lernsystem-basic',
     priceMonthly: '99€',
-    description: 'Modi dolorem expedita deleniti. Corporis iste qui inventore pariatur adipisci vitae.',
+    description: 'Alle Grundlagen über das Lernen und die praktische Anwendung unseres eigenen Lernsystems.',
     features: ['4h Videomaterial', 'Die häufigsten Fehler beim Lernen', 'Die effektivsten Lernmethoden', 'Die beste Lernsoftware', 'Dein eigenes Lerntemplate', 'Minimaler Aufwand - maximale Ergebnisse' ],
   },
   {
@@ -16,7 +16,7 @@ const tiers = [
     href: '/kaufen',
     more: '/lernsystem-pro',
     priceMonthly: '199€',
-    description: 'Explicabo quo fugit vel facere ullam corrupti non dolores. Expedita eius sit sequi.',
+    description: 'Du erhältst das Lernsystem Basic und gleichzeitig noch fortgeschrittene Techniken um zum Elite-Lerner zu werden.',
     features: [
       '15h Videomaterial',
       'Der gesamte Basic Teil',
@@ -39,7 +39,7 @@ export default function Lernsysteme() {
         </div>
         <div className="relative mt-6">
           <p className="mx-auto max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-          Lasse deine Leistungen und deine Freizeit nicht länger auf der Strecke! Starte jetzt und hol dir deine Traumleistungen zurück.
+          Du kannst gleichzeitig Prüfungen bestehen und dein Leben genießen, wenn du unsere Methoden anwendest. Geballtes Wissen zur sofortigen Anwendung.
           </p>
         </div>
       <div className="flow-root py-12 sm:py-16">
