@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="mt-16 flow-root sm:mt-24">
               <div className="-m-2 rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl">
                 <Image
-                  src="/images/lernsystem-basic-screenshot-light.jpg"
+                  src="/images/basic/lernsystem-basic-screenshot-light.jpg"
                   alt="Lernsystem Basic Screenshot Screenshot"
                   width={2432}
                   height={1442}
@@ -46,7 +46,7 @@ export default function Hero() {
                   priority
                 />
                 <Image
-                  src="/images/lernsystem-basic-screenshot-dark.jpg"
+                  src="/images/basic/lernsystem-basic-screenshot-dark.jpg"
                   alt="Lernsystem Basic Screenshot Screenshot"
                   width={2432}
                   height={1442}

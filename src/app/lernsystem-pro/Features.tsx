@@ -6,7 +6,7 @@ import Feature3 from './Feature3'
 
 export default function Features() {
   return (
-    <section>
+    <section id="CommunityBereiche">
       <FeaturesHero />
       <Feature1 />
       <Feature2 />

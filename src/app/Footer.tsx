@@ -19,11 +19,13 @@ const navigation = {
       { name: 'Preis', href: '/lernsystem-basic#Preis' },
     ],
     legal: [
-      { name: 'Übersicht', href: '#' },
-      { name: 'Inhalte', href: '#' },
-      { name: 'Vorteile', href: '#' },
-      { name: 'Für wen geeignet?', href: '#' },
-      { name: 'Preis', href: '#' },
+      { name: 'Übersicht', href: '/lernsystem-pro#Übersicht' },
+      { name: 'Zielgruppe', href: '/lernsystem-pro#Zielgruppe' },
+      { name: 'Inhalte', href: '/lernsystem-pro#Inhalte' },
+      { name: 'Umfang', href: '/lernsystem-pro#Umfang' },
+      { name: 'Preis', href: '/lernsystem-pro#Preis' },
+      { name: 'Community Bereiche', href: '/lernsystem-pro#CommunityBereiche' },
+      { name: 'Häufige Fragen', href: '/lernsystem-pro#HäufigeFragen' },
     ],
   }
   

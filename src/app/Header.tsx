@@ -4,6 +4,8 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import LightLogo from './LightLogo';
+import DarkLogo from './DarkLogo';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -45,20 +47,12 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Zerdox Experience</span>
-            <Image
-             src="/Study-Academy-Logo-light.svg"
-             width={220}
-            height={31}
-            alt="Study Academy Logo"
-            className="hidden dark:block"
-             />
-            <Image
-             src="/Study-Academy-Logo.svg"
-             width={220}
-            height={31}
-            alt="Study Academy Logo"
-            className="block dark:hidden"
-             />
+            <div className="dark:hidden">
+          <LightLogo className="w-56 h-8" />
+         </div>
+          <div className="hidden dark:block">
+          <DarkLogo className=" w-56 h-8" />
+          </div>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -97,20 +91,12 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Study Academy Logo</span>
-              <Image
-             src="/Study-Academy-Logo-light.svg"
-             width={220}
-            height={31}
-            alt="Study Academy Logo"
-            className="hidden dark:block"
-             />
-            <Image
-             src="/Study-Academy-Logo.svg"
-             width={220}
-            height={31}
-            alt="Study Academy Logo"
-            className="block dark:hidden"
-             />
+              <div className="dark:hidden">
+          <LightLogo className="w-56 h-8" />
+         </div>
+          <div className="hidden dark:block">
+          <DarkLogo className=" w-56 h-8" />
+          </div>
             </a>
             <button
               type="button"

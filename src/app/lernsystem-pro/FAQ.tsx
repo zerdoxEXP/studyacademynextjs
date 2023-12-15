@@ -40,6 +40,7 @@ const faqs = [
   
   export default function FAQ() {
     return (
+    <section id="HäufigeFragen">
       <div className="bg-gray-50 dark:bg-slate-800">
         <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
@@ -60,6 +61,7 @@ const faqs = [
           </div>
         </div>
       </div>
+    </section>
     )
   }
   

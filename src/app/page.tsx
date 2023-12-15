@@ -8,6 +8,11 @@ import Probleme from './Probleme';
 import CTA from './CTA';
 import Anwendungsbereiche from './Anwendungsbereiche';
 
+export const metadata: Metadata = {
+  title: 'Schneller, effektiver & leichter Lernen mit Study Academy',
+  description: 'Wir zeigen dir wie man lernt',
+}
+
 export default function Home() {
   return (
     <main>

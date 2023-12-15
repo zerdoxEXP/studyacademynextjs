@@ -5,7 +5,7 @@ import Inhalt2 from './Inhalt2'
 
 export default function Features() {
   return (
-    <section>
+    <section id="Inhalte">
       <InhaltIntro />
       <Inhalt1 />
       <Inhalt2 />

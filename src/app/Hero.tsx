@@ -17,9 +17,9 @@ export default function Hero() {
         <div className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl pt-20 px-6 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
-              <p className="font-caveat text-2xl sm:text-4xl dark:text-white mb-3">Schneller, effektiver und leichter Lernen.</p>
+              <p className="font-caveat text-2xl sm:text-4xl dark:text-white mb-3">Schneller, effektiver & leichter Lernen.</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              Wir helfen dir <span className="text-blue-600">effektiver zu lernen</span> mit unseren Lernsystemen.😎🤙
+              Wir helfen dir <span className="text-blue-600">besser zu lernen</span> mit unseren Lernsystemen.😎🤙
               </h1>
               <p className="mt-6 mx-auto max-w-4xl text-cente text-xl leading-8 text-gray-600 dark:text-gray-400">
               Beginne jetzt Dein Leben zu verändern und werde zu einem selbstsicheren Lerner – mit unseren innovativen Lernsystemen wirst du in kurzer Zeit große Fortschritte machen.

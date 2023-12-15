@@ -24,9 +24,9 @@ const features = [
   },
 ]
 
-export default function Probleme2() {
+export default function Zielgruppe() {
   return (
-    <section>
+    <section id="Zielgruppe">
     <div className="pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="lg:text-center">
