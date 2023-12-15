@@ -13,7 +13,7 @@ export default function Pricing() {
     <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du wirst nie wieder Probleme haben Neues zu lernen mit diesem System.</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du wirst <span className="text-blue-600 dark:text-blue-500">nie wieder Probleme haben Neues zu lernen</span> mit diesem System.</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
           Du hast jetzt die Möglichkeit dein Leben für immer zu verändern und über dich hinaus zu wachsen. Nutzt du deine Chance oder nicht?
           </p>
@@ -62,7 +62,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-        <p className="mt-16 text-gray-600 dark:text-gray-400 text-center text-xl">P.S.: Für extrem ambitionierte Menschen haben wir auch unser <a href="/lernsystem-pro" class="font-bold underline hover:no-underline decoration-dashed underline-offset-8 text-white">Lernsystem <span className="font-caveat text-2xl text-teal-600 dark:text-teal-500">Pro </span></a> entwickelt.</p>
+        <p className="mt-16 text-gray-600 dark:text-gray-400 text-center text-xl">P.S.: Für extrem ambitionierte Menschen haben wir auch unser <a href="/lernsystem-pro" className="font-bold underline hover:no-underline decoration-dashed underline-offset-8 text-white">Lernsystem <span className="font-caveat text-2xl text-teal-600 dark:text-teal-500">Pro </span></a> entwickelt.</p>
       </div>
     </div>
     </section>
