@@ -3,9 +3,7 @@ const DarkLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    style={{
-      enableBackground: "new 0 0 3509.1 487.6",
-    }}
+    enable-background="new 0 0 3509.1 487.6"
     viewBox="0 0 3509.1 487.6"
     {...props}
   >
