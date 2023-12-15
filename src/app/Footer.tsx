@@ -17,6 +17,7 @@ const navigation = {
       { name: 'Vorteile', href: '/lernsystem-basic#Vorteile' },
       { name: 'Für wen geeignet?', href: '/lernsystem-basic#FuerWenGeeignet' },
       { name: 'Preis', href: '/lernsystem-basic#Preis' },
+      { name: 'Häufige Fragen', href: '/lernsystem-basic#HäufigeFragen' },
     ],
     legal: [
       { name: 'Übersicht', href: '/lernsystem-pro#Übersicht' },

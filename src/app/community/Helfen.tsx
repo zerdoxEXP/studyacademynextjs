@@ -34,7 +34,7 @@ const features = [
   export default function Helfen() {
     return (
     <section id="WobeiHelfenWir">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl pt-24 sm:pt-32 px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Wobei können wir dir helfen?</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">

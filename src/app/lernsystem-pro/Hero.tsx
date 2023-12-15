@@ -14,11 +14,11 @@ export default function Hero() {
   return (
     <section id="Übersicht">
         <div className="pt-24 sm:pt-32">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl sm:pt-12 px-6 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
-            <p className="text-4xl font-caveat leading-8 tracking-tight text-teal-600 dark:text-teal-500">Dein Weg zu den Top 5%!</p>
+            <p className="text-2xl sm:text-4xl font-caveat tracking-tight text-teal-600 dark:text-teal-500 mb-1">Dein Weg zu den Top 5%!</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              Mit unserem Lernsystem <span className="text-4xl font-caveat font-medium leading-8 tracking-tight text-teal-600 dark:text-teal-500 sm:text-7xl">Pro</span> entfaltest du dein volles Potenzial und bist bereit für Bestleistungen!
+              Mit unserem Lernsystem <span className="text-4xl font-caveat font-medium leading-none tracking-tight text-teal-600 dark:text-teal-500 sm:text-7xl">Pro</span> entfaltest du dein volles Potenzial und bist bereit für Bestleistungen!
               </h1>
               <p className="mx-auto max-w-4xl text-center mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet

@@ -1,9 +1,9 @@
 export default function Example() {
   return (
     <section id="Erfolgsgeschichten">
-      <div className="px-6 py-16 sm:px-6 sm:py-24 lg:px-8">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="text-4xl font-caveat leading-8 tracking-tight text-blue-600">Erfolgsgeschichten</p>
+      <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+        <div className="mx-auto max-w-4xl sm:pt-12 text-center">
+          <p className="text-4xl font-caveat leading-8 tracking-tight text-blue-600 mb-2">Erfolgsgeschichten</p>
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
           Welche Erfahrungen hast du mit uns gemacht?
           </h2>

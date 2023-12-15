@@ -14,10 +14,10 @@ export default function Hero() {
   return (
     <section id="Hero">
       <div className="relative isolate">
-        <div className="py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl pt-20 px-6 lg:px-8">
+        <div className="pt-24 sm:pt-32">
+          <div className="mx-auto max-w-7xl sm:pt-12 px-6 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
-              <p className="font-caveat text-2xl sm:text-4xl dark:text-white mb-3">Schneller, effektiver & leichter Lernen.</p>
+              <p className="font-caveat text-2xl sm:text-4xl dark:text-white mb-2">Schneller, effektiver & leichter Lernen.</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Wir helfen dir <span className="text-blue-600">besser zu lernen</span> mit unseren Lernsystemen.😎🤙
               </h1>
@@ -31,7 +31,7 @@ export default function Hero() {
                 >
                   Jetzt starten
                 </a>
-                <a href="#lernsystem" className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">
+                <a href="#WasBietenWirAn" className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">
                   Mehr erfahren <span aria-hidden="true">→</span>
                 </a>
               </div>
