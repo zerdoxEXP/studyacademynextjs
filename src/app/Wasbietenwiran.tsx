@@ -58,7 +58,7 @@ const posts = [
                 height={800}
                 />  
                 <div className="flex flex-row gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
-                  <p className="text-3xl font-semibold text-white mr-8">{post.product}</p>
+                  <p className="text-3xl font-bold text-white mr-8">{post.product}</p>
                 </div>
                 <h3 className="mt-3 text-lg leading-6 text-white">
                   <a href={post.href}>

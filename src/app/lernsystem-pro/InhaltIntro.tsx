@@ -2,11 +2,10 @@ export default function InhaltIntro() {
     return (
       <div className="px-6 pt-24 sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="font-caveat text-4xl font-medium leading-7 text-teal-600 dark:text-teal-500">Lorem ipsum dolor sit</p>
+          <p className="font-caveat text-4xl font-medium leading-7 text-teal-600 dark:text-teal-500">Das Komplett-Paket</p>
           <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Was bekommst du alles?</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+            Das Ziel ist es dir alles Wissen und alle Methoden zur Verfügung zu stellen zum aktuellen Forschungsstand. Von den Grundlagen bis hin zur wahren Meisterschaft.
           </p>
         </div>
       </div>

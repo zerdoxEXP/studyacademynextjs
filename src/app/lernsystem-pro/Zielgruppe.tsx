@@ -4,7 +4,7 @@ const features = [
   {
     name: 'Du willst Höchstleistungen.',
     description:
-      'Viele Lernende fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen.',
+      'Viele fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen.',
     href: '#',
     icon: CheckBadgeIcon,
   },
@@ -30,7 +30,6 @@ export default function Zielgruppe() {
     <div className="pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="font-caveat text-4xl font-base leading-7 text-teal-600 dark:text-teal-500">Lorem ipsum dolor sit...</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
           Für wen ist das Lernsystem <span className="font-caveat text-6xl text-teal-600 dark:text-teal-500 font-medium">Pro</span> geeignet?
           </p>

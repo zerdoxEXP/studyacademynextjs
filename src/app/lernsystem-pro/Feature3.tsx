@@ -37,14 +37,14 @@ export default function Feature3() {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <Image
-              src="/images/project-app-screenshot-3.png"
+              src="/images/pro/karriere.jpg"
               alt="Product screenshot"
               className="rounded-xl shadow-xl ring-1 ring-gray-400/10 block dark:hidden"
               width={2432}
               height={1442}
             />
             <Image
-              src="/images/dark-project-app-screenshot-3.png"
+              src="/images/pro/karriere-dark.jpg"
               alt="Product screenshot"
               className="rounded-xl shadow-xl ring-1 ring-gray-400/10 hidden dark:block"
               width={2432}

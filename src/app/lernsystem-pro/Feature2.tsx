@@ -36,14 +36,14 @@ export default function Features2() {
             </div>
           </div>
           <Image
-            src="/images/project-app-screenshot-3.png"
+            src="/images/pro/schueler.jpg"
             alt="Product screenshot"
             className="rounded-xl shadow-xl ring-1 ring-gray-400/10 block dark:hidden"
             width={2432}
             height={1442}
           />
           <Image
-            src="/images/dark-project-app-screenshot-3.png"
+            src="/images/pro/schueler-dark.jpg"
             alt="Product screenshot"
             className="rounded-xl shadow-xl ring-1 ring-gray-400/10 hidden dark:block"
             width={2432}
