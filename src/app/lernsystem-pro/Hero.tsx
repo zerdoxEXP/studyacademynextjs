@@ -21,8 +21,7 @@ export default function Hero() {
               Mit unserem Lernsystem <span className="text-4xl font-caveat font-medium leading-none tracking-tight text-teal-600 dark:text-teal-500 sm:text-7xl">Pro</span> entfaltest du dein volles Potenzial und bist bereit für Bestleistungen!
               </h1>
               <p className="mx-auto max-w-4xl text-center mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+              Basierend auf dem soliden Fundament des <a href="/lernsystem-basic" className="font-bold dark:text-white">Lernsystem Basic</a>, hebt das Lernsystem Pro dein Lernen auf das nächste Level – werde jetzt Teil der akademischen Elite.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

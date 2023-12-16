@@ -12,18 +12,17 @@ export default function Pricing() {
   <section id="Preis">
     <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Erlebe, wie einfach Lernen sein kann...</h2>
+        <div className="mx-auto max-w-5xl sm:text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Schließe dich der Elite an mit dem Lernsystem <span className="font-caveat text-teal-600 text-5xl">Pro</span></h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-          Nutze die Gelegenheit, um dein Lernenverhalten für immer zu transformieren und sichere dir jetzt das Lernsystem Basic!
+          Sichere dir jetzt das Lernsystem Pro und verwandle deine Träume in Realität!
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl rounded-3xl shadow-md ring-1 ring-gray-200 dark:bg-gray-400/5 dark:ring-white/10 dark:ring-opacity-40 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lernsystem <span className="font-caveat text-3xl font-medium text-teal-600 dark:text-teal-500">Pro</span> - 20 Lektionen</h3>
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis
-              repellendus etur quidem assumenda.
+              Du bekommst ein extrem umfangreiches Lernsystem von dem du dein Leben lang profitieren wirst mit praxisnahe Beispiele und wissenschaftlich fundiert.
             </p>
             <div className="mt-10 flex items-center gap-x-4">
               <h4 className="flex-none text-base font-semibold leading-6 text-teal-600 dark:text-teal-500">Was du alles von uns bekommst</h4>
@@ -46,8 +45,8 @@ export default function Pricing() {
               <div className="mx-auto max-w-xs px-8">
                 <p className="text-base font-semibold text-gray-600 dark:text-gray-200">Einmalig oder per Ratenzahlung</p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight text-gray-900 dark:text-white">199€</span>
-                  <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-200">(3 Raten à 69€)</span>
+                  <span className="text-5xl font-bold tracking-tight text-gray-900 dark:text-white">3x66€</span>
+                  <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-200">inkl. Mwst.</span>
                 </p>
                 <a
                   href="#"
@@ -56,7 +55,7 @@ export default function Pricing() {
                   Zugang kaufen
                 </a>
                 <p className="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-200">
-                Lorem ipsum dolor sit amet consect etur adipisicing elit.
+                Sofort verfügbar & starten
                 </p>
               </div>
             </div>

@@ -8,15 +8,14 @@ export default function Example() {
           Welche Erfahrungen hast du mit uns gemacht?
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-            commodo do ea.
+            Uns ist wichtig, dir eine lebensverändernde Fähigkeit beibringen können und uns zu verbessern. Wie haben sich unsere Lernsysteme auf deine Leistungen ausgewirkt?
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
               href="#"
               className="rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
-              Zum Formular
+              Coming Soon
             </a>
           </div>
         </div>

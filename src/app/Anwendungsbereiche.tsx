@@ -22,7 +22,7 @@ const features = [
   {
     name: 'Sozialwissenschaften',
     description:
-      'Hierzu zählen Fächer wie Psychologie, Soziologie, Anthropologie, Politikwissenschaften und Wirtschaftswissenschaften.',
+      'Hierzu zählen Fächer wie Psychologie, Soziologie, Anthropologie und Politikwissenschaften.',
     icon: ChatBubbleLeftRightIcon,
   },
   {
@@ -68,8 +68,7 @@ export default function Anwendungsbereiche() {
           In folgenden Bereichen wirst du unsere Lernsysteme anwenden können
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            In manchen Bereichen fällt es dir vielleicht leichter Neues zu lernen, aber wenn du einmal verstehst wie du neues Wissen aufnimmmst, dann wirst du auch in anderen Bereichen neue Inhalte mit Leichtigkeit behalten können.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

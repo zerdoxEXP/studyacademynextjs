@@ -1,16 +1,15 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
-import Impressum from './Impressum';
+import Datenschutz from './Datenschutz';
 
 export const metadata: Metadata = {
-  title: 'Impressum - Study Academy',
+  title: 'Datenschutz - Study Academy',
   description: 'Wir zeigen dir wie man lernt',
 }
 
 export default function Home() {
   return (
     <main>
-      <Impressum/>
+      <Datenschutz/>
     </main>
   )
 }

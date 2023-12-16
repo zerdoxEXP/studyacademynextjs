@@ -1,39 +1,39 @@
 const faqs = [
     {
       id: 1,
-      question: "Wie funktioniert die Fragestellung an die Community und Experten?",
+      question: "Wie unterscheidet sich Lernsystem Pro vom Lernsystem Basic?",
       answer:
-        "Du kannst Deine Lernfragen einfach über unsere Webseite einreichen. Klicke auf den Button 'Frage kostenlos stellen' und beschreibe Dein Anliegen. Unsere Community und Experten werden dann persönlich darauf antworten und Dir mit Rat und Tat zur Seite stehen.",
+        "Lernsystem Pro baut auf den Grundlagen von Lernsystem Basic auf und bietet erweiterte, tiefere Einblicke und Techniken für fortgeschrittene Lerner. Es ist speziell dafür konzipiert, um komplexere und anspruchsvollere akademische Herausforderungen zu meistern und richtet sich an diejenigen, die zu den Top 5% gehören möchten.",
     },
     {
         id: 2,
-        question: "Was kann ich tun, wenn ich nicht weiß, wo ich mit dem Lernen anfangen soll?",
+        question: "Ist das Lernsystem Pro für alle Studienrichtungen geeignet?",
         answer:
-          "Kein Problem! Erzähle uns einfach, worüber Du mehr erfahren möchtest oder in welchem Bereich Du Dich verbessern willst. Unsere Experten bieten Dir Orientierung und helfen Dir, den ersten Schritt auf Deinem Lernweg zu machen."
+          "Ja, das Lernsystem Pro ist universell einsetzbar und für alle Studienrichtungen geeignet. Es bietet fortgeschrittene Techniken und Strategien, die in jeder Disziplin angewendet werden können, um komplexe Konzepte und Aufgaben zu meistern."
       },
       {
         id: 3,
-        question: "Wie kann ich meine Lernmotivation steigern?",
+        question: "Wie viel Zeit muss ich investieren, um Ergebnisse mit Lernsystem Pro zu sehen?",
         answer:
-          "Wir bieten verschiedene Strategien und Tipps, um Deine Motivation zu wecken und aufrechtzuerhalten. Teile uns Deine spezifischen Herausforderungen mit, und unsere Experten werden personalisierte Ratschläge geben, um Dich zu inspirieren und motivieren.",
+          "Die Zeit, die benötigt wird, um Ergebnisse zu sehen, kann variieren, aber viele Nutzer berichten von signifikanten Verbesserungen innerhalb weniger Wochen. Die Effizienz des Lernsystems ermöglicht es Ihnen, schneller und tiefer zu lernen, was zu schnelleren Fortschritten führt.",
       },
       {
         id: 4,
-        question: "Ich stehe vor einer Lernblockade. Wie kann mir die Community helfen?",
+        question: "Kann ich Lernsystem Pro nutzen, wenn ich bereits ein fortgeschrittener Lerner bin?",
         answer:
-          "Erkläre uns, womit Du Schwierigkeiten hast, und wir werden gemeinsam Lösungsansätze erarbeiten. Unsere Community und Experten bieten praktische Tipps und Unterstützung, um Dir den Weg aus der Lernblockade zu ebnen.",
+          "Absolut. Lernsystem Pro ist ideal für fortgeschrittene Lerner, die ihre Fähigkeiten weiter verbessern und herausfordernde akademische Ziele erreichen möchten. Es bietet spezialisierte Ressourcen und Techniken, die auf hohem Niveau konzipiert sind.",
       },
       {
         id: 5,
-        question: "Ist die Nutzung Ihrer Plattform und das Stellen von Fragen wirklich kostenlos?",
+        question: "Bietet Lernsystem Pro individuelle Unterstützung oder Anpassungen?",
         answer:
-          "Ja, absolut! Das Stellen von Fragen an unsere Community und Experten ist völlig kostenlos. Unser Ziel ist es, jedem beim Lernen zu helfen, ohne dass dabei Kosten entstehen.",
+          "Ja, ein Hauptmerkmal von Lernsystem Pro ist seine Anpassungsfähigkeit. Es bietet individuell anpassbare Lern-Templates, die auf Ihre spezifischen Bedürfnisse und Ziele zugeschnitten sind, um maximale Effizienz und Wirksamkeit zu gewährleisten.",
       },
       {
         id: 6,
-        question: "Für wen ist Ihre Plattform geeignet?",
+        question: "Gibt es einen Support oder eine Community für Nutzer des Lernsystem Pro?",
         answer:
-          "Unsere Plattform ist für jeden geeignet, der sich verbessern und Lernblockaden überwinden möchte. Egal, ob Du Schüler, Student, Berufstätiger oder einfach jemand bist, der neues Wissen erwerben möchte, wir bieten Unterstützung und Ratschläge für Lernende aller Ebenen.",
+          "Ja, wir bieten eine umfassende Unterstützung und eine engagierte Community für Nutzer des Lernsystem Pro. Dies umfasst Zugang zu Experten, Austauschmöglichkeiten mit anderen Lernenden und kontinuierliche Updates des Systems.",
       },
     // More questions...
   ]

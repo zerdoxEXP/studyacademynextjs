@@ -8,12 +8,12 @@ export default function CTA() {
           Höre auf dich selbst zu sabotieren und werde zum Lern-Profi!
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-          &quot;Wenn ich 10 Stunden Zeit hätte einen Baum zu fällen, würde ich 9 Stunden davon die Axt schärfen.&quot; Du brauchst eine scharfe Lern-Axt! Einmal erworben, bleibt sie ein Leben lang.
+          Die Fähigkeit neue Inhalte schnell zu erfassen und zu behalten, wird dich dein Leben lang weiter voranbringen. Egal ob in der Schule, im Studium oder dem Beruf - es hat nur Vorteile für dich!
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="/lernsystem-basic"
-              className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              className="rounded-md bg-blue-600 px-6 py-4 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Zum Lernsystem Basic
             </a>

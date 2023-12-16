@@ -22,8 +22,7 @@ export default function Pricing() {
           <div className="p-8 sm:p-10 lg:flex-auto">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lernsystem <span className="font-caveat text-3xl font-medium text-blue-600 dark:text-blue-500">Basic </span> - 57 Lektionen</h3>
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis
-              repellendus etur quidem assumenda.
+              Perfekt für jeden der seine geistigen Fähigkeiten optimal nutzen will und Ängste vor Prüfungen verlieren will. Du wirst mit dem System in kürzester Zeit enorme Erfolge sehen.
             </p>
             <div className="mt-10 flex items-center gap-x-4">
               <h4 className="flex-none text-base font-semibold leading-6 text-blue-600">Was du alles von uns bekommst</h4>
@@ -62,7 +61,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-        <p className="mt-16 text-gray-600 dark:text-gray-400 text-center text-xl">P.S.: Für extrem ambitionierte Menschen haben wir auch unser <a href="/lernsystem-pro" className="font-bold underline hover:no-underline decoration-dashed underline-offset-8 text-white">Lernsystem <span className="font-caveat text-2xl text-teal-600 dark:text-teal-500">Pro </span></a> entwickelt.</p>
+        <p className="mt-16 text-gray-600 dark:text-gray-400 text-center text-xl">P.S.: Für extrem ambitionierte Menschen haben wir auch unser <a href="/lernsystem-pro" className="font-bold underline hover:no-underline decoration-dashed underline-offset-8 dark:text-white">Lernsystem <span className="font-caveat text-2xl text-teal-600 dark:text-teal-500">Pro </span></a> entwickelt.</p>
       </div>
     </div>
     </section>
