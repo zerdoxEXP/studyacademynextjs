@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="relative isolate">
         <div className="pt-24 sm:pt-32">
           <div className="mx-auto max-w-7xl sm:pt-12 px-6 lg:px-8">
-            <div className="mx-auto max-w-5xl text-center">
+            <div className="mx-auto max-w-5xl text-left sm:text-center">
               <p className="font-caveat text-2xl sm:text-4xl dark:text-white mb-2">Schneller, effektiver & leichter Lernen.</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Wir helfen dir <span className="text-blue-600">besser zu lernen</span> mit unseren Lernsystemen.😎🤙

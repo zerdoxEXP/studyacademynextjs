@@ -15,15 +15,15 @@ export default function Hero() {
     <section id="Übersicht">
         <div className="pt-24 sm:pt-32">
           <div className="mx-auto max-w-7xl sm:pt-12 px-6 lg:px-8">
-            <div className="mx-auto max-w-6xl text-center">
+            <div className="mx-auto max-w-6xl text-left sm:text-center">
               <p className="text-2xl mb-2 font-caveat leading-8 tracking-tight text-blue-600 sm:text-4xl">Prüfungen bestehen ist einfach, wirklich.</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Du willst Prüfungen sicher bestehen? Im Lernsystem <span className="text-5xl font-caveat font-medium leading-8 tracking-tight text-blue-600 sm:text-7xl">Basic</span> lernst du alles was du dazu brauchst.
               </h1>
-              <p className="mx-auto max-w-4xl text-center mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+              <p className="mx-auto max-w-4xl mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               Mit bewährten Methoden und modernster Technologie zum Lernerfolg: Unser Basis-Programm ist dein Schlüssel zum Lernen von neuen Inhalten in kürzester Zeit - effektiv, schnell & leicht.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-10 flex items-center justify-start sm:justify-center gap-x-6">
               <a
               href="#Preis"
               className="rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
