@@ -7,7 +7,7 @@ export default function CTA() {
           Was fällt dir beim Lernen am schwersten?🙇
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-          Erkläre unseren Lernexperten deine Situation und wir helfen dir deine Lernblockaden zu lösen. Wir sind für dich da!
+          Erkläre unseren Lernexperten deine Situation und wir helfen dir Lernblockaden zu lösen. Wir sind für dich da!
           </p>
           <div className="mt-10 flex items-center justify-start sm:justify-center gap-x-6">
             <a
