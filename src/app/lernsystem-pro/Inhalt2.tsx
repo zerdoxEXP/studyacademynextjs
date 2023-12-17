@@ -3,7 +3,7 @@ import Image from 'next/image';
 const products = [
   {
     id: 1,
-    name: 'Mindmaps',
+    name: 'Flowmaps',
     href: '#',
     description: 'Visuelle Darstellungen erleichtern dir das Erfassen komplexer Informationen und fördern das assoziative Denken.',
     options: '8 colors',
