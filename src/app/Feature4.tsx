@@ -13,10 +13,10 @@ export default function Features4() {
   return (
     <div className="pb-24 sm:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du wirst selbstsicherer.</p>
+              <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Du wirst selbstsicherer.</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               Mit jedem Erfolgserlebnis steigerst du dein psychisches Wohlbefinden; dein Selbstwertgefühl wächst und die Ängste vor Prüfungen nehmen immer weiter ab.
               </p>

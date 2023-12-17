@@ -38,8 +38,8 @@ const posts = [
     return (
         <section id="WasBietenWirAn">
         <div className="mx-auto max-w-7xl pt-24 sm:pt-32 px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Was bieten wir mit der <span className="text-blue-600"> Study Academy</span> an?🤷</h2>
+          <div className="mx-auto max-w-2xl text-left sm:text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Was bieten wir mit der <span className="text-blue-600"> Study Academy</span> an?🤷</h2>
             <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-400">
             Von uns bekommst du Hilfe und Support, sowie die Auswahl zwischen unseren Lernsystemen Basic und Pro um dein Lernverhalten zu verbessern.
             </p>

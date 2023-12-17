@@ -30,7 +30,7 @@ const tiers = [
 export default function Lernsysteme() {
   return (
     <section id="Lernsysteme">
-      <div className="mx-auto max-w-7xl px-6 pb-32 text-center lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 pb-16 text-left sm:text-center lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="font-caveat text-2xl font-medium leading-7 text-blue-600 sm:text-4xl">Willst du richtig durchstarten?</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
