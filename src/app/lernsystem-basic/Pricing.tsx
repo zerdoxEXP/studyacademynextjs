@@ -1,9 +1,9 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 
 const includedFeatures = [
-  '7 Module',
-  '57 Lektionen',
-  '43 Lernvorlagen',
+  '8 Module',
+  '61 Lektionen',
+  '3,5 Stunden Videomaterial',
   '100% Mehrwert',
 ]
 
@@ -20,7 +20,7 @@ export default function Pricing() {
         </div>
         <div className="mx-auto mt-8 max-w-2xl rounded-3xl shadow-md ring-1 ring-gray-200 dark:bg-gray-400/5 dark:ring-white/10 dark:ring-opacity-40 sm:mt-12 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto">
-            <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lernsystem <span className="font-caveat text-3xl font-medium text-blue-600 dark:text-blue-500">Basic </span> - 57 Lektionen</h3>
+            <h3 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white">Lernsystem <span className="font-caveat text-5xl font-medium text-blue-600 dark:text-blue-500">Basic </span></h3>
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
               Perfekt für jeden der seine geistigen Fähigkeiten optimal nutzen will und Ängste vor Prüfungen verlieren will. Du wirst mit dem System in kürzester Zeit enorme Erfolge sehen.
             </p>
@@ -43,7 +43,7 @@ export default function Pricing() {
           <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
             <div className="rounded-2xl bg-gray-50 dark:bg-slate-800 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
               <div className="mx-auto max-w-xs px-8">
-                <p className="text-base font-semibold text-gray-600 dark:text-gray-200">Einmalig oder per Ratenzahlung</p>
+                <p className="text-base font-semibold text-gray-600 dark:text-gray-200">Per Ratenzahlung oder einmalig</p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <span className="text-5xl font-bold tracking-tight text-gray-900 dark:text-white">3x33€</span>
                   <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-200">inkl. Mwst.</span>

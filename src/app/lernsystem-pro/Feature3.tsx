@@ -1,4 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { GlobeAltIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image';
 
 const features = [
@@ -6,7 +6,7 @@ const features = [
     name: 'Immer Up-to-Date',
     description:
       'Steigere dein Potential indem du Informationen aus erster Hand bekommst, was wirklich gefragt ist in der Arbeitswelt.',
-    icon: CloudArrowUpIcon,
+    icon: GlobeAltIcon,
   },
 ]
 

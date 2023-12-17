@@ -1,7 +1,7 @@
 const stats = [
-    { id: 1, name: 'Module', value: '6' },
-    { id: 2, name: 'Lektionen', value: '29' },
-    { id: 3, name: 'Lernvorlagen', value: '56' },
+    { id: 1, name: 'Module', value: '15' },
+    { id: 2, name: 'Lektionen', value: '124' },
+    { id: 3, name: 'Videomaterial', value: '10h' },
     { id: 4, name: 'Mehrwert', value: '100%' },
   ]
   
@@ -15,7 +15,7 @@ const stats = [
               Extrem umfangreich!
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Du erhältst von uns über <span className="font-semibold text-gray-900 dark:text-white">14 Stunden Videomaterial</span> aufgeteilt und strukturiert.
+              Du erhältst von uns die <span className="font-semibold text-gray-900 dark:text-white">Theorie und Praxis</span>, die du brauchst, um ein Elite-Lerner zu werden.
               </p>
             </div>
             <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">

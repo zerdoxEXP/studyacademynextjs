@@ -8,7 +8,7 @@ const tiers = [
     more: '/lernsystem-basic',
     priceMonthly: '3x33€',
     description: 'Alle Grundlagen über das Lernen und die praktische Anwendung unseres eigenen Lernsystems.',
-    features: ['4h Videomaterial', 'Die häufigsten Fehler beim Lernen', 'Die effektivsten Lernmethoden', 'Die beste Lernsoftware', 'Dein eigenes Lerntemplate', 'Minimaler Aufwand - maximale Ergebnisse' ],
+    features: ['3,5 Stunden Videomaterial', 'Die häufigsten Fehler beim Lernen', 'Die effektivsten Lernmethoden', 'Die beste Lernsoftware', 'Dein eigenes Lerntemplate', 'Minimaler Aufwand - maximale Ergebnisse' ],
   },
   {
     name: 'Lernsystem Pro',
@@ -18,7 +18,7 @@ const tiers = [
     priceMonthly: '3x66€',
     description: 'Du erhältst das Lernsystem Basic und gleichzeitig noch fortgeschrittene Techniken um zum Elite-Lerner zu werden.',
     features: [
-      '15h Videomaterial',
+      '10 Stunden Videomaterial',
       'Der gesamte Basic Teil',
       'Community mit Fachbereichen & Experten',
       'Dein eigenes Lerndashboard',

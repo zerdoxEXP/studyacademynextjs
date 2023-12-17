@@ -1,4 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { BriefcaseIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image';
 
 const features = [
@@ -6,7 +6,7 @@ const features = [
     name: 'Austausch auf Augenhöhe:',
     description:
       'Manchmal muss man Hilfe von außerhalb der Schule suchen um Themen zu verstehen, ohne das Gefühl zu haben hinterher zu sein.',
-    icon: CloudArrowUpIcon,
+    icon: BriefcaseIcon,
   },
 ]
 

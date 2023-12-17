@@ -1,4 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { AcademicCapIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image';
 
 const features = [
@@ -6,7 +6,7 @@ const features = [
     name: 'Gemeinsam wachsen:',
     description:
       'Es macht Spaß anderen zu helfen und im Gegenzug selbst Hilfe zu bekommen. Wir möchten das Gemeinschaftsgefühl fördern unter Studenten.',
-    icon: CloudArrowUpIcon,
+    icon: AcademicCapIcon,
   },
 ]
 

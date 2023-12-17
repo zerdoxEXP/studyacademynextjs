@@ -19,7 +19,7 @@ const posts = [
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
-          '/images/muster-mockup-kurs4.jpg',
+          '/images/lernsystem-basic.jpg',
       },
       {
         id: 3,
@@ -29,7 +29,7 @@ const posts = [
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
-          '/images/muster-mockup-kurs-pro.jpg',
+          '/images/lernsystem-pro.jpg',
       },
     // More posts...
   ]
