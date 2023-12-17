@@ -1,25 +1,22 @@
-import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon, ExclamationTriangleIcon, CheckBadgeIcon } from '@heroicons/react/24/solid'
+import { CheckBadgeIcon } from '@heroicons/react/24/solid'
 
 const features = [
   {
     name: 'Du willst Höchstleistungen.',
     description:
-      'Viele fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen.',
-    href: '#',
+      'Wenn du erste Erfolgserlebnisse hast und zu wahrer Meisterschaft im Lernen kommen willst, die dich von allen anderen abhebt.',
     icon: CheckBadgeIcon,
   },
   {
     name: 'Du hast sehr großen Ehrgeiz.',
     description:
-      'Ein häufiges Hindernis beim Lernen ist die Schwierigkeit, sich über längere Zeit zu konzentrieren, was zu ineffektivem Lernen führt.',
-    href: '#',
+      'Du bist jemand, der sich immer weiter verbessern will und motiviert ist von Experten zu lernen.',
     icon: CheckBadgeIcon,
   },
   {
     name: 'Du bist ein Perfektionist.',
     description:
-      'Viele Lernende haben Probleme damit, Informationen langfristig zu speichern, was besonders bei komplexen Themen zu Herausforderungen führt.',
-    href: '#',
+      'Für dich gibt es nur ein Ziel und das bedeutet das Thema des Lernens zu perfektionieren.',
     icon: CheckBadgeIcon,
   },
 ]

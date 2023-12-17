@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Lorem ipsum.',
+    name: 'Austausch auf Augenhöhe:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Manchmal muss man Hilfe von außerhalb der Schule suchen um Themen zu verstehen, ohne das Gefühl zu haben hinterher zu sein.',
     icon: CloudArrowUpIcon,
   },
 ]
@@ -19,8 +19,7 @@ export default function Features2() {
             <div className="lg:max-w-lg">
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Spaces für Schüler</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+              Hier erhältst du Hilfe von anderen Schülern und Experten, die dir in unterschiedlichen Unterrichtsfächern weiter helfen können.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (

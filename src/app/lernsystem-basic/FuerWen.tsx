@@ -31,8 +31,7 @@ export default function FuerWen() {
           Wo kannst du die Methoden einsetzen?
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
+          Lernen ist eine universale Fähigkeit die in jedem Lebensbereich eine Rolle spielt und vor allem in folgenden Gebieten perfekt eingesetzt werden kann.
           </p>
         </div>
         <div className="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-none">

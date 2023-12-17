@@ -46,7 +46,7 @@ const faqs = [
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
-            Du konntest die gesuchte Antwort nicht finden? Dann wende dich an unser Customer Support Team.
+            Hier findest du die wichtigsten Fragen zu unserer Community beantwortet.
             </p>
           </div>
           <div className="mt-20">

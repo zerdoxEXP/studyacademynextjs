@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Lorem ipsum.',
+    name: 'Gemeinsam wachsen:',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Es macht Spaß anderen zu helfen und im Gegenzug selbst Hilfe zu bekommen. Wir möchten das Gemeinschaftsgefühl fördern unter Studenten.',
     icon: CloudArrowUpIcon,
   },
 ]
@@ -19,8 +19,7 @@ export default function Feature1() {
             <div className="lg:max-w-lg">
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Spaces für Studenten</p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+              In diesen Bereichen können sich Studenten von anderen Hilfe holen oder selbst dazu beitragen, die Probleme von anderen zu lösen.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (

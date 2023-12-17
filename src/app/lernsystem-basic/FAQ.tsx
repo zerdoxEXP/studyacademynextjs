@@ -42,8 +42,8 @@ const faqs = [
       <div className="bg-gray-50 dark:bg-slate-800">
         <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
           <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
-          <p className="mt-6 max-w-2xl text-xl leading-7 text-gray-600 dark:text-gray-400">
-          Du konntest die gesuchte Antwort nicht finden? Dann wende dich an unser Customer Support Team.
+          <p className="mt-6 max-w-3xl text-xl leading-7 text-gray-600 dark:text-gray-400">
+          Hier findest du die wichtigsten Fragen zum Lernsystem Basic beantwortet.
           </p>
           <div className="mt-20">
             <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10">
