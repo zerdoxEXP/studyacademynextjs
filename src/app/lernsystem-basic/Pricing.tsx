@@ -49,7 +49,7 @@ export default function Pricing() {
                   <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-200">inkl. Mwst.</span>
                 </p>
                 <a
-                  href="#"
+                  href="https://www.digistore24.com/product/530558"
                   className="mt-10 block w-full rounded-md bg-blue-600 px-6 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
                   Zugang kaufen

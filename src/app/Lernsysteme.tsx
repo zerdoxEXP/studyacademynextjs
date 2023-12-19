@@ -4,7 +4,7 @@ const tiers = [
   {
     name: 'Lernsystem Basic',
     id: 'basic',
-    href: '/kaufen',
+    href: 'https://www.digistore24.com/product/530558',
     more: '/lernsystem-basic',
     priceMonthly: '3x33€',
     description: 'Alle Grundlagen über das Lernen und die praktische Anwendung unseres eigenen Lernsystems.',
@@ -13,7 +13,7 @@ const tiers = [
   {
     name: 'Lernsystem Pro',
     id: 'pro',
-    href: '/kaufen',
+    href: 'https://www.digistore24.com/product/530559',
     more: '/lernsystem-pro',
     priceMonthly: '3x66€',
     description: 'Du erhältst das Lernsystem Basic und gleichzeitig noch fortgeschrittene Techniken um zum Elite-Lerner zu werden.',
