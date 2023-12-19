@@ -3,7 +3,7 @@ const faqs = [
       id: 1,
       question: "Wie funktioniert die Fragestellung an die Community und Experten?",
       answer:
-        "Du kannst Deine Lernfragen einfach über unsere Webseite einreichen. Klicke auf den Button 'Frage kostenlos stellen' und beschreibe Dein Anliegen. Unsere Community und Experten werden dann persönlich darauf antworten und Dir mit Rat und Tat zur Seite stehen.",
+        "Du kannst Deine Lernfragen einfach über unseren Community Bereich einreichen. Klicke auf den Button 'Stelle jetzt deine Frage', melde dich in der Community an und beschreibe Dein Anliegen. Unsere Experten werden in einer Live-Session darauf antworten und die Frage beantworten.",
     },
     {
         id: 2,
@@ -43,9 +43,9 @@ const faqs = [
     <section id="HäufigeFragen">
       <div className="bg-gray-50 dark:bg-slate-800">
         <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
-            <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
+          <div className="max-w-7xl">
+            <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
+            <p className="mt-6 text-xl leading-7 text-gray-600 dark:text-gray-400">
             Hier findest du die wichtigsten Fragen zu unserer Community beantwortet.
             </p>
           </div>

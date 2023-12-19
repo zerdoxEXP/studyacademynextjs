@@ -35,10 +35,10 @@ const features = [
     return (
     <section id="WobeiHelfenWir">
         <div className="mx-auto max-w-7xl pt-24 sm:pt-32 px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
+          <div className="mx-auto max-w-3xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Wobei können wir dir helfen?</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-            Stelle uns deine Lernfragen – wir sind hier, um Dir den Einstieg zu erleichtern.
+            Wir sind hier um euch zu helfen und den Einstieg ins effektive Lernen zu erleichtern.
             </p>
           </div>
           <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">

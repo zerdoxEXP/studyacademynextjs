@@ -18,11 +18,11 @@ export default function Hero() {
           <div className="mx-auto max-w-2xl sm:pt-8 lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p className="font-caveat text-blue-600 text-4xl mb-2">Community Fragen</p>
-            <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:col-span-2 xl:col-auto">
-            Stelle deine Frage an Lernexperten aus der Community
+            <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:col-span-2 xl:col-auto">
+            Wir beantworten eure Lernfragen in Live-Sessions
             </h1>
               <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Nutze die Chance, Deine Lernfragen direkt an unsere Community und Experten zu stellen. Du erhältst persönliche Hilfe und kannst Deine Fortschritte mit unserer Community teilen!
+              Wir möchten euch die Möglichkeit geben kostenlos von unserem Wissen zu profitieren und gleichzeitig andere auch daran teilhaben zu lassen. Deswegen nutze deine Chance!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <div className="text-center">

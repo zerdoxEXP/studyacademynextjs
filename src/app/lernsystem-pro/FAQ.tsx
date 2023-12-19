@@ -43,9 +43,9 @@ const faqs = [
     <section id="HäufigeFragen">
       <div className="bg-gray-50 dark:bg-slate-800">
         <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
-            <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
+          <div className="max-w-6xl">
+            <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900 dark:text-white">Häufige Fragen</h2>
+            <p className="mt-6 text-xl leading-7 text-gray-600 dark:text-gray-400">
             Hier findest du die wichtigsten Fragen zum Lernsystem Pro beantwortet.
             </p>
           </div>
