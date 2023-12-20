@@ -9,10 +9,8 @@ const features = [
   },
   {
     name: '2. Logge dich ein',
-    description: 'Mit deinen Zugangsdaten kannst du dich entweder über die E-Mail oder über den folgenden Link einloggen: ',
+    description: 'Mit deinen Zugangsdaten kannst du dich über den Link in der E-Mail einloggen.',
     icon: UserCircleIcon,
-    isLink: true,
-    link: "https://studyacademy.circle.so/",
   },
   {
     name: 'Support',
