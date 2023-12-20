@@ -11,6 +11,7 @@ const features = [
     name: '2. Logge dich ein',
     description: 'Mit deinen Zugangsdaten kannst du dich über den Link in der E-Mail einloggen.',
     icon: UserCircleIcon,
+    isLink: false,
   },
   {
     name: 'Support',
