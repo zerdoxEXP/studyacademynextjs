@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import CheckoutBasic from './CheckoutBasic';
+import CheckoutPro from './CheckoutPro';
 import Steps from './Steps';
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <CheckoutBasic/>
+      <CheckoutPro/>
       <Steps/>
     </main>
   )

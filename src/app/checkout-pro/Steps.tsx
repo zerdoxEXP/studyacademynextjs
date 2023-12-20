@@ -29,14 +29,14 @@ export default function Steps() {
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col bg-gray-50 dark:bg-slate-800 p-6 rounded-xl ring-1 ring-gray-200 dark:ring-0">
                 <dt className="flex items-center gap-x-3 text-xl font-semibold leading-7 text-gray-900 dark:text-white">
-                  <feature.icon className="h-5 w-5 flex-none text-blue-600 dark:text-blue-500" aria-hidden="true" />
+                  <feature.icon className="h-5 w-5 flex-none text-teal-600 dark:text-teal-500" aria-hidden="true" />
                   {feature.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400">
                   <p className="flex-auto">
                     {feature.description}
                     {feature.isEmail && (
-                      <a href={`mailto:${feature.email}`} className="text-blue-600 hover:text-blue-800">
+                      <a href={`mailto:${feature.email}`} className="text-teal-600 hover:text-teal-800">
                         {feature.email}
                       </a>
                     )}
