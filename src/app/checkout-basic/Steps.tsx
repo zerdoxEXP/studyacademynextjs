@@ -5,13 +5,11 @@ const features = [
     name: '1. Überprüfe deine E-Mails',
     description: 'Wir haben dir deine Zugangsdaten per Mail zugeschickt. P.S.: Bitte überprüfe auch deinen Spam-Ordner.',
     icon: EnvelopeIcon,
-    isLink: false,
   },
   {
     name: '2. Logge dich ein',
     description: 'Mit deinen Zugangsdaten kannst du dich über den Link in der E-Mail einloggen.',
     icon: UserCircleIcon,
-    isLink: false,
   },
   {
     name: 'Support',
@@ -37,16 +35,6 @@ export default function Steps() {
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-400">
                   <p className="flex-auto">
                     {feature.description}
-                    {feature.isLink && (
-                      <a 
-                        href={feature.link} 
-                        className="text-blue-600 hover:text-blue-800" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                      >
-                        {feature.link}
-                      </a>
-                    )}
                     {feature.isEmail && (
                       <a href={`mailto:${feature.email}`} className="text-blue-600 hover:text-blue-800">
                         {feature.email}
