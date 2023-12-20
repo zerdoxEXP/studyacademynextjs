@@ -1,5 +1,4 @@
 import { InformationCircleIcon } from '@heroicons/react/20/solid'
-import Alert from './Alert';
 
 export default function CheckoutBasic() {
   return (
