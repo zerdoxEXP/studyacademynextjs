@@ -3,7 +3,7 @@ import { EnvelopeIcon, UserCircleIcon, QuestionMarkCircleIcon } from '@heroicons
 const features = [
   {
     name: '1. Überprüfe deine E-Mails',
-    description: 'Wir haben dir deine Zugangsdaten per Mail zugeschickt mit dem Betreff "Zugangsdaten Study Academy". Bitte überprüfe auch deinen Spam-Ordner.',
+    description: 'Wir haben dir deine Zugangsdaten per Mail zugeschickt. P.S.: Bitte überprüfe auch deinen Spam-Ordner.',
     icon: EnvelopeIcon,
     isLink: false,
   },
