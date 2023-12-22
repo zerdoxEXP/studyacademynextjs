@@ -27,7 +27,7 @@ export default function Hero() {
               <div className="mt-10 flex items-center gap-x-6">
                 <div className="text-center">
                 <a
-                  href="#"
+                  href="https://studyacademy.circle.so/join?invitation_token=fb8265bae1f5ecee13257a21d805339609b3fee0-57ae8387-d25d-424c-af88-6c28d873a4c9" target="_blank"
                   className="rounded-md bg-blue-600 px-7 py-4 text-2xl font-semibold text-white hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
                 >
                   Stelle jetzt deine Frage
