@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 
-export default function BasicPro() {
+export default function BasicNew() {
   return (
     <section>
       <div className="mt-10 mx-auto max-w-2xl px-4 pb-16 sm:px-6 sm:pb-24 lg:max-w-7xl lg:px-8">
