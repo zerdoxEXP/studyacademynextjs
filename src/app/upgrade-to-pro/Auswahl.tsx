@@ -25,6 +25,13 @@ export default function Auswahl() {
     }
   }  
 
+  type MailingList = {
+    id: number;
+    title: string;
+    description: string;
+    users: string;
+  };
+
   const handleSelection = (mailingList) => {
     setSelectedMailingList(mailingList);
     // Setzen Sie hier den individuellen Text für den Button
