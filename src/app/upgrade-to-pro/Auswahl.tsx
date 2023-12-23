@@ -19,9 +19,9 @@ export default function Auswahl() {
 
   const redirectTo = (id) => {
     if (id === 1) {
-      window.location.href = 'https://link-zu-upgrade-basic-pro';
+      window.location.href = 'https://copecart.com/products/0368727f/checkout';
     } else if (id === 2) {
-      window.location.href = 'https://link-zu-lernsystem-pro';
+      window.location.href = 'https://copecart.com/products/54da3563/checkout';
     }
   }
 
