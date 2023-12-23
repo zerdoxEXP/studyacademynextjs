@@ -17,13 +17,13 @@ export default function Auswahl() {
   const [selectedMailingList, setSelectedMailingList] = useState(null);
   const [buttonText, setButtonText] = useState('');
 
-  const redirectTo = (id) => {
+  const redirectTo = (id: number) => {
     if (id === 1) {
       window.location.href = 'https://copecart.com/products/0368727f/checkout';
     } else if (id === 2) {
       window.location.href = 'https://copecart.com/products/54da3563/checkout';
     }
-  }
+  }  
 
   const handleSelection = (mailingList) => {
     setSelectedMailingList(mailingList);
