@@ -4,6 +4,13 @@ import { useState } from 'react';
 import { RadioGroup } from '@headlessui/react';
 import { CheckCircleIcon } from '@heroicons/react/20/solid';
 
+type MailingList = {
+    id: number;
+    title: string;
+    description: string;
+    users: string;
+  };
+
 const mailingLists = [
   { id: 1, title: 'Ja, ich habe das Lernsystem Basic', description: 'Upgrade deinen Account - schalte zusätzliche 63 Lektionen und Spaces des Lernsystem Pro frei + dein eigenes Lern-Dashboard.', users: 'Hinweis: Upgrade nur möglich, wenn du das Lernsystem Basic hast.' },
   { id: 2, title: 'Nein, habe ich nicht.', description: 'Sichere dir jetzt das Lernsystem Pro und schalte das gesamte Wissen frei.', users: 'Hinweis: Lernsystem Pro = Lernsystem Basic + 63 Lektionen + Lern-Dashboard.' },
@@ -13,9 +20,9 @@ function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ');
   }
 
-export default function Auswahl() {
-  const [selectedMailingList, setSelectedMailingList] = useState(null);
-  const [buttonText, setButtonText] = useState('');
+  export default function Auswahl() {
+    const [selectedMailingList, setSelectedMailingList] = useState<MailingList | null>(null);
+    const [buttonText, setButtonText] = useState('');
 
   const redirectTo = (id: number) => {
     if (id === 1) {
@@ -25,14 +32,7 @@ export default function Auswahl() {
     }
   }  
 
-  type MailingList = {
-    id: number;
-    title: string;
-    description: string;
-    users: string;
-  };
-
-  const handleSelection = (mailingList) => {
+  const handleSelection = (mailingList: MailingList) => {
     setSelectedMailingList(mailingList);
     // Setzen Sie hier den individuellen Text für den Button
     if (mailingList.id === 1) {
