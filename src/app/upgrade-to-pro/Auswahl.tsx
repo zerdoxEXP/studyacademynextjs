@@ -9,9 +9,9 @@ const mailingLists = [
   { id: 2, title: 'Nein, habe ich nicht.', description: 'Sichere dir jetzt das Lernsystem Pro und schalte das gesamte Wissen frei.', users: 'Hinweis: Lernsystem Pro = Lernsystem Basic + 63 Lektionen + Lern-Dashboard.' },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
+function classNames(...classes: string[]) {
+    return classes.filter(Boolean).join(' ');
+  }
 
 export default function Auswahl() {
   const [selectedMailingList, setSelectedMailingList] = useState(null);
