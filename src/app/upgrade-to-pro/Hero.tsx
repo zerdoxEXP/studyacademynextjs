@@ -8,7 +8,7 @@ export default function Hero() {
           <div className="mt-8 flex justify-center items-center">
       </div>
           <p className="mt-6 text-lg sm:text-xl leading-8 text-gray-600 dark:text-gray-400">
-            Du hast jetzt die Chance dein <span className="font-semibold text-blue-600 dark:text-blue-500">Lernsystem Basic upzugraden (99€)</span>. Falls du das Lernsystem Basic noch nicht hast, dann kannst du dir <span className="font-semibold text-teal-600 dark:text-teal-500">direkt das Lernsystem Pro (199€)</span> sichern.
+            Du hast jetzt die Chance dein <span className="font-semibold text-blue-600 dark:text-blue-500">Lernsystem Basic upzugraden (99€)</span>. Falls du das Lernsystem Basic noch nicht hast, dann kannst du dir <span className="font-semibold text-teal-600 dark:text-teal-500">direkt das Lernsystem Pro (198€)</span> sichern.
           </p>
         </div>
       </div>

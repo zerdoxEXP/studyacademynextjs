@@ -8,6 +8,7 @@ export default function Impressum() {
         <h1 className="text-3xl sm:text-5xl font-caveat text-blue-600">Impressum</h1>
         <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">Angaben gemäß § 5 TMG:</h2>
         <div className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+          <p className="mt-5 text-gray-900 dark:text-white">Study Academy</p>
           <p>
           Zerdox Experience UG (haftungsbeschränkt)<br/>
           Leiblstraße 5<br/>
@@ -20,7 +21,7 @@ export default function Impressum() {
           <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">Kontakt</h2>
           <p className="mt-4">
           Telefon: 06237 – 97 65 630<br />
-          E-Mail: keller@zerdox.de
+          E-Mail: support@study-academy.de
           </p>
           <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">Umsatzsteuer-ID</h2>
           <p className="mt-4">
