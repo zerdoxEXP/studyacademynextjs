@@ -2,23 +2,16 @@ import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon, ExclamationTriangleIco
 
 const features = [
   {
-    name: 'Falsche Selbsteinschätzung',
-    description:
-      'Der Mere Exposure Effekt beschreibt das Phänomen, dass wir denken wir haben Lernstoff aufgenommen und abgespeichert, weil wir ihn oft wiederholt haben. Dann sitzt man aber in der Prüfung und merkt, man kann nicht mehr auf das Wissen zurückgreifen!',
-    href: '#',
-    icon: ExclamationTriangleIcon,
-  },
-  {
     name: 'Überwältigung beim Lernstart',
     description:
-      'Viele Lernende fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen. Diese Unsicherheit sorgt dafür, dass unser Lernplan von Beginn an zum Scheitern verurteilt ist.',
+      'Viele fühlen sich zu Beginn eines neuen Themas oder Kurses überfordert und wissen nicht, wo sie anfangen sollen. Diese Unsicherheit kann zu Verzögerungen und Frustration führen. Diese Unsicherheit sorgt dafür, dass der Lernplan von Beginn an zum Scheitern verurteilt ist.',
     href: '#',
     icon: ExclamationTriangleIcon,
   },
   {
-    name: 'Falsche Lernmethoden falscher Kontext',
+    name: 'Falsch eingesetzte Lernmethode',
     description:
-      'Es gibt hunderte Lernmethoden, aber nur die wenigsten schaffen es die richtige Methode für das richtige Thema anzuwenden! Dadurch verzweifeln die meisten schon beim Aufnehmen der Informationen.',
+      'Es gibt hunderte Lernmethoden, aber nur die wenigsten schaffen es die richtige Methode für das richtige Thema anzuwenden! Dadurch verhindern sie das effektive Aufnehmen der Informationen.',
     href: '#',
     icon: ExclamationTriangleIcon,
   },
@@ -32,7 +25,7 @@ const features = [
   {
     name: 'Behalten von Informationen',
     description:
-      'Viele Lernende haben Probleme damit, Informationen langfristig zu speichern, was besonders bei komplexen Themen zu Herausforderungen führt.',
+      'Viele haben Probleme damit, Informationen langfristig zu speichern, was besonders bei komplexen Themen zu Herausforderungen führt.',
     href: '#',
     icon: ExclamationTriangleIcon,
   },
@@ -46,14 +39,7 @@ const features = [
   {
     name: 'Fehlende Motivation und Zielsetzung',
     description:
-      'Viele Lernende kämpfen mit fehlender Motivation und Schwierigkeiten bei der Festlegung klarer Lernziele, was zu mangelnder Richtung und Fortschritt führt.',
-    href: '#',
-    icon: ExclamationTriangleIcon,
-  },
-  {
-    name: 'Starke Selbstzweifel',
-    description:
-      'Viele Lernende kämpfen mit fehlender Motivation und Schwierigkeiten bei der Festlegung klarer Lernziele, was zu mangelnder Richtung und Fortschritt führt.',
+      'Viele kämpfen mit fehlender Motivation und Schwierigkeiten bei der Festlegung klarer Lernziele, was zu mangelndem Fortschritt und Prokrastination führt.',
     href: '#',
     icon: ExclamationTriangleIcon,
   },
