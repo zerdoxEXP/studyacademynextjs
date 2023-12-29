@@ -17,7 +17,7 @@ export default function Feature3() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Behalten von Informationen</p>
+              <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Behalten von Informationen</h3>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
                 Wir zeigen dir, wie du Informationen behältst und in der Prüfung abrufen kannst. Dazu musst du nur dein Gehirn darauf trainieren Informationen optimal abzuspeichern.
               </p>

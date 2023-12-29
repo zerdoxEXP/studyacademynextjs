@@ -32,10 +32,10 @@ export default function Lernsysteme() {
     <section id="Lernsysteme">
       <div className="mx-auto max-w-7xl px-6 pb-16 text-left sm:text-center lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <h2 className="font-caveat text-2xl font-medium leading-7 text-blue-600 sm:text-4xl">Willst du richtig durchstarten?</h2>
-          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
+          <p className="font-caveat text-2xl font-medium leading-7 text-blue-600 sm:text-4xl">Willst du richtig durchstarten?</p>
+          <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
             Wähle jetzt ein Lernsystem aus und beginne sofort!
-          </p>
+          </h2>
         </div>
         <div className="relative mt-6">
           <p className="mx-auto max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-400">

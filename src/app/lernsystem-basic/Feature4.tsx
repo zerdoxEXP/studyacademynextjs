@@ -17,7 +17,7 @@ export default function Features4() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Probleme beim Lernen</p>
+              <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Probleme beim Lernen</h3>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
                 Du kannst den besten Lernplan und den höchsten IQ haben, wenn du dich ständig selbst sabotierst, wirst du scheitern. Wir geben dir nützliche Tipps um motiviert und strukturiert zu lernen.
               </p>

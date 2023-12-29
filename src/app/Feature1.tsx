@@ -15,16 +15,16 @@ export default function Feature1() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Deine Ergebnisse sind besser.</p>
+              <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Deine Ergebnisse sind besser.</h3>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               Durch die richtigen Lernmethoden, eine gute Struktur und einen perfekten Lernplan wird keine Prüfung zu schwer für dich! Wenn du weißt wie gutes Lernen funktioniert, folgen die sehr guten Ergebnisse von alleine.
               </p>
               <dl className="mt-6 max-w-xl space-y-8 rounded-xl p-4 shadow ring-1 ring-gray-200 bg-gray-50 dark:bg-slate-800 dark:ring-0 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name}>
-                    <dt className="inline font-semibold text-gray-900 dark:text-white">
+                    <h3 className="inline font-semibold text-gray-900 dark:text-white">
                       {feature.name}
-                    </dt>{' '}
+                    </h3>{' '}
                     <dd className="inline">{feature.description}</dd>
                   </div>
                 ))}

@@ -6,8 +6,6 @@ const posts = [
       product: 'Kostenlose Hilfe',
       title: 'Du kannst in unserer Community deine Lernfrage an Experten stellen.',
       href: '/community',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       imageUrl:
         '/images/community-kostenlose-frage-stellen.jpg',
     },
@@ -16,8 +14,6 @@ const posts = [
         product: 'Lernsystem Basic',
         title: 'Mit diesen Lerntechniken wirst du Prüfungen sicher bestehen.',
         href: '/lernsystem-basic',
-        description:
-          'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
           '/images/lernsystem-basic.jpg',
       },
@@ -26,8 +22,6 @@ const posts = [
         product: 'Lernsystem Pro',
         title: 'Dieses Lernsystem ist für jeden der zum Überflieger werden will.',
         href: '/lernsystem-pro',
-        description:
-          'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
           '/images/lernsystem-pro.jpg',
       },
@@ -58,14 +52,14 @@ const posts = [
                 height={800}
                 />  
                 <div className="flex flex-row gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
-                  <p className="text-3xl font-bold text-white mr-8">{post.product}</p>
+                  <h3 className="text-3xl font-bold text-white mr-8">{post.product}</h3>
                 </div>
-                <h3 className="mt-3 text-lg leading-6 text-white">
+                <p className="mt-3 text-lg leading-6 text-white">
                   <a href={post.href}>
                     <span className="absolute inset-0" />
                     {post.title}
                   </a>
-                </h3>
+                </p>
               </div>
             ))}
           </div>

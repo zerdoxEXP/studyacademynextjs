@@ -37,6 +37,36 @@ export default function Impressum() {
           <p className="mt-4">
           Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
           </p>
+          <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">Quellenangaben für die verwendeten Bilder und Grafiken:</h2>
+          <p className="mt-4">
+          stock.adobe.com
+          </p>
+          <p className="mt-4">
+          &copy; Inna, Item ID: 357295882, 513222560, 452788977, 519208661, 532358134, 500400571, 345755139, 509134974, 505380365, 609179627, 302556851, 508405857<br />
+          &copy; Andrei, Item ID: 618802565<br />
+          &copy; Deeplab, Item ID: 512387601<br />
+          &copy; Pixel-Shot, Item ID: 541369524<br />
+          &copy; JOURNEY STUDIO7, Item ID: 622648834<br />
+          &copy; Kaspars Grinvalds, Item ID: 225456998<br />
+          &copy; pikselstock, Item ID: 410115591<br />
+          &copy; Віталій Баріда, Item ID: 358633104<br />
+          &copy; deagreez, Item ID: 557169895<br />
+          &copy; Fabio, Item ID: 627502407<br />
+          &copy; insta_photos, Item ID: 614285045, 548175570<br />
+          &copy; deagreez, Item ID: 672336954<br />
+          &copy; Timeimage, Item ID: 580560055<br />
+          &copy; Drobot Dean, Item ID: 209203003<br />
+          &copy; lovemask, Item ID: 109914063<br />
+          &copy; Анна Орлова, Item ID: 600661440<br />
+          &copy; backup_studio, Item ID: 467516968<br />
+          &copy; mitay20, Item ID: 575925801<br />
+          &copy; BWNP, Item ID: 528145728<br />
+          &copy; Lagunov, Item ID: 432719846<br />
+          &copy; Ambika, Item ID: 632035965<br />
+          &copy; Comauthor, Item ID: 404802822<br />
+          &copy; Rymden, Item ID: 299297541<br />
+          &copy; SITI, Item ID: 517166283<br />
+          </p>
         </div>
       </div>
     </div>

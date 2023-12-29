@@ -63,10 +63,10 @@ export default function Anwendungsbereiche() {
     <div className="bg-gray-50 dark:bg-slate-800 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="font-caveat text-2xl sm:text-4xl leading-7 text-blue-600">Vielfältig einsetzbar...</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+          <p className="font-caveat text-2xl sm:text-4xl leading-7 text-blue-600">Vielfältig einsetzbar...</p>
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           In folgenden Bereichen wirst du unsere Lernsysteme anwenden können
-          </p>
+          </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
             In manchen Bereichen fällt es dir vielleicht leichter Neues zu lernen, aber wenn du einmal verstehst wie du neues Wissen aufnimmmst, dann wirst du auch in anderen Bereichen neue Inhalte mit Leichtigkeit behalten können.
           </p>

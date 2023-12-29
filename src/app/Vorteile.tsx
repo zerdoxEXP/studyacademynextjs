@@ -23,7 +23,7 @@ export default function Vorteile() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <p className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Was zeichnet die Study Academy aus?</p>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Was zeichnet die Study Academy aus?</h2>
             <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
             Die Study Academy setzt sich mit Leidenschaft dafür ein, das Lernen zu revolutionieren und jedem Einzelnen zu ermöglichen, sein volles Potential zu entfalten.
             </p>
@@ -39,10 +39,9 @@ export default function Vorteile() {
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 dark:text-gray-400 sm:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-9">
-                <dt className="text-lg font-semibold text-gray-900 dark:text-white">
-                  <CheckBadgeIcon className="absolute left-0 top-1 h-5 w-5 text-blue-500" aria-hidden="true" />
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   {feature.name}
-                </dt>
+                </h3>
                 <dd className="mt-2">{feature.description}</dd>
               </div>
             ))}

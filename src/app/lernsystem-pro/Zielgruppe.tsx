@@ -27,9 +27,9 @@ export default function Zielgruppe() {
     <div className="pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="lg:text-center">
-          <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
+          <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
           Für wen ist das Lernsystem <span className="font-caveat text-4xl sm:text-6xl text-teal-600 dark:text-teal-500 font-medium">Pro</span> geeignet?
-          </p>
+          </h2>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
