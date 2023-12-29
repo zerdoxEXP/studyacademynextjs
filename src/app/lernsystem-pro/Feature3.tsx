@@ -17,7 +17,7 @@ export default function Feature3() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Karrierebereich</p>
+              <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Karrierebereich</h3>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               In der heutigen Zeit wird es immer wichtiger sich neue Fähigkeiten anzueignen um in der Karriere voran zu kommen.
               </p>
