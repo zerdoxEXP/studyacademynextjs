@@ -418,15 +418,9 @@ export default function Datenschutz() {
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Folgende Zahlungsdienste / Zahlungsdienstleister setzen wir im Rahmen dieser Website ein:
         </p>
-        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Stripe</h4>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">CopeCart</h4>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
-        Anbieter f&uuml;r Kunden innerhalb der EU ist die Stripe Payments Europe, Ltd.,1 Grand Canal Street Lower, Grand Canal Dock, Dublin, Irland (im Folgenden &bdquo;Stripe&ldquo;).
-        </p>
-        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
-        Die Daten&uuml;bertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gest&uuml;tzt. Details finden Sie hier:<br/><a href="https://stripe.com/de/privacy" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://stripe.com/de/privacy</a> und<br/><a href="https://stripe.com/de/guides/general-data-protection-regulation" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://stripe.com/de/guides/general-data-protection-regulation</a>.
-        </p>
-        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
-        Details hierzu k&ouml;nnen Sie in der Datenschutzerkl&auml;rung von Stripe unter folgendem Link nachlesen: <a href="https://stripe.com/de/privacy" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://stripe.com/de/privacy</a>.
+        Anbieter dieses Zahlungsdienstes ist CopeCart GmbH, Ufnaustraße 10, 10553 Berlin (im Folgenden „CopeCart“). Details entnehmen Sie der Datenschutzerklärung von CopeCart: <a href="https://www.copecart.com/de/datenschutz" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://www.copecart.com/de/datenschutz</a>.
         </p>
       </div>
     </div>
