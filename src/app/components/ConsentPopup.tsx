@@ -24,7 +24,7 @@ const ConsentPopup = ({ onConsent, onDeny }) => {
           Ihre Privatsphäre ist uns wichtig, deswegen verwenden wir folgende Technologien nur mit Ihrer Zustimmung. Google Tag Manager zur Verwaltung und Implementierung von Tags auf unserer Webseite. Google Analytics zur Analyse des Webseitenverkehrs und des Nutzerverhaltens. Google Ads und Google Ads Remarketing um Ihnen auf Ihre Interessen abgestimmte Werbung zu präsentieren. Google Conversion-Tracking zur Messung der Leistung unserer Werbekampagnen und Microsoft Clarity für Einblicke in die Nutzererfahrung auf unserer Webseite.
           </p>
           <p className="text-sm mt-2">
-          Sie können Ihre Einwilligung jederzeit widerrufen, den entsprechenden Link dazu finden Sie im Footer unter "Cookies widerrufen". Mehr Informationen zum Datenschutz finden Sie in unserer Datenschutzerklärung.
+          Sie können Ihre Einwilligung jederzeit widerrufen, den entsprechenden Link dazu finden Sie im Footer unter &quot;Cookies widerrufen&quot;. Mehr Informationen zum Datenschutz finden Sie in unserer Datenschutzerklärung.
           </p>
           <div className="flex justify-between items-center my-4">
           <p className="text-xs">Weitere Informationen:</p>
