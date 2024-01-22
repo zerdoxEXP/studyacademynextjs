@@ -4,7 +4,6 @@
 
 import React, { useState, useEffect } from 'react';
 import ConsentPopup from './ConsentPopup';
-import GoogleTagManager from '../metrics/GoogleTagManager';
 
 const ConsentManager: React.FC = () => {
     const [consentGiven, setConsentGiven] = useState(false);
