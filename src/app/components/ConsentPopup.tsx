@@ -2,7 +2,12 @@ import React from 'react';
 import LightLogo from './LightLogo';
 import DarkLogo from './DarkLogo';
 
-const ConsentPopup = ({ onConsent, onDeny }) => {
+interface ConsentPopupProps {
+  onConsent: () => void;
+  onDeny: () => void;
+}
+
+const ConsentPopup: React.FC<ConsentPopupProps> = ({ onConsent, onDeny }) => {
   return (
     <div className="fixed inset-0 z-50 bg-white dark:bg-black bg-opacity-50 dark:bg-opacity-50 flex justify-center items-center p-4">
       <div className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-xl max-w-lg w-full">
