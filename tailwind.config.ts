@@ -14,7 +14,10 @@ const config: Config = {
       },
       boxShadow: {
         'glow': '10 0px 40px 20px rgba(0, 255, 255, 0.3)',
-      }
+      },
+      scrollMargin: {
+        '90': '90px', // Passen Sie diesen Wert an die Höhe Ihres Headers an
+      },
     },
   },
   plugins: [require('@tailwindcss/aspect-ratio'),],

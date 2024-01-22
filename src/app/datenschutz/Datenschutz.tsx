@@ -1,4 +1,13 @@
+'use client'
+
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import React from 'react';
+
+const handleWithdrawConsent = () => {
+  localStorage.removeItem('userConsent');
+  alert('Ihre Zustimmung wurde widerrufen.');
+};
+
 
 export default function Datenschutz() {
   return (
@@ -36,6 +45,13 @@ export default function Datenschutz() {
         bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
         Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
         Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Analyse-Tools und Tools von Dritt­anbietern</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit sogenannten Analyseprogrammen.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
         </p>
         <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">2. Hosting</h2>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
@@ -149,6 +165,13 @@ export default function Datenschutz() {
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Telefon: 06237 – 97 65 630<br/>
         E-Mail: kontakt@zerdox.de
+        </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Hinweis zur Datenweitergabe in datenschutzrechtlich nicht sichere Drittstaaten sowie die Weitergabe an US-Unternehmen, die nicht DPF-zertifiziert sind</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir verwenden unter anderem Tools von Unternehmen mit Sitz in datenschutzrechtlich nicht sicheren Drittstaaten sowie US-Tools, deren Anbieter nicht nach dem EU-US-Data Privacy Framework (DPF) zertifiziert sind. Wenn diese Tools aktiv sind, können Ihre personenbezogene Daten in diese Staaten übertragen und dort verarbeitet werden. Wir weisen darauf hin, dass in datenschutzrechtlich unsicheren Drittstaaten kein mit der EU vergleichbares Datenschutzniveau garantiert werden kann.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir weisen darauf hin, dass die USA als sicherer Drittstaat grundsätzlich ein mit der EU vergleichbares Datenschutzniveau aufweisen. Eine Datenübertragung in die USA ist danach zulässig, wenn der Empfänger eine Zertifizierung unter dem „EU-US Data Privacy Framework“ (DPF) besitzt oder über geeignete zusätzliche Garantien verfügt. Informationen zu Übermittlungen an Drittstaaten einschließlich der Datenempfänger finden Sie in dieser Datenschutzerklärung.
         </p>
         <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Empfänger von personenbezogenen Daten</h3>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
@@ -275,6 +298,25 @@ export default function Datenschutz() {
         Werbeinformationen, etwa durch Spam-E-Mails, vor.
         </p>
         <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">4. Datenerfassung auf dieser Website</h2>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Cookies</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Unsere Internetseiten verwenden so genannte „Cookies“. Cookies sind kleine Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Cookies können von uns (First-Party-Cookies) oder von Drittunternehmen stammen (sog. Third-Party-Cookies). Third-Party-Cookies ermöglichen die Einbindung bestimmter Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z. B. Cookies zur Abwicklung von Zahlungsdienstleistungen).
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da bestimmte Webseitenfunktionen ohne diese nicht funktionieren würden (z. B. die Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies können zur Auswertung des Nutzerverhaltens oder zu Werbezwecken verwendet werden.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z. B. für die Warenkorbfunktion) oder zur Optimierung der Website (z. B. Cookies zur Messung des Webpublikums) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Sofern eine Einwilligung zur Speicherung von Cookies und vergleichbaren Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG); die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Welche Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dieser Datenschutzerklärung entnehmen.
+        </p>
         <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Server-Log-Dateien</h3>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-
@@ -356,7 +398,163 @@ export default function Datenschutz() {
         Die bei der Registrierung erfassten Daten werden von uns gespeichert, solange Sie auf dieser Website
         registriert sind und werden anschließend gelöscht. Gesetzliche Aufbewahrungsfristen bleiben unberührt.
         </p>
-        <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">5. Plugins und Tools</h2>
+        <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">5. Analyse-Tools und Werbung</h2>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Google Tag Manager</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir setzen den Google Tag Manager ein. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Der Google Tag Manager ist ein Tool, mit dessen Hilfe wir Tracking- oder Statistik-Tools und andere Technologien auf unserer Website einbinden können. Der Google Tag Manager selbst erstellt keine Nutzerprofile, speichert keine Cookies und nimmt keine eigenständigen Analysen vor. Er dient lediglich der Verwaltung und Ausspielung der über ihn eingebundenen Tools. Der Google Tag Manager erfasst jedoch Ihre IP-Adresse, die auch an das Mutterunternehmen von Google in die Vereinigten Staaten übertragen werden kann.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Der Einsatz des Google Tag Managers erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an einer schnellen und unkomplizierten Einbindung und Verwaltung verschiedener Tools auf seiner Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: <a href="https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active</a>
+        </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Google Analytics</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Google Analytics ermöglicht es dem Websitebetreiber, das Verhalten der Websitebesucher zu analysieren. Hierbei erhält der Websitebetreiber verschiedene Nutzungsdaten, wie z. B. Seitenaufrufe, Verweildauer, verwendete Betriebssysteme und Herkunft des Nutzers. Diese Daten werden in einer User-ID zusammengefasst und dem jeweiligen Endgerät des Websitebesuchers zugeordnet.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Des Weiteren können wir mit Google Analytics u. a. Ihre Maus- und Scrollbewegungen und Klicks aufzeichnen. Ferner verwendet Google Analytics verschiedene Modellierungsansätze, um die erfassten Datensätze zu ergänzen und setzt Machine-Learning-Technologien bei der Datenanalyse ein.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Google Analytics verwendet Technologien, die die Wiedererkennung des Nutzers zum Zwecke der Analyse des Nutzerverhaltens ermöglichen (z. B. Cookies oder Device-Fingerprinting). Die von Google erfassten Informationen über die Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: <a href="https://privacy.google.com/businesses/controllerterms/mccs/" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://privacy.google.com/businesses/controllerterms/mccs/</a>.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: <a href="https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active</a>
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">IP Anonymisierung</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Google Analytics IP-Anonymisierung ist aktiviert. Dadurch wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum vor der Übermittlung in die USA gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Browser Plugin</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Sie können die Erfassung und Verarbeitung Ihrer Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="https://tools.google.com/dlpage/gaoptout?hl=de" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://tools.google.com/dlpage/gaoptout?hl=de</a>.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: <a href="https://support.google.com/analytics/answer/6004245?hl=de" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://support.google.com/analytics/answer/6004245?hl=de</a>.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Google-Signale</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir nutzen Google-Signale. Wenn Sie unsere Website besuchen, erfasst Google Analytics u. a. Ihren Standort, Suchverlauf und YouTube-Verlauf sowie demografische Daten (Besucherdaten). Diese Daten können mit Hilfe von Google-Signal für personalisierte Werbung verwendet werden. Wenn Sie über ein Google-Konto verfügen, werden die Besucherdaten von Google-Signal mit Ihrem Google-Konto verknüpft und für personalisierte Werbebotschaften verwendet. Die Daten werden außerdem für die Erstellung anonymisierter Statistiken zum Nutzerverhalten unserer User verwendet.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Auftragsverarbeitung</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir haben mit Google einen Vertrag zur Auftragsverarbeitung abgeschlossen und setzen die strengen Vorgaben der deutschen Datenschutzbehörden bei der Nutzung von Google Analytics vollständig um.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Google Analytics E-Commerce-Messung</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Diese Website nutzt die Funktion „E-Commerce-Messung“ von Google Analytics. Mit Hilfe von E-Commerce-Messung kann der Websitebetreiber das Kaufverhalten der Websitebesucher zur Verbesserung seiner Online-Marketing-Kampagnen analysieren. Hierbei werden Informationen, wie zum Beispiel die getätigten Bestellungen, durchschnittliche Bestellwerte, Versandkosten und die Zeit von der Ansicht bis zum Kauf eines Produktes erfasst. Diese Daten können von Google unter einer Transaktions-ID zusammengefasst werden, die dem jeweiligen Nutzer bzw. dessen Gerät zugeordnet ist.
+        </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Clarity</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Diese Website nutzt Clarity. Anbieter ist die Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Irland, <a href="https://docs.microsoft.com/en-us/clarity/" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://docs.microsoft.com/en-us/clarity/</a> (im Folgenden „Clarity“).
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Clarity ist ein Werkzeug zur Analyse des Nutzerverhaltens auf dieser Website. Hierbei erfasst Clarity insbesondere Mausbewegungen und erstellt eine grafische Darstellung darüber, auf welchen Teil der Website Nutzer besonders häufig scrollen (Heatmaps). Clarity kann ferner Sitzungen aufzeichnen, sodass wir die Seitennutzung in Form von Videos ansehen können. Ferner erhalten wir Angaben über das allgemeine Nutzerverhalten innerhalb unserer Website.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Clarity verwendet Technologien, die die Wiedererkennung des Nutzers zum Zwecke der Analyse des Nutzerverhaltens ermöglichen (z. B. Cookies oder Einsatz von Device-Fingerprinting). Ihre personenbezogenen Daten werden auf den Servern von Microsoft (Microsoft Azure Cloud Service) in den USA gespeichert.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Soweit eine Einwilligung (Consent) eingeholt wurde, erfolgt der Einsatz des o. g. Dienstes ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 TTDSG. Die Einwilligung ist jederzeit widerrufbar. Soweit keine Einwilligung eingeholt wurde, erfolgt die Verwendung dieses Dienstes auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO; der Websitebetreiber hat ein berechtigtes Interesse an einer effektiven Nutzeranalyse.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Weitere Details zum Datenschutz von Clarity finden Sie hier: <a href="https://docs.microsoft.com/en-us/clarity/faq" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://docs.microsoft.com/en-us/clarity/faq</a>.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: <a href="https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000KzNaAAK&status=Active" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt0000000KzNaAAK&status=Active</a>
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Auftragsverarbeitung</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+        </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Google Ads</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Der Websitebetreiber verwendet Google Ads. Google Ads ist ein Online-Werbeprogramm der Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Google Ads ermöglicht es uns Werbeanzeigen in der Google-Suchmaschine oder auf Drittwebseiten auszuspielen, wenn der Nutzer bestimmte Suchbegriffe bei Google eingibt (Keyword-Targeting). Ferner können zielgerichtete Werbeanzeigen anhand der bei Google vorhandenen Nutzerdaten (z. B. Standortdaten und Interessen) ausgespielt werden (Zielgruppen-Targeting). Wir als Websitebetreiber können diese Daten quantitativ auswerten, indem wir beispielsweise analysieren, welche Suchbegriffe zur Ausspielung unserer Werbeanzeigen geführt haben und wie viele Anzeigen zu entsprechenden Klicks geführt haben.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: <a href="https://policies.google.com/privacy/frameworks" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy/frameworks</a> und <a href="https://privacy.google.com/businesses/controllerterms/mccs/" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://privacy.google.com/businesses/controllerterms/mccs/</a>.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: <a href="https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active</a>.
+        </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Google Ads Remarketing</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Diese Website nutzt die Funktionen von Google Ads Remarketing. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Mit Google Ads Remarketing können wir Personen, die mit unserem Online-Angebot interagieren bestimmten Zielgruppen zuordnen, um ihnen anschließend interessenbezogene Werbung im Google-Werbenetzwerk anzeigen zu lassen (Remarketing bzw. Retargeting).
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Des Weiteren können die mit Google Ads Remarketing erstellten Werbe-Zielgruppen mit den geräteübergreifenden Funktionen von Google verknüpft werden. Auf diese Weise können interessenbezogene, personalisierte Werbebotschaften, die in Abhängigkeit Ihres früheren Nutzungs- und Surfverhaltens auf einem Endgerät (z. B. Handy) an Sie angepasst wurden auch auf einem anderen Ihrer Endgeräte (z. B. Tablet oder PC) angezeigt werden.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wenn Sie über einen Google-Account verfügen, können Sie der personalisierten Werbung unter folgendem Link widersprechen: <a href="https://www.google.com/settings/ads/onweb/" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://www.google.com/settings/ads/onweb/</a>.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Weitergehende Informationen und die Datenschutzbestimmungen finden Sie in der Datenschutzerklärung von Google unter: <a href="https://policies.google.com/technologies/ads?hl=de" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads?hl=de</a>.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: <a href="https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active</a>.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Zielgruppenbildung mit Kundenabgleich</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Zur Zielgruppenbildung verwenden wir unter anderem den Kundenabgleich von Google Ads Remarketing. Hierbei übergeben wir bestimmte Kundendaten (z. B. E-Mail-Adressen) aus unseren Kundenlisten an Google. Sind die betreffenden Kunden Google-Nutzer und in ihrem Google-Konto eingeloggt, werden ihnen passende Werbebotschaften innerhalb des Google-Netzwerks (z. B. bei YouTube, Gmail oder in der Suchmaschine) angezeigt.
+        </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Google Conversion-Tracking</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Diese Website nutzt Google Conversion Tracking. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Mit Hilfe von Google-Conversion-Tracking können Google und wir erkennen, ob der Nutzer bestimmte Aktionen durchgeführt hat. So können wir beispielsweise auswerten, welche Buttons auf unserer Website wie häufig geklickt und welche Produkte besonders häufig angesehen oder gekauft wurden. Diese Informationen dienen dazu, Conversion-Statistiken zu erstellen. Wir erfahren die Gesamtanzahl der Nutzer, die auf unsere Anzeigen geklickt haben und welche Aktionen sie durchgeführt haben. Wir erhalten keine Informationen, mit denen wir den Nutzer persönlich identifizieren können. Google selbst nutzt zur Identifikation Cookies oder vergleichbare Wiedererkennungstechnologien.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Mehr Informationen zu Google Conversion-Tracking finden Sie in den Datenschutzbestimmungen von Google: <a href="https://policies.google.com/privacy?hl=de" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a>.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: <a href=" https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer"> https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active</a>
+        </p>
+        <h3 id="cookieswiderrufen" className="scroll-mt-90 mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Cookie-Zustimmung widerrufen</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Ihre Privatsphäre und die Kontrolle über Ihre Daten sind uns wichtig. Wenn Sie zuvor Ihre Zustimmung zur Verwendung von Cookies auf unserer Webseite erteilt haben, können Sie diese Entscheidung jederzeit ändern. Wir respektieren Ihr Recht, Ihre Präferenzen zu ändern und bieten Ihnen die Möglichkeit, Ihre Cookie-Einstellungen anzupassen.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Durch das Widerrufen Ihrer Cookie-Zustimmung stoppen wir die Datenerfassung durch Cookies, die nicht unbedingt für das Funktionieren der Webseite erforderlich sind. Dies umfasst Cookies, die für Analysen, personalisierte Werbung und soziale Medien verwendet werden. Bitte beachten Sie, dass nach dem Widerruf der Zustimmung einige Teile unserer Webseite möglicherweise nicht mehr wie gewohnt funktionieren.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Sie können Ihre Cookie-Zustimmung jederzeit widerrufen, indem Sie auf den folgenden Link klicken:
+        </p>
+        <button
+          onClick={handleWithdrawConsent}
+          className="mt-2 text-blue-600 hover:text-blue-800"
+        >
+          Einwilligung widerrufen
+        </button>
+        <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">6. Plugins und Tools</h2>
         <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">YouTube mit erweitertem Datenschutz</h3>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Diese Website bindet Videos der Website YouTube ein. Betreiber der Seiten ist die Google Ireland Limited
@@ -409,6 +607,23 @@ export default function Datenschutz() {
         </p>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Weitere Informationen zu Google Fonts finden Sie unter <a href="https://developers.google.com/fonts/faq" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://developers.google.com/fonts/faq</a> und in der Datenschutzerkl&auml;rung von Google: <a href="https://policies.google.com/privacy?hl=de" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a>.
+        </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Zapier</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir haben Zapier auf dieser Website eingebunden. Anbieter ist die Zapier Inc., Market St. #62411, San Francisco, CA 94104-5401, USA (nachfolgend Zapier).
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Zapier ermöglicht es uns, verschiedene Funktionalitäten, Datenbanken und Tools mit unserer Website zu verknüpfen und untereinander zu synchronisieren. Auf diese Weise ist es beispielsweise möglich, Inhalte, die wir auf unserer Website veröffentlichen, automatisch auch auf unseren Social-Media-Kanälen auszuspielen oder Inhalte aus Marketing- und Analysetools zu exportieren. Je nach Funktionalität kann hierbei auch Zapier verschiedene personenbezogene Daten erfassen.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Verwendung von Zapier erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an einer möglichst effektiven Integration der genutzten Tools. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: <a href="https://zapier.com/tos" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer">https://zapier.com/tos</a>.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Auftragsverarbeitung</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
         </p>
         <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">6. eCommerce und Zahlungs&shy;anbieter</h2>
         <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Zahlungsdienste</h3>

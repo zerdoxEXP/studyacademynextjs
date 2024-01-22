@@ -1,12 +1,14 @@
+import React from 'react';
 import type { Metadata } from 'next'
 import { Inter, Caveat } from 'next/font/google'
 import './globals.css'
 import Header from './Header';
 import Footer from './Footer';
 import Image from 'next/image';
+import ConsentManager from './components/ConsentManager';
 
-const inter = Inter({ subsets: ['latin'],variable: '--font-inter', display: 'swap' })
-const caveat = Caveat({ subsets: ['latin'],variable: '--font-caveat', display: 'swap' })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
+const caveat = Caveat({ subsets: ['latin'], variable: '--font-caveat', display: 'swap' })
 
 export const metadata: Metadata = {
   title: 'Study Academy',
@@ -21,10 +23,12 @@ export default function RootLayout({
   return (
     <html lang="de" className="scroll-smooth">
       <body className={`${inter.variable} ${caveat.variable} font-inter bg-white dark:bg-gray-900`}>
-      <Header />
-      {children}
-      <Footer />
+        <ConsentManager />
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   )
 }
+

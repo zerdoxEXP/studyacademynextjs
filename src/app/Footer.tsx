@@ -114,10 +114,11 @@ const navigation = {
             </div>
           </div>
           <div className="mt-16 border-t border-gray-900/10 dark:border-white/10 pt-8 sm:mt-20 lg:mt-24 flex justify-between">
-            <p className="text-xs leading-5 text-gray-500 dark:text-gray-400">Copyright &copy; 2023 Study Academy · All rights reserved.</p>
+            <p className="text-xs leading-5 text-gray-500 dark:text-gray-400">Copyright &copy; 2024 Study Academy · All rights reserved.</p>
             <div className="flex justify-between gap-4">
             <a href="/impressum" className="text-xs leading-5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">Impressum</a>
             <a href="/datenschutz" className="text-xs leading-5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">Datenschutz</a>
+            <a href="/datenschutz#cookieswiderrufen" className="text-xs leading-5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">Cookies widerrufen</a>
             </div>
           </div>
         </div>
