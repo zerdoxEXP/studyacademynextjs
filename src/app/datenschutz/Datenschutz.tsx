@@ -2,10 +2,17 @@
 
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
 import React from 'react';
+import { sendGTMEvent } from '@next/third-parties/google';
 
 const handleWithdrawConsent = () => {
   localStorage.removeItem('userConsent');
   alert('Ihre Zustimmung wurde widerrufen.');
+
+  // Sendet ein Ereignis an GTM
+  sendGTMEvent({ event: 'consentWithdrawn' });
+
+  // Aktualisiere die Seite, um alle aktiven Tracking-Scripts zu deaktivieren
+  window.location.reload();
 };
 
 
