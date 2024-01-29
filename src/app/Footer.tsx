@@ -118,7 +118,6 @@ const navigation = {
             <div className="flex justify-between gap-4">
             <a href="/impressum" className="text-xs leading-5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">Impressum</a>
             <a href="/datenschutz" className="text-xs leading-5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">Datenschutz</a>
-            <a href="/datenschutz#cookieswiderrufen" className="text-xs leading-5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">Cookies widerrufen</a>
             </div>
           </div>
         </div>

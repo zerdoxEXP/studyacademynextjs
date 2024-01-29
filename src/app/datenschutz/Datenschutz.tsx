@@ -324,6 +324,20 @@ export default function Datenschutz() {
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Welche Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dieser Datenschutzerklärung entnehmen.
         </p>
+        <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Einwilligung mit Cookiebot</h3>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Unsere Website nutzt die Consent-Technologie von Cookiebot, um Ihre Einwilligung zur Speicherung bestimmter Cookies auf Ihrem Endgerät oder zum Einsatz bestimmter Technologien einzuholen und diese datenschutzkonform zu dokumentieren. Anbieter dieser Technologie ist Cybot A/S, Havnegade 39, 1058 Kopenhagen, Dänemark (im Folgenden &bdquo;Cookiebot&rdquo;).
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wenn Sie unsere Website betreten, wird eine Verbindung zu den Servern von Cookiebot hergestellt, um Ihre Einwilligungen und sonstigen Erklärungen zur Cookie-Nutzung einzuholen. Anschließend speichert Cookiebot einen Cookie in Ihrem Browser, um Ihnen die erteilten Einwilligungen bzw. deren Widerruf zuordnen zu können. Die so erfassten Daten werden gespeichert, bis Sie uns zur Löschung auffordern, den Cookiebot-Cookie selbst löschen oder der Zweck für die Datenspeicherung entfällt. Zwingende gesetzliche Aufbewahrungspflichten bleiben unberührt.
+        </p>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Der Einsatz von Cookiebot erfolgt, um die gesetzlich vorgeschriebenen Einwilligungen für den Einsatz von Cookies einzuholen. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. c DSGVO.
+        </p>
+        <h4 className="mt-6 text-lg font-bold tracking-tight text-gray-900 dark:text-white sm:text-xl">Auftragsverarbeitung</h4>
+        <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
+        Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+        </p>
         <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Server-Log-Dateien</h3>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-
@@ -545,7 +559,7 @@ export default function Datenschutz() {
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: <a href=" https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active" className="text-blue-600 dark:text-blue-500" target="_blank" rel="noopener noreferrer"> https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active</a>
         </p>
-        <h3 id="cookieswiderrufen" className="scroll-mt-90 mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Cookie-Zustimmung widerrufen</h3>
+        <h3 className="scroll-mt-90 mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">Cookie-Zustimmung widerrufen</h3>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
         Ihre Privatsphäre und die Kontrolle über Ihre Daten sind uns wichtig. Wenn Sie zuvor Ihre Zustimmung zur Verwendung von Cookies auf unserer Webseite erteilt haben, können Sie diese Entscheidung jederzeit ändern. Wir respektieren Ihr Recht, Ihre Präferenzen zu ändern und bieten Ihnen die Möglichkeit, Ihre Cookie-Einstellungen anzupassen.
         </p>
@@ -553,14 +567,8 @@ export default function Datenschutz() {
         Durch das Widerrufen Ihrer Cookie-Zustimmung stoppen wir die Datenerfassung durch Cookies, die nicht unbedingt für das Funktionieren der Webseite erforderlich sind. Dies umfasst Cookies, die für Analysen, personalisierte Werbung und soziale Medien verwendet werden. Bitte beachten Sie, dass nach dem Widerruf der Zustimmung einige Teile unserer Webseite möglicherweise nicht mehr wie gewohnt funktionieren.
         </p>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
-        Sie können Ihre Cookie-Zustimmung jederzeit widerrufen, indem Sie auf den folgenden Link klicken:
+        Sie können Ihre Cookie-Zustimmung jederzeit widerrufen, indem Sie auf das Symbol links unten klicken und die entsprechenden Einstellungen vornehmen.
         </p>
-        <button
-          onClick={handleWithdrawConsent}
-          className="mt-2 text-blue-600 hover:text-blue-800"
-        >
-          Einwilligung widerrufen
-        </button>
         <h2 className="mt-6 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">6. Plugins und Tools</h2>
         <h3 className="mt-6 text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-2xl">YouTube mit erweitertem Datenschutz</h3>
         <p className="mt-4 max-w-2xl text-gray-600 dark:text-gray-400">
