@@ -6,7 +6,6 @@ import Header from './Header';
 import Footer from './Footer';
 import Image from 'next/image';
 import { GoogleTagManager } from '@next/third-parties/google';
-import ConsentManager from './components/ConsentManager';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
 const caveat = Caveat({ subsets: ['latin'], variable: '--font-caveat', display: 'swap' })
@@ -24,12 +23,11 @@ export default function RootLayout({
   return (
     <html lang="de" className="scroll-smooth">
       <body className={`${inter.variable} ${caveat.variable} font-inter bg-white dark:bg-gray-900`}>
-        <ConsentManager />
         <Header />
         {children}
         <Footer />
       </body>
-      <GoogleTagManager gtmId="GTM-WMTK3V3" />
+      <GoogleTagManager gtmId="GTM-NC86G2HX" />
     </html>
   )
 }
