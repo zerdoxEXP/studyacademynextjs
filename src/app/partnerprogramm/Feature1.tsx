@@ -9,7 +9,7 @@ export default function Features1() {
             <div className="lg:max-w-lg">
               <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">1. Kostenlosen Account bei CopeCart erstellen</h3>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Klicke am Ende der Seite auf den "Jetzt registrieren"-Button um deinen kostenlosen CopeCart-Account zu erstellen (oder die Produkte zu deinem bestehenden Account hinzuzufügen) und Provisionen zu sammeln, die du automatisch auf dein Konto ausgezahlt bekommst.
+              Klicke am Ende der Seite auf den &quot;Jetzt registrieren&quot;-Button um deinen kostenlosen CopeCart-Account zu erstellen (oder die Produkte zu deinem bestehenden Account hinzuzufügen) und Provisionen zu sammeln, die du automatisch auf dein Konto ausgezahlt bekommst.
               </p>
             </div>
           </div>
