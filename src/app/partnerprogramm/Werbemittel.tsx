@@ -54,7 +54,7 @@ function classNames(...classes: string[]) {
 
 export default function Example() {
   // Funktion, die Farbklassen basierend auf dem Tab-Namen zurückgibt
-  const tabColorClass = (tabName) => {
+  const tabColorClass = (tabName: string) => {
     switch (tabName) {
       case 'Lernsystem Basic':
         return {
