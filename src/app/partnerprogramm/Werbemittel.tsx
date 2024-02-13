@@ -8,7 +8,7 @@ const tabs = [
     name: 'Lernsystem Basic',
     features: [
       {
-        name: 'Bannerset Lernsystem Basic - Light Version',
+        name: 'Lernsystem Basic - Light Version Bannerset',
         description:
           'Die schlichte Version in weiß passt perfekt zu unseren Verkaufsseite und passt perfekt zu unseren Verkaufsseiten.',
         imageSrc: '/images/partner/lernsystem-basic-light.png',
@@ -16,7 +16,7 @@ const tabs = [
         downloadUrl: '/images/partner/lernsystem-basic-light.zip',
       },
       {
-        name: 'Bannerset Lernsystem Basic - Blue Version',
+        name: 'Lernsystem Basic - Blue Version Bannerset',
         description:
           'Diese Version von Bannern ist auffälliger und ist auch in unseren Brand-Farben gestaltet.',
         imageSrc: '/images/partner/lernsystem-basic-blue.png',
@@ -29,19 +29,19 @@ const tabs = [
     name: 'Lernsystem Pro',
     features: [
       {
-        name: 'Bannerset Pro - Light Version',
+        name: 'Lernsystem Pro - Light Version Bannerset',
         description:
-          'Organize has options for rich walnut and bright maple base materials. Accent your desk with a contrasting material, or match similar woods for a calm and cohesive look. Every base is hand sanded and finished.',
+          'Die schlichte Version in weiß passt perfekt zu unseren Verkaufsseite und passt perfekt zu unseren Verkaufsseiten.',
         imageSrc: '/images/partner/lernsystem-pro-light.png',
-        imageAlt: 'Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.',
+        imageAlt: 'Bannerset Lernsystem Pro - Light Version',
         downloadUrl: '/images/partner/lernsystem-pro-light.zip',
       },
       {
-        name: 'Bannerset Pro - Teal Version',
+        name: 'Lernsystem Pro - Teal Version Bannerset',
         description:
-          'Organize has options for rich walnut and bright maple base materials. Accent your desk with a contrasting material, or match similar woods for a calm and cohesive look. Every base is hand sanded and finished.',
+          'Diese Version von Bannern ist auffälliger und ist auch in unseren Brand-Farben gestaltet.',
         imageSrc: '/images/partner/lernsystem-pro-teal.png',
-        imageAlt: 'Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.',
+        imageAlt: 'Bannerset Lernsystem Pro - Teal Version',
         downloadUrl: '/images/partner/lernsystem-pro-teal.zip',
       },
     ],
