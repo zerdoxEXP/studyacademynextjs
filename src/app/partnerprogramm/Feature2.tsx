@@ -12,16 +12,16 @@ export default function Features2() {
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               In deinem CopeCart Account findest du unter xxx die Produkte die du bewerben kannst.
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                Auch bei Ratenzahlungen erhältst du jedes Mal deine 25% Provision! D.h. 3x8,25€ =24,45€
-              </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+              <p className="mt-6 text-base leading-8 text-gray-600 dark:text-gray-400">
                 Dein Partnerlink wird folgendermaßen aussehen:
+              </p>
+              <p className="mt-6 text-base leading-8 text-gray-600 dark:text-gray-400">
+              https://www.copecart.com/products/c7bc980a/p/DEIN_NAME bzw. https://www.copecart.com/products/13bb873e/p/DEIN_NAME
               </p>
             </div>
           </div>
           <Image
-            src="/images/partner/copecart-startseite.png"
+            src="/images/partner/affiliate-link-kopieren.jpg"
             alt="Lerninhalte Strukturieren"
             className="block rounded-md"
             width={2432}

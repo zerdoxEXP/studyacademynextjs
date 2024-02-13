@@ -11,7 +11,7 @@ export default function CTA() {
           </p>
           <div className="mt-10 flex items-center justify-start sm:justify-center gap-x-6">
           <a
-              href="#Preis"
+              href="https://copecart.com/invite?cp=lifetrust&vendor_id=15093&product_ids%5B%5D=222679&product_ids%5B%5D=222667&language=de"
               className="rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Jetzt registrieren
