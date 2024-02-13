@@ -10,7 +10,7 @@ export default function Features2() {
             <div className="lg:max-w-lg">
               <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">2. Affiliate Link generieren</h3>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              In deinem CopeCart Account findest du die Produkte die du bewerben kannst unter Marktplatz -> Meine Partnerschaften.
+              In deinem CopeCart Account findest du die Produkte die du bewerben kannst unter: Marktplatz - Meine Partnerschaften.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               Erstelle dann von dem Produkt das du bewerben willst einen Affiliate-Link, so einfach geht es.
