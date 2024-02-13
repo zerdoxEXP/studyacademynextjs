@@ -7,7 +7,7 @@ export default function CTA() {
           Starte jetzt mit dem Partnerprogramm von Study Academy
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-300">
-          Nutze die Gelegenheit, um dein Lernenverhalten für immer zu transformieren und sichere dir jetzt das Lernsystem Basic!
+          Klicke auf den Button und du wirst zu CopeCart weitergeleitet um deinen Account zu erstellen.
           </p>
           <div className="mt-10 flex items-center justify-start sm:justify-center gap-x-6">
           <a
