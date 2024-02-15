@@ -55,7 +55,7 @@ const navigation = {
               className="inline-block dark:hidden"
               />
               <p className="text-sm leading-6 mt-6 text-gray-600 dark:text-gray-400">
-              Wir möchten helfen das Lernen zu revolutionieren. Dazu nutzen wir neueste Techniken und Erkenntnissen der Wissenschaft.
+              Wir möchten helfen das Lernen zu revolutionieren. Dazu nutzen wir neueste Techniken und Erkenntnisse der Wissenschaft.
               </p>
             </div>
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
