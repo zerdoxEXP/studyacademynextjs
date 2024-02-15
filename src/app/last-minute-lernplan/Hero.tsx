@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl sm:pt-8 lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-            <h1 className="font-caveat text-red-600 text-3xl mb-2">Last Minute Lernplan - 100% kostenlos</h1>
+            <h1 className="text-red-600 font-semibold text-xl mb-2">Last Minute Lernplan - 100% kostenlos</h1>
             <p className="max-w-2xl text-5xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:col-span-2 xl:col-auto">
             In 5 Tagen unter Zeitdruck lernen.
             </p>
