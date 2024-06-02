@@ -11,9 +11,7 @@ const LoomVideo: React.FC<LoomVideoProps> = ({ embedUrl }) => {
       <iframe
         src={embedUrl}
         frameBorder="0"
-        webkitAllowFullScreen
-        mozAllowFullScreen
-        allowFullScreen
+        allow="fullscreen"
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
       ></iframe>
     </div>
@@ -21,3 +19,4 @@ const LoomVideo: React.FC<LoomVideoProps> = ({ embedUrl }) => {
 };
 
 export default LoomVideo;
+
