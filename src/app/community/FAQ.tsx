@@ -3,7 +3,7 @@ const faqs = [
       id: 1,
       question: "Wie funktioniert die Fragestellung an die Community und Experten?",
       answer:
-        "Du kannst Deine Lernfragen einfach über unseren Community Bereich einreichen. Klicke auf den Button 'Stelle jetzt deine Frage', melde dich in der Community an und beschreibe Dein Anliegen. Unsere Experten werden in einer Live-Session darauf antworten und die Frage beantworten.",
+        "Du kannst Deine Lernfragen einfach über unseren Community Bereich einreichen. Eröffne einfach einen neuen Beitrag in der Community und beschreibe Dein Anliegen. Unsere Experten und die Community werden dir deine Frage beantworten.",
     },
     {
         id: 2,
@@ -25,9 +25,9 @@ const faqs = [
       },
       {
         id: 5,
-        question: "Ist die Nutzung Ihrer Plattform und das Stellen von Fragen wirklich kostenlos?",
+        question: "Welche Vorteile hat die Community?",
         answer:
-          "Ja, absolut! Das Stellen von Fragen an unsere Community und Experten ist völlig kostenlos. Unser Ziel ist es, jedem beim Lernen zu helfen, ohne dass dabei Kosten entstehen.",
+          "Manchmal fühlt man sich alleine mit Herausforderungen die unüberwindbar erscheinen, dafür sind wir da um dir in so einer Phase zu helfen trotzdem weiter zu machen. Unsere Mission ist es, jedem dabei zu helfen mit Spaß und Selbstbewusstsein zu Lernen um Erfolge zu feiern.",
       },
       {
         id: 6,

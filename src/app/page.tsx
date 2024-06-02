@@ -7,6 +7,7 @@ import Lernsysteme from './Lernsysteme';
 import Vorteile from './Vorteile';
 import Probleme from './Probleme';
 import CTA from './CTA';
+import CTA2 from './CTA2';
 import Anwendungsbereiche from './Anwendungsbereiche';
 
 export const metadata: Metadata = {
@@ -18,12 +19,11 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Wasbietenwiran />
       <Features />
-      <Lernsysteme />
+      <CTA />
       <Vorteile />
       <Probleme />
-      <CTA />
+      <CTA2 />
       <Anwendungsbereiche />
     </main>
   )

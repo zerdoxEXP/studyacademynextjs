@@ -17,16 +17,16 @@ export default function Hero() {
         <div className="pt-32">
           <div className="mx-auto max-w-7xl sm:pt-12 px-6 lg:px-8">
             <div className="mx-auto max-w-5xl text-left sm:text-center">
-              <p className="font-caveat text-2xl sm:text-4xl dark:text-white mb-2">Schneller, effektiver & leichter Lernen.</p>
+              <p className="font-caveat text-2xl sm:text-4xl dark:text-white mb-2">Transformiere deinen Lernprozess</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              Wir helfen dir <span className="text-blue-600">besser zu lernen</span> mit unseren Lernsystemen.😎🤙
+              Wir helfen dir <span className="text-blue-600">effektiver zu lernen</span> mit unserem Lernsystem.😎🤙
               </h1>
               <p className="mt-6 mx-auto max-w-4xl text-cente text-xl leading-8 text-gray-600 dark:text-gray-400">
-              Beginne jetzt Dein Leben zu verändern und werde zu einem selbstsicheren Lerner – mit unseren innovativen Lernsystemen wirst du in kurzer Zeit große Fortschritte machen.
+              Bist du unzufrieden mit deinen Noten? Sehr oft gestresst wegen anstehenden Prüfungen? Dann könnte das Lernsystem Pro+ genau richtig für dich sein.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="/lernsystem-basic"
+                  href="/lernsystem"
                   className="rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
                   Jetzt starten

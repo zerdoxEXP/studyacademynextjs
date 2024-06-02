@@ -11,12 +11,8 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Community', href: '/community' },
   {
-    name: ['Lernsystem ', { part: 'Basic', special: true, color: 'text-blue-600' }],
-    href: '/lernsystem-basic'
-  },
-  {
-    name: ['Lernsystem ', { part: 'Pro', special: true, color: 'text-teal-600 dark:text-teal-500' }],
-    href: '/lernsystem-pro'
+    name: ['Lernsystem ', { part: 'Pro+', special: true, color: 'text-teal-600 dark:text-teal-500' }],
+    href: '/lernsystem'
   },
   { name: 'Erfolge', href: '/erfolgsgeschichten' },
 ];
