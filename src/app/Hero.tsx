@@ -31,7 +31,7 @@ export default function Hero() {
                 >
                   Jetzt starten
                 </a>
-                <a href="#WasBietenWirAn" className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">
+                <a href="#Vorteile" className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">
                   Mehr erfahren <span aria-hidden="true">→</span>
                 </a>
               </div>

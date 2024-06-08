@@ -12,6 +12,7 @@ import CTA from './CTA'
 import Pricing from './Pricing'
 import Community from './Community'
 import FAQ from './FAQ'
+import ScrollPopup from '../components/ScrollPopup'
 
 export const metadata: Metadata = {
   title: 'Lernsystem Pro+ - Study Academy',
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
 export default function Lernsystem() {
   return (
     <main>
+      <ScrollPopup />
       <Hero />
       <Zielgruppe />
       <Features />

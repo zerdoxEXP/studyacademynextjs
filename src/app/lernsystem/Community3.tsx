@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const features = [
   {
-    name: 'Bequemer Lernen',
+    name: 'Bequemer Lernen:',
     description:
       'Du kannst vom Smartphone, Tablet oder dem Laptop auf alle Inhalte zugreifen und bekommst immer Hilfe bei Lernproblemen.',
     icon: GlobeAltIcon,
